@@ -1,5 +1,8 @@
 # src/config.py
 import os
+from dotenv import load_dotenv # [新增] 用于本地加载 .env 文件
+
+load_dotenv()  # [新增] 加载 .env 文件中的环境变量
 
 # --- 基础配置 ---
 BASE_URL_TEMPLATE = "https://tv.cctv.com/lm/xwlb/day/{date_str}.shtml"
@@ -60,6 +63,12 @@ SELECTORS = {
 }
 
 # --- LLM 配置 (为后续做准备) ---
-LLM_API_KEY = os.getenv("LLM_API_KEY", "sk-mybfjucdmkxlvvrvwcicrczqetqzaheigjzakqwoxijhqyhj")
+LLM_API_KEY = os.getenv("LLM_API_KEY")
+
+if not LLM_API_KEY:
+    # 简单的检查，防止没有配置 Key 导致程序空跑
+    print("⚠️ 警告: 未检测到 LLM_API_KEY 环境变量，AI 分析功能将不可用。")
+
+# 可选修改：给 Base URL 和 Model 设置默认值，但允许环境变量覆盖
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.siliconflow.cn/v1")
-LLM_MODEL = "deepseek-ai/DeepSeek-V3.2"
+LLM_MODEL = os.getenv("LLM_MODEL", "deepseek-ai/DeepSeek-V3") # 注意模型名是否正确

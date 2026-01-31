@@ -12,6 +12,22 @@
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub3",
       "causal_tag": "Statement",
       "importance": 4
+    },
+    {
+      "date": "20260130",
+      "title": "美联邦官员称在明州的移民执法行动将更有针对性",
+      "summary": "美国联邦政府因两党在移民执法及拨款问题上分歧严重，可能导致部分部门停摆，同时移民执法行动在多地引发争议。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEddJnkNyhLlT72KOgxmOM260130.shtml",
+      "causal_tag": "Statement",
+      "importance": 4
+    },
+    {
+      "date": "20260130",
+      "title": "美媒称美官员接触加分离组织 加方不满",
+      "summary": "美国官员与加拿大艾伯塔分离组织会面，加拿大总理要求美国尊重其主权。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub3",
+      "causal_tag": "Meeting",
+      "importance": 3
     }
   ],
   "last_updated": "20260130"

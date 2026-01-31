@@ -1,0 +1,18 @@
+{
+  "id": "saga_908bfb34",
+  "title": "2026年春运气象保障服务今天启动",
+  "category": "社会民生",
+  "status": "active",
+  "context_summary": "中央气象台于2026年1月30日正式启动春运气象保障服务，预测了2月5日至7日及2月10日至13日期间，华北、东北、内蒙古等地区可能出现的强降温、降雪和低温雨雪天气。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "2026年春运气象保障服务今天启动",
+      "summary": "中央气象台启动春运气象保障服务，预测华北、东北等地将出现强降温和雨雪天气。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEhc5WKjiM1yYgcr4O1Zfr260130.shtml#sub5",
+      "causal_tag": "Weather Forecast",
+      "importance": 3
+    }
+  ],
+  "last_updated": "20260130"
+}

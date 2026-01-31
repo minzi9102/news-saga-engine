@@ -1,0 +1,18 @@
+{
+  "id": "saga_bb83dc3b",
+  "title": "交通运输部启动2026年服务区提质升级行动",
+  "category": "交通运输",
+  "status": "active",
+  "context_summary": "交通运输部启动2026年服务区提质升级行动，计划新增超过1万个充电枪，新建和改造600个标准化的“司机之家”，并新增60个可与周边连通的“开放式服务区”。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "交通运输部启动2026年服务区提质升级行动",
+      "summary": "交通运输部启动2026年服务区提质升级行动，计划新增超1万充电枪、600个标准化司机之家和60个开放式服务区。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEhc5WKjiM1yYgcr4O1Zfr260130.shtml#sub4",
+      "causal_tag": "Policy_Announcement",
+      "importance": 3
+    }
+  ],
+  "last_updated": "20260130"
+}

@@ -12,6 +12,22 @@
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEhc5WKjiM1yYgcr4O1Zfr260130.shtml#sub2",
       "causal_tag": "Statement",
       "importance": 3
+    },
+    {
+      "date": "20260130",
+      "title": "2025年全国财政支出28.74万亿元",
+      "summary": "财政部数据显示2025年全国一般公共预算支出28.74万亿元，同比增长1%，重点领域支出增长，育儿补贴政策惠及超3000万婴幼儿，超长期特别国债支持以旧换新。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDECDKxuIeXLTMgmfS8r6uH260130.shtml",
+      "causal_tag": "Data Release",
+      "importance": 3
+    },
+    {
+      "date": "20260130",
+      "title": "我国将完善有利于统一大市场建设的统计制度",
+      "summary": "国家统计局宣布2026年将完善统一大市场统计制度，推进消费品零售和建筑业产值在地统计，强化市场与高质量发展监测。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEhc5WKjiM1yYgcr4O1Zfr260130.shtml#sub2",
+      "causal_tag": "Policy Announcement",
+      "importance": 3
     }
   ],
   "last_updated": "20260130"

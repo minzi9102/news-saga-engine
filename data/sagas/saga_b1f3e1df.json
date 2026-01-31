@@ -1,0 +1,18 @@
+{
+  "id": "saga_b1f3e1df",
+  "title": "以媒称以证实约7万巴人员死于加沙战火",
+  "category": "军事冲突",
+  "status": "active",
+  "context_summary": "以色列媒体援引国防军消息称，自2023年10月巴以冲突爆发以来，加沙地带约有7万名巴勒斯坦人死亡，该数字与加沙卫生部门此前数据相近。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "以媒称以证实约7万巴人员死于加沙战火",
+      "summary": "以色列国防军证实，自2023年10月巴以冲突爆发以来，加沙地带约有7万名巴勒斯坦人丧生。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub4",
+      "causal_tag": "Casualty Report",
+      "importance": 5
+    }
+  ],
+  "last_updated": "20260130"
+}

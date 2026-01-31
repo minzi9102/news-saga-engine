@@ -1,0 +1,18 @@
+{
+  "id": "saga_b5fbe1ea",
+  "title": "海警法施行五周年 中国海警维权执法开创新局面",
+  "category": "政治/法律",
+  "status": "active",
+  "context_summary": "报道总结了中国海警法实施五周年以来的成就，包括海上维权执法、综合治理、国际合作等方面，强调了对国家主权和海洋权益的维护。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "海警法施行五周年 中国海警维权执法开创新局面",
+      "summary": "中国海警法实施五年来，累计出动舰艇55万艘次执行任务，开展钓鱼岛等海域巡航，侦破走私、毒品案件，救助群众7200余人。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEJGhF8ztmi9vWk8rZNCvq260130.shtml",
+      "causal_tag": "Law Enforcement",
+      "importance": 4
+    }
+  ],
+  "last_updated": "20260130"
+}

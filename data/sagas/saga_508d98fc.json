@@ -1,0 +1,18 @@
+{
+  "id": "saga_508d98fc",
+  "title": "德国总理：欧洲不是美国的从属者",
+  "category": "国际政治",
+  "status": "active",
+  "context_summary": "德国总理默茨在联邦议院发表外交政策声明，强调欧洲与美国是伙伴关系而非从属，回应美国关税威胁并呼吁欧洲自主掌控安全。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "德国总理：欧洲不是美国的从属者",
+      "summary": "德国总理默茨在联邦议院声明欧洲是美国伙伴而非从属者，并称欧洲已准备好反击美国关税威胁。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub2",
+      "causal_tag": "Statement",
+      "importance": 4
+    }
+  ],
+  "last_updated": "20260130"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "saga_1_2928297971295",
+  "title": "美国冬季风暴致85人死亡",
+  "category": "突发事故",
+  "status": "active",
+  "context_summary": "美国多地遭遇冬季风暴和严寒天气，已造成至少85人死亡，24万用户断电。密西西比州、田纳西州断电情况严重，超8万户受影响。据美媒报道，新一轮风暴即将袭击美国东南部，可能带来暴风雪和极寒天气，进一步加剧灾情。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "美国冬季风暴致85人死亡",
+      "summary": "美国冬季风暴致至少85人死亡，24万用户断电，东南部或迎新一轮暴风雪",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub5",
+      "causal_tag": "Inception",
+      "importance": 4
+    }
+  ],
+  "last_updated": "20260130"
+}

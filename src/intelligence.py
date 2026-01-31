@@ -7,6 +7,10 @@ from openai import AsyncOpenAI, APITimeoutError
 from .config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL
 from .schema import RawNewsItem, Saga
 
+# --- 常量定义：固定 AI 的输出空间 ---
+CATEGORIES = ["政治外交", "宏观经济", "产业科技", "社会民生", "军事国防", "国际局势", "文体卫生", "突发事故"]
+CAUSAL_TAGS = ["政策发布", "重要会议", "外交声明", "冲突爆发", "合作签署", "数据公布", "人事变动", "灾害事故", "其他"]
+
 class IntelligenceEngine:
     def __init__(self):
         if not LLM_API_KEY:
@@ -20,17 +24,14 @@ class IntelligenceEngine:
         )
 
     def _clean_json_string(self, text: str) -> str:
-        """
-        [新增] 清洗 LLM 返回的字符串，去除 Markdown 代码块标记
-        """
-        # 去除 ```json 或 ``` 标记
+        """清洗 LLM 返回的字符串"""
         text = re.sub(r'^```json\s*', '', text, flags=re.MULTILINE)
         text = re.sub(r'^```\s*', '', text, flags=re.MULTILINE)
         text = re.sub(r'\s*```$', '', text, flags=re.MULTILINE)
         return text.strip()
 
     async def _safe_api_call(self, func_name: str, messages: List[Dict], max_retries=2) -> Dict:
-        """内部通用 API 调用包装器，带重试、JSON清洗和类型修正"""
+        """内部通用 API 调用包装器"""
         for attempt in range(max_retries):
             try:
                 start_time = time.time()
@@ -40,28 +41,22 @@ class IntelligenceEngine:
                     model=LLM_MODEL,
                     messages=messages,
                     response_format={"type": "json_object"},
-                    temperature=0.1
+                    temperature=0.1 # 保持低温度以确保格式稳定
                 )
                 
                 duration = time.time() - start_time
                 raw_content = response.choices[0].message.content
-                
-                # 1. 清洗字符串 (去除 Markdown)
                 clean_json = self._clean_json_string(raw_content)
                 
-                # 2. 解析 JSON
                 try:
                     data = json.loads(clean_json)
-                    
-                    # 3. [核心修复] 列表自动拆包
-                    # 如果 LLM 抽风返回了 [{"action":...}] 而不是 {"action":...}
+                    # 列表自动拆包
                     if isinstance(data, list):
-                        print(f"⚠️ [Intelligence] 检测到返回值为列表，正在自动拆包...")
                         if len(data) > 0 and isinstance(data[0], dict):
                             data = data[0]
                         else:
-                            raise ValueError(f"返回了无效的列表格式: {str(data)[:50]}...")
-                            
+                            raise ValueError(f"Invalid list format: {str(data)[:50]}...")
+                    
                     print(f"   [Debug] {func_name} | ✅ 响应成功 ({duration:.2f}s)")
                     return data
                     
@@ -74,39 +69,73 @@ class IntelligenceEngine:
             except Exception as e:
                 print(f"   [Debug] {func_name} | ❌ 发生错误: {e}")
             
-            # 如果不是最后一次重试，等待一会
             if attempt < max_retries - 1:
                 await asyncio.sleep(2)
         
-        return {} # 失败返回空字典
+        return {}
 
     async def route_news(self, news: RawNewsItem, active_sagas: List[Saga]) -> Dict[str, Any]:
-        """决策路由"""
-        saga_context = [{"id": s.id, "title": s.title, "summary": s.context_summary} for s in active_sagas]
-        
-        system_prompt = """
-        你是资深新闻分析师。将【今日新闻】归类：
-        1. 现有 Saga 后续 -> "action": "append", "saga_id": "xxx"
-        2. 重大新事件 -> "action": "create"
-        3. 琐事 -> "action": "ignore"
-        
-        **重要：请直接输出纯 JSON 对象，不要包裹在数组([])中。**
         """
-        user_content = f"【现有 Sagas】: {json.dumps(saga_context, ensure_ascii=False)}\n\n【今日新闻】:\n标题: {news.title}\n内容: {news.content[:500]}..."
+        [Prompt 优化点]
+        1. CoT (Chain of Thought): 增加 'reason' 字段，强迫 AI 先思考后决策。
+        2. 明确 'ignore' 标准: 明确指出排除天气、节气、纯会议通稿等无实质内容。
+        3. 上下文注入: 明确告知现有 Saga 的定义。
+        """
+        saga_context = [{"id": s.id, "title": s.title, "keywords": s.title} for s in active_sagas]
+        
+        system_prompt = f"""
+        你是由中央电视台聘请的高级新闻主编。请分析【输入新闻】，将其分配到合适的处理路径。
+        
+        现有活跃故事线 (Sagas):
+        {json.dumps(saga_context, ensure_ascii=False)}
+
+        决策逻辑：
+        1. **APPEND (追加)**: 新闻内容是现有某个 Saga 的直接后续、进展、反转或相关评论。
+        2. **CREATE (新建)**: 新闻是具有长期追踪价值的重大独立事件（如新政策、国际冲突、重大科技突破）。
+        3. **IGNORE (忽略)**: 日常天气预报、节气介绍、无实质内容的纯礼节性会议、单纯的节日庆祝、广告嫌疑内容。
+
+        请输出严格的 JSON 格式：
+        {{
+            "reason": "简述判断理由 (50字内)",
+            "action": "append" | "create" | "ignore",
+            "saga_id": "如果选append，必须填入对应ID，否则为null"
+        }}
+        """
+        
+        user_content = f"【今日新闻】\n标题: {news.title}\n内容摘要: {news.content[:500]}"
 
         result = await self._safe_api_call("Route", [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content}
         ])
         
-        # 兜底：如果 API 彻底失败返回空字典，则视为 ignore
         return result if result else {"action": "ignore"}
 
     async def analyze_new_saga(self, news: RawNewsItem) -> Dict[str, Any]:
-        """生成新 Saga 元数据"""
-        system_prompt = """
-        提取元数据初始化 Saga：title, category, context_summary, causal_tag, importance。
-        **重要：请直接输出纯 JSON 对象，不要包裹在数组([])中。**
+        """
+        [Prompt 优化点]
+        1. 限制 Category: 必须从预定义列表中选，方便前端筛选。
+        2. 规范 Title: 要求新闻专业性，主谓宾结构。
+        3. 增强 Context: 要求提取背景信息，不仅仅是摘要。
+        """
+        system_prompt = f"""
+        你正在创建一个新的新闻专题（Saga）。请基于输入的新闻内容提取元数据。
+
+        要求：
+        1. title: 类似于维基百科词条的客观标题，不超过20字。
+        2. category: 必须从以下列表中选择一个: {json.dumps(CATEGORIES, ensure_ascii=False)}
+        3. context_summary: 200字以内的背景介绍，说明该事件为何重要，涉及哪些关键方。
+        4. causal_tag: 事件的起因标签 (如: 政策发布, 突发事故)。
+        5. importance: 整数 3-5 (新建的Saga通常重要性较高)。
+
+        输出严格的 JSON 格式：
+        {{
+            "title": "...",
+            "category": "...",
+            "context_summary": "...",
+            "causal_tag": "...",
+            "importance": 4
+        }}
         """
         return await self._safe_api_call("NewSaga", [
             {"role": "system", "content": system_prompt},
@@ -114,16 +143,33 @@ class IntelligenceEngine:
         ])
 
     async def summarize_event(self, news: RawNewsItem) -> Dict[str, Any]:
-        """生成 EventNode"""
-        system_prompt = """
-        请将这条新闻浓缩为一个 Event Node。
-        输出纯 JSON 格式，包含以下字段:
-        - summary: 50字以内的核心事实摘要。
-        - causal_tag: 事件性质 (如 "Meeting", "Statement", "Accident")。
-        - importance: 必须是 1 到 5 之间的整数 (int)。绝对禁止输出汉字(如"高")或字符串。
-        
-        **重要：请直接输出纯 JSON 对象，不要包裹在数组([])中。**
         """
+        [Prompt 优化点]
+        1. 限制 Causal Tag: 使用固定列表。
+        2. 规范 Importance: 给出具体的打分标准。
+        3. 摘要风格: 要求客观陈述事实（Fact-based）。
+        """
+        system_prompt = f"""
+        请将这条新闻处理为时间线上的一个节点（Event Node）。
+
+        字段定义：
+        - summary: 50字以内的核心事实摘要，去掉客套话，保留关键数据/人名/地点。
+        - causal_tag: 必须从以下列表中选择: {json.dumps(CAUSAL_TAGS, ensure_ascii=False)}。
+        - importance: 整数 1-5。
+           * 5: 历史性时刻/国家级重大政策
+           * 4: 重要进展/引发广泛关注
+           * 3: 正常推进/标准报道
+           * 2: 小范围变动/日常事务
+           * 1: 提及性报道/背景补充
+
+        输出严格的 JSON 格式：
+        {{
+            "summary": "...",
+            "causal_tag": "...",
+            "importance": 3
+        }}
+        """
+        
         result = await self._safe_api_call("Summarize", [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": news.content[:800]}
@@ -131,5 +177,5 @@ class IntelligenceEngine:
         
         # 兜底数据
         if not result:
-            return {"summary": news.content[:100], "causal_tag": "TimeoutFallback", "importance": 1}
+            return {"summary": news.content[:100], "causal_tag": "其他", "importance": 1}
         return result

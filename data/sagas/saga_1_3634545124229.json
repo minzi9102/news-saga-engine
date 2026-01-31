@@ -1,0 +1,18 @@
+{
+  "id": "saga_1_3634545124229",
+  "title": "加沙冲突致约7万巴勒斯坦人死亡",
+  "category": "国际局势",
+  "status": "active",
+  "context_summary": "2023年10月新一轮巴以冲突爆发后，以色列国防军证实加沙地带约7万名巴勒斯坦人丧生，与加沙卫生部门数据相近。该事件涉及以色列、巴勒斯坦及国际社会，凸显冲突对平民的严重伤害，引发全球对人道主义危机的关注。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "加沙冲突致约7万巴勒斯坦人死亡",
+      "summary": "以色列国防军28日证实，2023年10月巴以冲突以来加沙地带约7万巴勒斯坦人丧生，与当地卫生部门数据相近。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub4",
+      "causal_tag": "Inception",
+      "importance": 4
+    }
+  ],
+  "last_updated": "20260130"
+}

@@ -180,3 +180,81 @@ Dev Context Snapshot 2026/01/31 14:42
         main.py 入口函数签名未变，但流程已更新。
 
         新增依赖: pip install beautifulsoup4 lxml。
+
+Dev Context Snapshot 2026/01/31 15:25
+1. 核心任务与状态
+
+    当前目标: 完成 GitHub Actions 自动化部署及生产环境稳定性修复。
+
+    当前状态: 生产就绪 (Production Ready) / 等待首次自动调度。
+
+    关键文件:
+
+        src/config.py: [安全加固] 移除硬编码 Key，集成 python-dotenv 及环境变量。
+
+        src/intelligence.py: [容错升级] 新增 JSON 清洗 (re) 及 list 自动拆包逻辑。
+
+        src/manager.py: [去重逻辑] 实现 URL 级幂等性检查 (_get_all_processed_urls)。
+
+        .github/workflows/daily_run.yml: [CI/CD] 定义每日定时任务及 Git Write 回写流程。
+
+2. 本次会话变动 (Changelog)
+
+    [安全] 配置隔离: 本地通过 .env 加载配置，云端通过 GitHub Secrets 注入。
+
+    [修复] AttributeError: 'list' object has no attribute 'get': 修复 DeepSeek 偶发返回 [{...}] 导致的解析失败，在 _safe_api_call 中增加类型检查与列表解包。
+
+    [优化] 成本控制: 在 SagaManager 引入 existing_urls 集合，跳过已存在于 DB 中的 URL，防止重复消耗 Token 及生成重复事件。
+
+    [部署] 权限配置: 确认 Workflow 需要 Read and write permissions 以回写 data/ 及 README.md。
+
+3. 挂起的任务与已知问题 (CRITICAL)
+
+    TODO: 监控 GitHub Actions 首次定时运行 (UTC 12:30 / CST 20:30) 结果。
+
+    RISK: 若单日新闻量极大 (拆分后 >50 条)，需关注 GitHub Actions 运行超时风险 (默认 6h，但 LLM 响应慢)。
+
+    VERIFY: 确认 .gitignore 包含 .env 但排除 data/ (需保留种子数据)。
+
+4. 环境与依赖上下文
+
+    Tech Stack: Python 3.12, GitHub Actions, OpenAI SDK (Async), Crawl4AI.
+
+    Config:
+
+        环境变量: LLM_API_KEY, LLM_BASE_URL, LLM_MODEL.
+
+        新增依赖: python-dotenv (需更新 requirements.txt).
+
+Dev Context Snapshot 2026/01/31 15:35
+1. 核心任务与状态
+
+    当前目标: 优化 LLM Prompt 工程，提升分类准确率与输出数据的结构化规范。
+
+    当前状态: 已优化 (Optimized) / 待观测生产效果。
+
+    关键文件:
+
+        src/intelligence.py: 全面重构 Prompt 逻辑，引入 Schema 约束与思维链 (CoT)。
+
+2. 本次会话变动 (Changelog)
+
+    [重构] 智能引擎: 引入 CATEGORIES 和 CAUSAL_TAGS 常量，强制 LLM 在限定空间内选择标签。
+
+    [优化] 路由逻辑 (route_news): 增加 reason 字段 (Chain of Thought)，明确 ignore 判定标准 (天气/礼节性会议)，注入 Saga 上下文防止幻觉。
+
+    [优化] 元数据生成 (analyze_new_saga): 规范 Title 为维基百科词条风格，强制 Category 枚举校验。
+
+    [优化] 事件摘要 (summarize_event): 量化 importance (1-5) 打分标准，要求 Fact-based 摘要风格。
+
+3. 挂起的任务与已知问题 (CRITICAL)
+
+    TODO: 观测首日运行日志，检查 ignore 策略是否过于激进导致漏抓重要新闻。
+
+    VERIFY: 确认前端/README 渲染层是否兼容新增的 CATEGORIES 和 CAUSAL_TAGS 枚举值。
+
+4. 环境与依赖上下文
+
+    Tech Stack: Python 3.12, OpenAI SDK, Pydantic (Schema Design).
+
+    Config: 内部新增常量约束，无外部环境变量变更。

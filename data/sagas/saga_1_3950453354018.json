@@ -1,0 +1,18 @@
+{
+  "id": "saga_1_3950453354018",
+  "title": "民政部14条措施强化老龄科技支撑",
+  "category": "社会民生",
+  "status": "active",
+  "context_summary": "民政部发布14条措施，聚焦老龄和养老服务领域科技支撑，包括加强关键核心技术攻关、促进科技成果转化应用等，旨在提升养老服务质量与效率，应对人口老龄化挑战，涉及民政部门、科研机构及养老服务企业等多方主体。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "民政部14条措施强化老龄科技支撑",
+      "summary": "民政部发布14条指导意见，强化老龄和养老服务科技支撑，推进康复辅助器具技术创新",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEhc5WKjiM1yYgcr4O1Zfr260130.shtml#sub3",
+      "causal_tag": "Inception",
+      "importance": 3
+    }
+  ],
+  "last_updated": "20260130"
+}

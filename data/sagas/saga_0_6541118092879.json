@@ -1,0 +1,18 @@
+{
+  "id": "saga_0_6541118092879",
+  "title": "欧洲委员会通过支持丹麦格陵兰岛决议",
+  "category": "国际关系",
+  "status": "active",
+  "context_summary": "欧洲委员会议会大会通过决议支持丹麦在格陵兰岛问题上的立场，强调格陵兰岛未来地位的决定需遵守国际规则和法律，且只能由丹麦和格陵兰岛人民作出。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "欧洲委员会通过支持丹麦格陵兰岛决议",
+      "summary": "欧洲委员会议会大会通过决议支持丹麦，强调格陵兰岛未来地位决定需遵守国际规则，由丹麦和格陵兰岛人民决定。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub1",
+      "causal_tag": "Inception",
+      "importance": 3
+    }
+  ],
+  "last_updated": "20260130"
+}

@@ -1,5 +1,5 @@
 {
-  "id": "saga_2389782b",
+  "id": "saga_0_1476695943116",
   "title": "海警法施行五周年 中国海警维权执法开创新局面",
   "category": "时政",
   "status": "active",
@@ -10,15 +10,7 @@
       "title": "海警法施行五周年 中国海警维权执法开创新局面",
       "summary": "中国海警法实施五年，累计出动舰艇55万艘次等，维护海域安全，侦破走私等案件，救助群众7200余人，与14国建立协作机制。",
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEJGhF8ztmi9vWk8rZNCvq260130.shtml",
-      "causal_tag": "Statement",
-      "importance": 4
-    },
-    {
-      "date": "20260130",
-      "title": "海警法施行五周年 中国海警维权执法开创新局面",
-      "summary": "中国海警法实施五年来，累计出动舰艇55万艘次执行任务，开展钓鱼岛等海域巡航，侦破走私、毒品案件，救助群众7200余人。",
-      "source_url": "https://tv.cctv.com/2026/01/30/VIDEJGhF8ztmi9vWk8rZNCvq260130.shtml",
-      "causal_tag": "Law Enforcement",
+      "causal_tag": "Inception",
       "importance": 4
     }
   ],

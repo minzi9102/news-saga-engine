@@ -1,0 +1,18 @@
+{
+  "id": "saga_0_9183543294320",
+  "title": "我国将完善有利于统一大市场建设的统计制度",
+  "category": "经济政策",
+  "status": "active",
+  "context_summary": "国家统计局计划在2026年完善有利于统一大市场建设的统计制度，包括持续推进社会消费品零售总额在地统计、建筑业产值在地统计等工作，并强化统计监测以支持强大国内市场建设和高质量发展。",
+  "events": [
+    {
+      "date": "20260130",
+      "title": "我国将完善有利于统一大市场建设的统计制度",
+      "summary": "2026年我国将完善统一大市场统计制度，推进社会消费品零售总额和建筑业产值在地统计，强化统计监测。",
+      "source_url": "https://tv.cctv.com/2026/01/30/VIDEhc5WKjiM1yYgcr4O1Zfr260130.shtml#sub2",
+      "causal_tag": "Inception",
+      "importance": 3
+    }
+  ],
+  "last_updated": "20260130"
+}

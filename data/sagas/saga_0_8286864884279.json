@@ -1,5 +1,5 @@
 {
-  "id": "saga_812cf883",
+  "id": "saga_0_8286864884279",
   "title": "以媒称以证实约7万巴人员死于加沙战火",
   "category": "国际新闻",
   "status": "active",
@@ -10,15 +10,7 @@
       "title": "以媒称以证实约7万巴人员死于加沙战火",
       "summary": "以色列国防军证实2023年10月以来加沙地带约7万巴勒斯坦人丧生，与当地卫生部门数据相近。",
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub4",
-      "causal_tag": "Statement",
-      "importance": 5
-    },
-    {
-      "date": "20260130",
-      "title": "以媒称以证实约7万巴人员死于加沙战火",
-      "summary": "以色列国防军证实，自2023年10月巴以冲突爆发以来，加沙地带约有7万名巴勒斯坦人丧生。",
-      "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub4",
-      "causal_tag": "Casualty Report",
+      "causal_tag": "Inception",
       "importance": 5
     }
   ],

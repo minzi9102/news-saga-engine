@@ -1,143 +1,161 @@
-# src/manager.py
+# src/manager.py (修改版)
 import json
-import uuid
-from typing import List
+import os
 from pathlib import Path
-from .schema import Saga, SagaStatus, EventNode, DailyBriefing
+from typing import List, Dict, Set # 新增 Set
+from .schema import Saga, SagaStatus, DailyBriefing, EventNode, RawNewsItem
 from .intelligence import IntelligenceEngine
 
-SAGA_DIR = Path("data/sagas")
-SAGA_DIR.mkdir(parents=True, exist_ok=True)
-
 class SagaManager:
-    def __init__(self):
-        self.brain = IntelligenceEngine()
-        
-    # [新增] 容错处理函数
-    def _safe_parse_importance(self, value) -> int:
-        """
-        无论 LLM 返回什么（字符串'高'、字符串'5'、数字5），都强制转为 int。
-        解析失败则默认为 3。
-        """
-        try:
-            # 如果是整数，直接返回
-            if isinstance(value, int):
-                return value
-            
-            # 如果是字符串，尝试转 int
-            if isinstance(value, str):
-                # 处理 '5' 这种情况
-                if value.isdigit():
-                    return int(value)
-                # 处理 '高/中/低' 这种情况 (简单的中文映射兜底)
-                if "高" in value or "重" in value: return 5
-                if "中" in value: return 3
-                if "低" in value: return 1
-                
-            # 最后的尝试：强制转换
-            return int(value)
-        except:
-            print(f"   [Warn] Importance 解析失败: '{value}'，已重置为 3")
-            return 3
+    def __init__(self, db_dir: str = "data/sagas"):
+        self.db_dir = Path(db_dir)
+        self.db_dir.mkdir(parents=True, exist_ok=True)
+        self.sagas: Dict[str, Saga] = {}
+        self.intelligence = IntelligenceEngine()
+        self._load_sagas()
 
-    def load_active_sagas(self) -> List[Saga]:
-        # ... (保持不变) ...
-        sagas = []
-        for file_path in SAGA_DIR.glob("*.json"):
+    def _load_sagas(self):
+        """加载所有现存的 Saga"""
+        for file_path in self.db_dir.glob("*.json"):
             try:
-                with open(file_path, "r", encoding="utf-8") as f:
+                with open(file_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     saga = Saga(**data)
-                    if saga.status == SagaStatus.ACTIVE:
-                        sagas.append(saga)
+                    self.sagas[saga.id] = saga
             except Exception as e:
-                print(f"[Warn] Failed to load {file_path}: {e}")
-        return sagas
+                print(f"⚠️ 加载 Saga 异常 {file_path}: {e}")
 
-    def save_saga(self, saga: Saga):
-        # ... (保持不变) ...
-        file_path = SAGA_DIR / f"{saga.id}.json"
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.write(saga.model_dump_json(indent=2))
+    # [新增方法] 获取所有已经存在的新闻链接
+    def _get_all_processed_urls(self) -> Set[str]:
+        processed_urls = set()
+        for saga in self.sagas.values():
+            for event in saga.events:
+                if event.source_url:
+                    processed_urls.add(event.source_url)
+        return processed_urls
 
     async def process_daily_briefing(self, briefing: DailyBriefing):
-        print(f"🔄 开始处理 {briefing.date} 的 {len(briefing.news_items)} 条新闻...")
-        active_sagas = self.load_active_sagas()
+        """核心业务流：处理每日简报"""
+        if not briefing or not briefing.news_items:
+            print("📭 今日无新闻，跳过处理。")
+            return
+
+        # 1. [关键修复] 构建去重集合
+        # 收集所有 Saga 中已经记录过的 URL
+        existing_urls = self._get_all_processed_urls()
+        print(f"🛡️ 已知历史事件 URL: {len(existing_urls)} 个 (用于去重)")
+
+        active_sagas = [s for s in self.sagas.values() if s.status == SagaStatus.ACTIVE]
         print(f"📚 当前活跃故事线: {len(active_sagas)} 个")
 
         for news in briefing.news_items:
-            print(f"\n📰 分析: {news.title}...")
+            print(f"\n📰 分析: {news.title[:30]}...")
             
-            # 1. 路由
-            decision = await self.brain.route_news(news, active_sagas)
-            action = decision.get("action")
+            # 2. [关键修复] 强力去重逻辑
+            # 如果这条新闻的 URL 已经在数据库里了，直接跳过！
+            # 注意：快讯拆分后的 URL 带有 #sub1, #sub2，是唯一的，所以也能完美去重
+            if news.url in existing_urls:
+                print(f"   ↳ 🚫 [Duplicate] 该新闻已存在于故事线中，跳过 (省钱模式)。")
+                continue
+
+            # --- 下面是正常的 AI 流程 ---
+            
+            # A. 路由决策 (Router)
+            decision = await self.intelligence.route_news(news, active_sagas)
+            action = decision.get("action", "ignore")
             
             if action == "ignore":
-                print("   -> 🗑️ 判定为噪音/无关，跳过")
+                print("   ↳ 🗑️ [Ignore] 琐事/无关")
                 continue
                 
             elif action == "append":
                 saga_id = decision.get("saga_id")
-                target_saga = next((s for s in active_sagas if s.id == saga_id), None)
-                
-                if target_saga:
-                    print(f"   -> 🔗 链接到现有故事: {target_saga.title}")
-                    event_data = await self.brain.summarize_event(news)
-                    
-                    # [修改] 使用安全解析函数
-                    safe_importance = self._safe_parse_importance(event_data.get("importance"))
-                    
-                    new_event = EventNode(
-                        date=news.date,
-                        title=news.title,
-                        summary=event_data.get("summary", news.content[:100]),
-                        source_url=news.url,
-                        causal_tag=event_data.get("causal_tag", "Update"),
-                        importance=safe_importance # <--- 这里用了清洗后的值
-                    )
-                    
-                    target_saga.events.append(new_event)
-                    target_saga.last_updated = news.date
-                    self.save_saga(target_saga)
-                    print("   -> ✅ 已保存更新")
+                if saga_id and saga_id in self.sagas:
+                    print(f"   ↳ 🔗 [Append] 归入 Saga: {self.sagas[saga_id].title}")
+                    await self._handle_append(saga_id, news)
                 else:
-                    print(f"   -> ⚠️ 错误: 找不到 ID 为 {saga_id} 的 Saga")
+                    print(f"   ↳ ⚠️ [Error] AI 建议 Append 但 ID 无效，转为 Create")
+                    await self._handle_create(news)
 
             elif action == "create":
-                print("   -> ✨ 发现新故事线！准备生成元数据...")
-                saga_meta = await self.brain.analyze_new_saga(news)
-                
-                if not saga_meta.get("title"):
-                    print("   -> ❌ 元数据生成失败，跳过")
-                    continue
-                
-                print(f"   -> 元数据获取成功: {saga_meta.get('title')}")
-                print("   -> 正在生成首个事件摘要...")
+                print(f"   ↳ ✨ [Create] 发现新故事线")
+                await self._handle_create(news)
 
-                event_data = await self.brain.summarize_event(news)
-                
-                # [修改] 使用安全解析函数
-                safe_importance = self._safe_parse_importance(event_data.get("importance"))
+            # [小优化] 处理完一条后，立即把它加入去重集合
+            # 防止同一天的新闻列表里有重复链接（虽然爬虫层已经去重了，但双重保险更好）
+            existing_urls.add(news.url)
 
-                first_event = EventNode(
-                    date=news.date,
-                    title=news.title,
-                    summary=event_data.get("summary", news.content[:100]),
-                    source_url=news.url,
-                    causal_tag=event_data.get("causal_tag", "Inception"),
-                    importance=safe_importance # <--- 这里用了清洗后的值
-                )
+    async def _handle_create(self, news: RawNewsItem):
+        # 1. 生成元数据
+        meta = await self.intelligence.analyze_new_saga(news)
+        
+        # 2. 生成第一个事件
+        event_data = await self.intelligence.summarize_event(news)
+        
+        # 3. 组装 Saga 对象
+        new_saga_id = f"saga_{int(os.times().system)}_{abs(hash(news.title))}"[:20] # 简单 ID 生成
+        
+        # 确保 importance 是整数
+        safe_importance = self._safe_parse_importance(event_data.get("importance", 3))
 
-                new_saga = Saga(
-                    id=f"saga_{uuid.uuid4().hex[:8]}", 
-                    title=saga_meta.get("title"),
-                    category=saga_meta.get("category", "General"),
-                    status=SagaStatus.ACTIVE,
-                    context_summary=saga_meta.get("context_summary", ""),
-                    events=[first_event],
-                    last_updated=news.date
-                )
-                
-                self.save_saga(new_saga)
-                active_sagas.append(new_saga)
-                print(f"   -> ✅ 新故事 '{new_saga.title}' 已创建并保存")
+        first_event = EventNode(
+            date=news.date,
+            title=meta.get("title", news.title), #以此为题
+            summary=event_data.get("summary", news.content[:100]),
+            source_url=news.url,
+            causal_tag="Inception",
+            importance=safe_importance
+        )
+
+        new_saga = Saga(
+            id=new_saga_id,
+            title=meta.get("title", news.title),
+            category=meta.get("category", "General"),
+            status=SagaStatus.ACTIVE,
+            context_summary=meta.get("context_summary", ""),
+            events=[first_event],
+            last_updated=news.date
+        )
+
+        # 4. 保存
+        self.sagas[new_saga_id] = new_saga
+        self._save_saga(new_saga)
+        print(f"   -> ✅ 新故事 '{new_saga.title}' 已创建并保存")
+
+    async def _handle_append(self, saga_id: str, news: RawNewsItem):
+        saga = self.sagas[saga_id]
+        
+        # 1. 生成事件
+        event_data = await self.intelligence.summarize_event(news)
+        
+        safe_importance = self._safe_parse_importance(event_data.get("importance", 1))
+
+        new_event = EventNode(
+            date=news.date,
+            title=news.title, # 或者让 AI 生成短标题
+            summary=event_data.get("summary", ""),
+            source_url=news.url,
+            causal_tag=event_data.get("causal_tag", "Update"),
+            importance=safe_importance
+        )
+        
+        # 2. 更新 Saga 状态
+        saga.events.append(new_event)
+        saga.last_updated = news.date
+        # (可选: 更新 context_summary，这里暂时略过，保留原 summary)
+        
+        # 3. 保存
+        self._save_saga(saga)
+        print(f"   -> ✅ 事件已追加到 '{saga.title}'")
+
+    def _save_saga(self, saga: Saga):
+        file_path = self.db_dir / f"{saga.id}.json"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(saga.model_dump_json(indent=2))
+
+    def _safe_parse_importance(self, val) -> int:
+        """清洗 importance 字段，确保是 int"""
+        try:
+            return int(val)
+        except:
+            return 3

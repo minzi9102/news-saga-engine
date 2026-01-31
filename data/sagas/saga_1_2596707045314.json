@@ -12,7 +12,23 @@
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEddJnkNyhLlT72KOgxmOM260130.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260131",
+      "title": "美国多地爆发反对联邦移民执法的大规模抗议活动",
+      "summary": "美国多地爆发反对联邦移民执法行动的大规模抗议，明尼阿波利斯、洛杉矶、纽约等地民众集会要求执法人员撤出，部分现场发生冲突。",
+      "source_url": "https://tv.cctv.com/2026/01/31/VIDEwgGle3mvu5QfjrkonSrO260131.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 3
+    },
+    {
+      "date": "20260131",
+      "title": "美国联邦政府陷入部分“停摆”",
+      "summary": "美国参议院30日通过政府拨款法案，为大部分联邦部门提供资金至本财年结束，国土安全部获两周临时拨款。",
+      "source_url": "https://tv.cctv.com/2026/01/31/VIDEx2J8w96Ig6nz1w2scLRj260131.shtml#sub1",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260130"
+  "last_updated": "20260131"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub1",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260201",
+      "title": "丹麦发生反对美国的抗议活动",
+      "summary": "丹麦民众在哥本哈根举行无声示威，抗议美国试图控制格陵兰岛及特朗普关于北约的言论。丹麦国防大臣波尔森同日宣布将加强在格陵兰岛的军事存在。",
+      "source_url": "https://tv.cctv.com/2026/02/01/VIDE3ht7YYEvCfSVFTPoHwVK260201.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260130"
+  "last_updated": "20260201"
 }

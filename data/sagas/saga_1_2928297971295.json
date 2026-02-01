@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEvENXOR8uM6UdH2JYUely260130.shtml#sub5",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260201",
+      "title": "美媒称美多地恶劣天气已致超百人死亡",
+      "summary": "美国冬季风暴已致超100人死亡，东南部再迎新一轮风暴致超2000架次航班取消，北卡罗来纳州发生火车与卡车相撞事故。",
+      "source_url": "https://tv.cctv.com/2026/02/01/VIDEAEMyrRtbWtRVhodLQUGH260201.shtml#sub4",
+      "causal_tag": "灾害事故",
+      "importance": 4
     }
   ],
-  "last_updated": "20260130"
+  "last_updated": "20260201"
 }

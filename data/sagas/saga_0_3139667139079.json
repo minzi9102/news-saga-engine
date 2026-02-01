@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDEfSY3yJEpEwjqlbjA3Gqz260131.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260201",
+      "title": "俄媒称第二轮俄美乌会谈能否举行不确定",
+      "summary": "俄罗斯总统特别代表德米特里耶夫1月31日在美与美方代表就乌克兰问题举行会谈，细节未公布。原定2月1日的俄美乌三方会谈仍存不确定性。",
+      "source_url": "https://tv.cctv.com/2026/02/01/VIDEAEMyrRtbWtRVhodLQUGH260201.shtml#sub1",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260201"
 }

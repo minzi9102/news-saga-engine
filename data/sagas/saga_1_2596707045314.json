@@ -28,7 +28,23 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDEx2J8w96Ig6nz1w2scLRj260131.shtml#sub1",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260201",
+      "title": "美国多地继续举行抗议活动 反对联邦移民执法行动",
+      "summary": "美国多地及意大利米兰民众抗议联邦移民执法行动，反对美国向意大利派遣执法人员。",
+      "source_url": "https://tv.cctv.com/2026/02/01/VIDEPQgPsOM7PzDWea8PFatU260201.shtml",
+      "causal_tag": "其他",
+      "importance": 2
+    },
+    {
+      "date": "20260201",
+      "title": "美众院民主党称不会支持以快速程序通过拨款法案 美媒称“停摆”或持续更长时间",
+      "summary": "美国国会众议院民主党领袖杰弗里斯1月31日表示，除非移民执法政策改变，否则不会支持共和党以快速程序通过拨款法案，可能导致政府停摆延长。",
+      "source_url": "https://tv.cctv.com/2026/02/01/VIDETAPEPUP5P9B6b5YEGEN3260201.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260201"
 }

@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/01/VIDEAEMyrRtbWtRVhodLQUGH260201.shtml#sub1",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260202",
+      "title": "俄乌称将在阿布扎比举行新一轮谈判",
+      "summary": "俄罗斯总统新闻秘书佩斯科夫宣布，下一轮乌克兰问题谈判将于2月4日在阿联酋阿布扎比举行。",
+      "source_url": "https://tv.cctv.com/2026/02/02/VIDE7PrhK5KYZjgR67RD9pEU260202.shtml#sub1",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260201"
+  "last_updated": "20260202"
 }

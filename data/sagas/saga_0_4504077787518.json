@@ -12,7 +12,31 @@
       "source_url": "https://tv.cctv.com/2026/02/01/VIDEmZzjPav15GNPtg6t3wLm260201.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260202",
+      "title": "“两新”政策加力 提振消费活力",
+      "summary": "春节临近，各地在“两新”政策带动下投入资金、推出优惠套餐促进消费，如江苏扬州投入2.37亿元补贴，多地提供“国补+企业让利”三重优惠推动家电、汽车以旧换新。",
+      "source_url": "https://tv.cctv.com/2026/02/02/VIDEnR8tU48FraNZHYwdnFwZ260202.shtml",
+      "causal_tag": "政策发布",
+      "importance": 3
+    },
+    {
+      "date": "20260202",
+      "title": "我国西北地区海拔最高风电项目首批风机并网",
+      "summary": "新疆华能阿合奇县30万千瓦风电项目首批风机成功并网，项目最高海拔3700米，全面投产后预计年均发电量6.1亿千瓦时。",
+      "source_url": "https://tv.cctv.com/2026/02/02/VIDERbLtuq90hSj4CKEuHuuE260202.shtml#sub4",
+      "causal_tag": "其他",
+      "importance": 3
+    },
+    {
+      "date": "20260202",
+      "title": "蒙东100万千瓦风储项目送出工程投运",
+      "summary": "内蒙古扎兰屯100万千瓦风储项目送出工程投运，为今年内蒙古首个投运的500千伏电网输电工程，年输送绿电约23.59亿千瓦时。",
+      "source_url": "https://tv.cctv.com/2026/02/02/VIDERbLtuq90hSj4CKEuHuuE260202.shtml#sub5",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260201"
+  "last_updated": "20260202"
 }

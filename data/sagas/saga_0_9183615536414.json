@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/01/VIDEnWfVziheKFx4VsoZMrIt260201.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260202",
+      "title": "2026年春运今天启动",
+      "summary": "2026年春运2月2日启动，预计首日全社会跨区域人员流动量超1.8亿人次。铁路日均发送旅客预计1348万人次，C919开始执飞上海至珠海航线。",
+      "source_url": "https://tv.cctv.com/2026/02/02/VIDEp8E87aUJxjHIotONeHga260202.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260201"
+  "last_updated": "20260202"
 }

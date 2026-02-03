@@ -1,11 +1,10 @@
-# src/reporter.py
 import os
 import json
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Dict
 
 # 引入数据结构
-from .schema import DailyBriefing, NewsType, Saga, SagaStatus
+from .schema import DailyBriefing, NewsType, Saga, SagaStatus, EventNode
 
 class SagaReporter:
     def __init__(self, saga_db_dir: str = "data/sagas"):
@@ -25,111 +24,275 @@ class SagaReporter:
             except Exception as e:
                 print(f"⚠️ 加载 Saga 失败 {file_path}: {e}")
         
-        # 按最后更新时间倒序排列 (最近发生的在前面)
-        sagas.sort(key=lambda x: x.last_updated, reverse=True)
         return sagas
-
-    def _render_sagas_section(self, sagas: List[Saga]) -> str:
-        """渲染 Story 区域 (智能叙事)"""
-        if not sagas:
-            return "*(暂无活跃的故事线)*"
-            
-        md_lines = ["## 📖 正在追踪的故事线 (Active Sagas)"]
-        
-        for saga in sagas:
-            # 只显示活跃的，或者最近更新的
-            if saga.status == SagaStatus.ARCHIVED:
-                continue
-                
-            # 渲染单个卡片
-            icon = "🔥" if saga.status == SagaStatus.ACTIVE else "💤"
-            md_lines.append(f"### {icon} {saga.title}")
-            md_lines.append(f"> **分类**: {saga.category} | **更新**: {saga.last_updated}")
-            md_lines.append(f"")
-            md_lines.append(f"{saga.context_summary}")
-            md_lines.append(f"")
-            
-            # 渲染最新事件 (取最后3个)
-            md_lines.append(f"**最新进展:**")
-            for event in saga.events[-3:]: # 只显示最近3条
-                stars = "⭐" * event.importance
-                md_lines.append(f"- {event.date} {stars} **{event.title}**: {event.summary} [🔗]({event.source_url})")
-            
-            md_lines.append("---")
-            
-        return "\n".join(md_lines)
-
-    def _render_daily_archive(self, briefing: Optional[DailyBriefing]) -> str:
-        """
-        [新增] 渲染今日全量档案 (折叠表格)
-        """
-        if not briefing:
-            return ""
-            
-        items = briefing.news_items
-        count = len(items)
-        date = briefing.date
-        
-        md_lines = []
-        md_lines.append(f"## 🗄️ 今日原始档案 ({date})")
-        md_lines.append(f"共采集 {count} 条新闻。点击下方展开查看全量列表。")
-        md_lines.append("")
-        
-        # 使用 HTML <details> 标签实现折叠
-        md_lines.append(f"<details><summary><b>🖱️ 点击展开/收起今日全量新闻 ({count}条)</b></summary>")
-        md_lines.append("")
-        md_lines.append("| 类型 | 标题 | 来源 |")
-        md_lines.append("| :--- | :--- | :--- |")
-        
-        for item in items:
-            # 图标区分
-            type_icon = "⚡" if item.type == NewsType.FLASH_SUB else "📺"
-            type_text = "快讯" if item.type == NewsType.FLASH_SUB else "普通"
-            
-            # 标题处理 (如果是快讯，可能很长，截断一点? 暂时全显示)
-            title = item.title.replace("|", "\|") # 转义表格符
-            
-            # 链接
-            link = f"[Link]({item.url})"
-            
-            md_lines.append(f"| {type_icon} {type_text} | {title} | {link} |")
-            
-        md_lines.append("")
-        md_lines.append("</details>")
-        md_lines.append("")
-        
-        return "\n".join(md_lines)
 
     def generate_readme(self, file_path: str = "README.md", briefing: Optional[DailyBriefing] = None):
         """
-        生成最终的 README 报告
-        :param briefing: 当日的原始数据对象 (用于生成档案区)
+        生成 Markdown 报告 (GitHub README)
+        逻辑：按播出顺序列表，利用 <details> 折叠展示全文 + Saga 上下文
         """
-        print(f"📝 正在渲染报告: {file_path}...")
+        print(f"📝 正在渲染 Markdown 报告: {file_path}...")
         
-        # 1. 加载 Sagas
+        if not briefing:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write("# 🚀 News Saga Engine\n\n今日暂无数据。")
+            return
+
+        # 1. 预处理
         sagas = self._load_all_sagas()
-        
-        # 2. 生成各部分内容
-        header = f"# 🚀 News Saga Engine 每日简报"
-        saga_section = self._render_sagas_section(sagas)
-        archive_section = self._render_daily_archive(briefing) # 传入 raw data
-        
-        # 3. 组合
-        full_content = f"""{header}
+        url_to_saga_map: Dict[str, Saga] = {}
+        for saga in sagas:
+            for event in saga.events:
+                if event.source_url:
+                    url_to_saga_map[event.source_url] = saga
 
-生成时间: {briefing.date if briefing else "Unknown"}
+        # 2. 构建 Markdown 内容
+        md_lines = []
+        md_lines.append(f"# 📺 News Saga 每日简报")
+        md_lines.append(f"> **日期**: {briefing.date} | **新闻总数**: {len(briefing.news_items)} 条")
+        md_lines.append(f"")
+        md_lines.append(f"---")
+        md_lines.append(f"")
 
-{saga_section}
+        # 3. 遍历新闻列表
+        for idx, item in enumerate(briefing.news_items, 1):
+            linked_saga = url_to_saga_map.get(item.url)
 
-{archive_section}
+            # A. 标题行
+            type_icon = "⚡" if item.type == NewsType.FLASH_SUB else "📰"
+            summary_line = f"{idx:02d}. {type_icon} {item.title}"
 
----
-*Auto-generated by News Saga Engine v2.0*
+            # B. 正文内容 (使用全文)
+            # 处理换行符，确保 Markdown 引用块显示正常
+            content_text = item.content.replace("\n", "\n> ") if item.content else "（暂无详细内容）"
+
+            # C. 历史脉络
+            history_section = ""
+            if linked_saga:
+                past_events = [e for e in linked_saga.events if e.source_url != item.url]
+                past_events.sort(key=lambda x: x.date, reverse=True)
+                
+                if past_events:
+                    history_lines = []
+                    history_lines.append(f"#### 📅 历史脉络: {linked_saga.title}")
+                    for h_event in past_events[:5]:
+                        history_lines.append(f"- `{h_event.date}` {h_event.title} [🔗]({h_event.source_url})")
+                    history_section = "\n".join(history_lines)
+                else:
+                    history_section = f"#### 🆕 新故事线: {linked_saga.title}\n*这是该事件链的起点。*"
+            else:
+                history_section = "*暂无关联历史*"
+
+            # D. 组装 <details>
+            item_block = f"""
+<details>
+<summary><b>{summary_line}</b></summary>
+
+> {content_text}
+> 
+> [阅读原文]({item.url})
+
+{history_section}
+
+</details>
 """
-        
-        # 4. 写入文件
+            md_lines.append(item_block)
+
+        # 4. 写入
+        md_lines.append("\n---\n*Generated by News Saga Engine v2.0*")
         with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(full_content)
+            f.write("\n".join(md_lines))
             
-        print(f"✅ 报告生成完毕!")
+        print(f"✅ README 生成完毕!")
+
+    def generate_html_report(self, file_path: str = "report.html", briefing: Optional[DailyBriefing] = None) -> str:
+        """
+        生成交互式 HTML 报告 (清单视图 + 全文展示 + 历史折叠)
+        """
+        if not briefing:
+            return "<h1>今日无数据</h1>"
+
+        # 1. 加载 Saga 索引
+        sagas = self._load_all_sagas()
+        url_to_saga_map: Dict[str, Saga] = {}
+        for saga in sagas:
+            for event in saga.events:
+                if event.source_url:
+                    url_to_saga_map[event.source_url] = saga
+
+        # HTML 模板
+        html_template = """
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Saga 每日简报 - {{DATE}}</title>
+    <style>
+        :root {
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-main: #1a1a1a;
+            --text-sub: #666;
+            --accent: #2c3e50;
+            --link-color: #3498db;
+            --tag-bg: #e1ecf4;
+            --tag-text: #2c5282;
+            --border-color: #e1e4e8;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg-color); color: var(--text-main); margin: 0; padding: 20px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; }
+        
+        .header { text-align: center; margin-bottom: 30px; }
+        .header h1 { margin: 0 0 10px 0; color: var(--accent); }
+        .header p { color: var(--text-sub); font-size: 0.9rem; }
+
+        .news-item { background: var(--card-bg); border-radius: 8px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); overflow: hidden; transition: all 0.2s; }
+        .news-item:hover { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+
+        details { width: 100%; }
+        summary { 
+            padding: 15px 20px; 
+            cursor: pointer; 
+            font-weight: 600; 
+            list-style: none; 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        summary::-webkit-details-marker { display: none; }
+        
+        .summary-content { display: flex; align-items: center; gap: 12px; flex: 1; }
+        .index-num { color: #cbd5e0; font-family: monospace; font-size: 1.2rem; font-weight: bold; min-width: 25px; }
+        .tag { font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; background: var(--tag-bg); color: var(--tag-text); white-space: nowrap; }
+        .tag.flash { background: #fff5f5; color: #c53030; }
+        .title-text { font-size: 1.05rem; }
+        
+        .arrow { transition: transform 0.2s; color: #a0aec0; }
+        details[open] .arrow { transform: rotate(180deg); }
+        details[open] summary { border-bottom: 1px solid var(--border-color); background: #fafbfc; }
+
+        .details-body { padding: 20px 25px; animation: slideDown 0.3s ease-out; }
+        
+        /* 全文样式优化 */
+        .full-content { 
+            background: #fff; 
+            padding: 0 0 15px 0; 
+            color: #2d3748; 
+            font-size: 1rem; 
+            line-height: 1.8;
+            white-space: pre-wrap; /* 保留原文换行 */
+            font-family: "Georgia", "Times New Roman", serif; /* 衬线体更适合阅读长文 */
+        }
+        .origin-link { display: inline-block; margin-top: 10px; font-size: 0.85rem; color: var(--link-color); text-decoration: none; font-family: sans-serif; }
+
+        .history-section { margin-top: 25px; border-top: 1px dashed #e2e8f0; padding-top: 15px; }
+        .history-section h4 { margin: 0 0 15px 0; font-size: 0.9rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .timeline { position: relative; padding-left: 20px; border-left: 2px solid #e2e8f0; margin-left: 5px; }
+        .timeline-item { position: relative; margin-bottom: 20px; }
+        .timeline-item:last-child { margin-bottom: 0; }
+        .timeline-dot { position: absolute; left: -26px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: #cbd5e0; border: 2px solid #fff; }
+        .timeline-date { font-size: 0.75rem; color: #a0aec0; font-family: monospace; }
+        .timeline-title { font-size: 0.9rem; font-weight: 500; color: #2d3748; margin-top: 2px; }
+        .timeline-saga-link { font-size: 0.8rem; color: var(--link-color); margin-left: 5px; }
+
+        @keyframes slideDown { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📺 News Saga 每日简报</h1>
+            <p>{{DATE}} | {{TOTAL_COUNT}} 条资讯</p>
+        </div>
+        
+        <div class="news-list">
+            {{NEWS_ITEMS_HTML}}
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px; color: #a0aec0; font-size: 0.8rem;">
+            Generated by News Saga Engine v2.0
+        </div>
+    </div>
+</body>
+</html>
+        """
+
+        news_items_html = []
+        
+        # 2. 遍历每日新闻
+        for idx, item in enumerate(briefing.news_items, 1):
+            
+            linked_saga = url_to_saga_map.get(item.url)
+            
+            # 直接使用全文 content
+            display_content = item.content if item.content else "（暂无详细内容）"
+
+            is_flash = item.type == NewsType.FLASH_SUB
+            tag_cls = "flash" if is_flash else "normal"
+            tag_text = "快讯" if is_flash else "新闻"
+            
+            history_html = ""
+            if linked_saga:
+                past_events = [e for e in linked_saga.events if e.source_url != item.url]
+                past_events.sort(key=lambda x: x.date, reverse=True)
+                
+                if past_events:
+                    timeline_items = []
+                    for h_event in past_events[:5]:
+                        timeline_items.append(f"""
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">{h_event.date}</div>
+                            <div class="timeline-title">
+                                {h_event.title}
+                                <a href="{h_event.source_url}" target="_blank" class="timeline-saga-link">🔗</a>
+                            </div>
+                        </div>
+                        """)
+                    
+                    history_html = f"""
+                    <div class="history-section">
+                        <h4>📅 关联背景 ({linked_saga.title})</h4>
+                        <div class="timeline">
+                            {"".join(timeline_items)}
+                        </div>
+                    </div>
+                    """
+                else:
+                    history_html = f"<div class='history-section'><h4>🆕 新故事线: {linked_saga.title}</h4><p style='font-size:0.8rem;color:#718096'>这是该事件链的起点。</p></div>"
+            else:
+                history_html = "<div style='font-size:0.8rem;color:#cbd5e0;font-style:italic;text-align:center'>- 暂无关联历史 -</div>"
+
+            item_html = f"""
+            <div class="news-item">
+                <details>
+                    <summary>
+                        <div class="summary-content">
+                            <span class="index-num">{idx:02d}</span>
+                            <span class="tag {tag_cls}">{tag_text}</span>
+                            <span class="title-text">{item.title}</span>
+                        </div>
+                        <span class="arrow">▼</span>
+                    </summary>
+                    <div class="details-body">
+                        <div class="full-content">{display_content}</div>
+                        <a href="{item.url}" target="_blank" class="origin-link">阅读原文 &rarr;</a>
+                        {history_html}
+                    </div>
+                </details>
+            </div>
+            """
+            news_items_html.append(item_html)
+
+        # 3. 替换并输出
+        final_html = html_template.replace("{{DATE}}", briefing.date) \
+                                  .replace("{{TOTAL_COUNT}}", str(len(briefing.news_items))) \
+                                  .replace("{{NEWS_ITEMS_HTML}}", "\n".join(news_items_html))
+        
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(final_html)
+            
+        print(f"✅ HTML 报告生成完毕: {file_path}")
+        return final_html

@@ -3,15 +3,14 @@ name: Daily News Saga Run
 on:
   # 1. 定时触发 (Cron 语法)
   schedule:
-    # GitHub 使用 UTC 时间。北京时间 20:00 = UTC 12:00
-    # 建议设置为 UTC 12:30 (北京 20:30)，确保新闻联播完全结束且官网已更新
+    # 北京时间 20:30 (UTC 12:30)
     - cron: '30 12 * * *'
   
-  # 2. 允许手动触发 (方便测试)
+  # 2. 允许手动触发
   workflow_dispatch:
 
 permissions:
-  contents: write  # 赋予写权限，以便将生成的 JSON/Markdown 推送回仓库
+  contents: write
 
 jobs:
   run-saga:
@@ -27,36 +26,50 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.12'
-        cache: 'pip' # 启用缓存，加速安装
+        cache: 'pip'
 
     # C. 安装依赖
     - name: Install Dependencies
       run: |
         pip install -r requirements.txt
-        # Crawl4AI 依赖 Playwright，必须安装浏览器内核
+        # Crawl4AI 依赖 Playwright
         python -m playwright install --with-deps chromium
 
-    # D. 运行引擎 (注入 Secrets)
-    - name: Run News Saga Engine
+    # D1. 第一步：数据采集 (不消耗 Token，不需要 Secrets)
+    - name: Step 1 - Fetch Data
+      run: |
+        python run_fetch.py
+
+    # D2. 第二步：分析与报告 (需要 LLM Key 和 邮件配置)
+    - name: Step 2 - Analyze & Report
       env:
+        # --- LLM 配置 ---
         LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
         LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        
+        # --- 邮件配置 (新增) ---
+        # 确保你在 GitHub Secrets 中配置了这些值
+        ENABLE_EMAIL: "true"
+        SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+        SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        SMTP_USER: ${{ secrets.SMTP_USER }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        EMAIL_TO: ${{ secrets.EMAIL_TO }}
       run: |
-        python main.py
+        python run_report.py
 
-    # E. 提交并推送结果 (关键步骤)
-    # 如果 data/ 或 README.md 有变化，就提交；否则跳过
+    # E. 提交并推送结果
     - name: Commit and Push changes
       run: |
         git config --global user.name "SagaBot"
         git config --global user.email "actions@github.com"
         
-        # 添加所有生成的数据
-        git add README.md data/
+        # 添加数据目录、Markdown 报告和 HTML 报告
+        git add README.md report.html data/
         
-        # 尝试提交，如果无变化(git commit报错)则忽略
+        # 提交 (如果无变化则忽略报错)
         git commit -m "🚀 Auto-update: Daily Saga [$(date +'%Y-%m-%d')]" || exit 0
         
-        # 推送回仓库
+        # 推送
         git push

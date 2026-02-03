@@ -258,3 +258,46 @@ Dev Context Snapshot 2026/01/31 15:35
     Tech Stack: Python 3.12, OpenAI SDK, Pydantic (Schema Design).
 
     Config: 内部新增常量约束，无外部环境变量变更。
+
+Dev Context Snapshot 2026/02/03 17:30
+1. 核心任务与状态
+
+    当前目标: 架构解耦 (Fetch/Report 分离) 与 报告 UI 重构 (改为播出流视图 + 原文缩进展示)。
+
+    当前状态: 完成 / 待生产验证
+
+    关键文件:
+
+        src/reporter.py: [重构] 逻辑改为遍历 news_items，HTML/MD 使用 <details> 折叠历史，展开显示全文。
+
+        src/crawler.py: [优化] 引入 BeautifulSoup 手动注入全角空格 (\u3000) 修复段落缩进丢失问题。
+
+        run_fetch.py / run_report.py: [新增] 分离出的独立入口脚本。
+
+        .github/workflows/daily_run.yml: [修改] 适配分步运行逻辑，注入 SMTP 配置。
+
+2. 本次会话变动 (Changelog)
+
+    [架构拆分] 废弃单体 main.py，拆分为 run_fetch.py (只爬取存 JSON) 和 run_report.py (读 JSON -> AI 分析 -> 生成报告 -> 发邮件)。
+
+    [UI 重构] 报告视图从 "Saga 聚类" 变更为 "每日播出顺序列表"；详情页不再显示 AI 摘要，改为显示带格式的原文；底部折叠关联的 Saga 历史。
+
+    [格式修复] 修复 src/crawler.py 中 get_text() 导致缩进丢失的问题。新增 _extract_normal_content 方法，强制在 <p> 标签内容前添加 \u3000\u3000。
+
+    [DevOps] 解决本地开发与 GitHub Action 产生的数据冲突，确立 "保留远程 Data，保留本地 Code" 的 Git 合并策略。
+
+3. 挂起的任务与已知问题 (CRITICAL)
+
+    VERIFY: 需关注 GitHub Actions 下一次定时运行 (UTC 12:30)，确认邮件发送功能 (src/notifier.py) 是否因 Secrets 配置正确而生效。
+
+    RISK: src/crawler.py 的格式化逻辑强依赖 DOM ID content_area 及 <p> 标签结构，若央视网改版需同步调整。
+
+4. 环境与依赖上下文
+
+    Tech Stack: Python 3.12, Crawl4AI, BeautifulSoup4 (lxml), GitHub Actions.
+
+    Config:
+
+        GitHub Secrets 新增: SMTP_SERVER, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, EMAIL_TO.
+
+        环境变量 ENABLE_EMAIL 需设为 "true" 以开启邮件推送。

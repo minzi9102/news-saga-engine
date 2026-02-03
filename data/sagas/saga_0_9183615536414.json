@@ -20,7 +20,23 @@
       "source_url": "https://tv.cctv.com/2026/02/02/VIDEp8E87aUJxjHIotONeHga260202.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260203",
+      "title": "春运第二天客流平稳有序",
+      "summary": "春运第二天全国铁路预计发送旅客1115万人次，加开列车879列，京津冀、长三角等地为热门区域。新增22条高铁线路和50多座车站扩充运力。民航预计保障航班19352班，运输旅客225万人次。",
+      "source_url": "https://tv.cctv.com/2026/02/03/VIDEQv4R0i7c01GZn8betc6y260203.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260203",
+      "title": "广州白云机场口岸今年出入境人员超171万人次",
+      "summary": "截至2月3日中午，广州白云机场口岸2026年出入境人员超171万人次，航班超1.2万架次，同比分别增长超16%、14%，刷新历史同期纪录。",
+      "source_url": "https://tv.cctv.com/2026/02/03/VIDE541PotJw5CZkAO0QdhaE260203.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260202"
+  "last_updated": "20260203"
 }

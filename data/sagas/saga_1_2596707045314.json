@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/02/01/VIDETAPEPUP5P9B6b5YEGEN3260201.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260203",
+      "title": "美政府部分“停摆”致经济数据发布延迟",
+      "summary": "美国联邦政府部分停摆导致1月就业报告和12月职位空缺报告推迟发布，停摆源于国会两党拨款法案分歧。",
+      "source_url": "https://tv.cctv.com/2026/02/03/VIDEMlLn68OdI0YjqdTyld3K260203.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260201"
+  "last_updated": "20260203"
 }

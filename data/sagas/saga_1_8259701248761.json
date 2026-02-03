@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDEQzM2kvPcT68SriI1tdIz260131.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260203",
+      "title": "日本民众在防卫省前举行集会 反对高市推行军事扩张路线",
+      "summary": "日本民众在东京防卫省门前集会，反对首相高市早苗推行军事扩张路线。",
+      "source_url": "https://tv.cctv.com/2026/02/03/VIDESC0pl1RTLzDs67WfRjmc260203.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260203"
 }

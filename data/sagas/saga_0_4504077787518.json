@@ -44,7 +44,23 @@
       "source_url": "https://tv.cctv.com/2026/02/02/VIDEVqhKgM7leW0YpjH1QMeS260202.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260203",
+      "title": "赏冰乐雪 各地持续激发冰雪经济活力",
+      "summary": "各地拓展冰雪文旅产品新供给，冰雪旅游、运动持续升温，带动消费和冰雪装备产业链发展。",
+      "source_url": "https://tv.cctv.com/2026/02/03/VIDEb5r4AhYp5VQCtXDxUBeP260203.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260203",
+      "title": "2025年我国新能源新增发电量占全社会新增用电量97.1%",
+      "summary": "2025年中国风、光、生物质新增发电量占全社会新增用电量的97.1%，成为新增用电主体。",
+      "source_url": "https://tv.cctv.com/2026/02/03/VIDE541PotJw5CZkAO0QdhaE260203.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260202"
+  "last_updated": "20260203"
 }

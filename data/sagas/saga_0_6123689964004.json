@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDEx2J8w96Ig6nz1w2scLRj260131.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260203",
+      "title": "日本强降雪天气已致30人死亡",
+      "summary": "日本多地自1月20日起遭遇强降雪，截至2月3日已致30人死亡、324人受伤，新潟县灾情最重，青森县积雪超4.5米。",
+      "source_url": "https://tv.cctv.com/2026/02/03/VIDEMlLn68OdI0YjqdTyld3K260203.shtml#sub5",
+      "causal_tag": "灾害事故",
+      "importance": 4
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260203"
 }

@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/02/03/VIDE7RAscxd4z0Z2uYTr0THo260203.shtml",
       "causal_tag": "外交声明",
       "importance": 4
+    },
+    {
+      "date": "20260204",
+      "title": "伊朗称已制定与美国的谈判计划",
+      "summary": "伊朗外交部称未来数日将与美国谈判，地点可能在土耳其或阿曼。美军称在阿拉伯海击落一架伊朗无人机，伊朗称其失联。",
+      "source_url": "https://tv.cctv.com/2026/02/04/VIDESCYMpZJi5Sbl1MAXZRCo260204.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260203"
+  "last_updated": "20260204"
 }

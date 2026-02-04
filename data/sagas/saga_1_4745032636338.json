@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/30/VIDEhc5WKjiM1yYgcr4O1Zfr260130.shtml#sub4",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260204",
+      "title": "北京高速公路服务区实现超级充电桩全覆盖",
+      "summary": "2025年北京市在12个高速服务区建成42座超级充电站，实现高速服务区超充桩全覆盖，最快15分钟充满电。春运期间将在重点服务区投放12辆移动充电车。",
+      "source_url": "https://tv.cctv.com/2026/02/04/VIDEdIEht8wVoBKjSoKXG6at260204.shtml#sub5",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260130"
+  "last_updated": "20260204"
 }

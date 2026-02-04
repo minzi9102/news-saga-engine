@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/02/VIDEZTzP1RdCd3Q6caxH1FEg260202.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260204",
+      "title": "习近平同俄罗斯总统举行视频会晤",
+      "summary": "习近平同普京举行视频会晤，强调把握中俄战略协作伙伴关系30周年等契机，加强各领域合作，维护全球战略稳定。",
+      "source_url": "https://tv.cctv.com/2026/02/04/VIDExaxfr5MHPtR9Wbyqgij1260204.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260202"
+  "last_updated": "20260204"
 }

@@ -12,7 +12,31 @@
       "source_url": "https://tv.cctv.com/2026/02/03/VIDERcMfSOps6cQuq3Os3rBv260203.shtml",
       "causal_tag": "Inception",
       "importance": 5
+    },
+    {
+      "date": "20260204",
+      "title": "提高强农惠农富农政策效能 激发乡村振兴动力活力",
+      "summary": "国务院新闻办2月4日举行发布会，解读2024年中央一号文件，明确提升农业产能、精准帮扶等四项重点任务和体制机制创新等两大支撑保障。",
+      "source_url": "https://tv.cctv.com/2026/02/04/VIDEnmbtcBwqa4Gm9SFh1xjL260204.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
+    },
+    {
+      "date": "20260204",
+      "title": "各地因苗施策开展田管 夯实夏粮生产基础",
+      "summary": "农业农村部调度显示，受去年秋汛影响，黄淮海主产区冬小麦苗情偏弱，各地正分类施策开展春季田管，为夏粮生产打基础。",
+      "source_url": "https://tv.cctv.com/2026/02/04/VIDEGHAh5bmk43utu4lXubns260204.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260204",
+      "title": "1月份消费品以旧换新相关商品销售额超925亿元",
+      "summary": "商务部数据显示，1月消费品以旧换新惠及1613万人次，销售额925.6亿元，绿色智能产品受青睐。",
+      "source_url": "https://tv.cctv.com/2026/02/04/VIDEbcT4sNq9zObVu6XHkDI2260204.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260203"
+  "last_updated": "20260204"
 }

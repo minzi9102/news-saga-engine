@@ -60,7 +60,15 @@
       "source_url": "https://tv.cctv.com/2026/02/04/VIDEJXme9tgr2bCCO3QYRXsp260204.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260206",
+      "title": "美多地再度发生反对联邦移民执法的抗议",
+      "summary": "美国明尼苏达州、纽约市、西雅图等地发生抗议活动，要求联邦执法人员撤离；波士顿发布行政命令限制联邦移民执法行动。",
+      "source_url": "https://tv.cctv.com/2026/02/06/VIDEFiaX7j7xQ8alr0o1ZjTl260206.shtml#sub1",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260204"
+  "last_updated": "20260206"
 }

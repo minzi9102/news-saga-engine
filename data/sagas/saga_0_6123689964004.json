@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/03/VIDEMlLn68OdI0YjqdTyld3K260203.shtml#sub5",
       "causal_tag": "灾害事故",
       "importance": 4
+    },
+    {
+      "date": "20260206",
+      "title": "日本持续大雪已致42人死亡",
+      "summary": "日本强降雪致42死444伤，新潟县15人死亡，预计7-8日多地仍将持续降雪。",
+      "source_url": "https://tv.cctv.com/2026/02/06/VIDEFiaX7j7xQ8alr0o1ZjTl260206.shtml#sub2",
+      "causal_tag": "灾害事故",
+      "importance": 3
     }
   ],
-  "last_updated": "20260203"
+  "last_updated": "20260206"
 }

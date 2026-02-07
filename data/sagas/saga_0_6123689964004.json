@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/02/06/VIDEFiaX7j7xQ8alr0o1ZjTl260206.shtml#sub2",
       "causal_tag": "灾害事故",
       "importance": 3
+    },
+    {
+      "date": "20260207",
+      "title": "日本部分地区出现新降雪 交通受影响",
+      "summary": "日本连日降雪致45人死亡、540人受伤，青森市积雪1.27米，部分铁路停运。",
+      "source_url": "https://tv.cctv.com/2026/02/07/VIDE5sZLjOdw2GiFjod3m3De260207.shtml#sub3",
+      "causal_tag": "灾害事故",
+      "importance": 4
     }
   ],
-  "last_updated": "20260206"
+  "last_updated": "20260207"
 }

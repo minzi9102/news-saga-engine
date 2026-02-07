@@ -76,7 +76,15 @@
       "source_url": "https://tv.cctv.com/2026/02/06/VIDEy5q9evlK67KDjP0ZO8vQ260206.shtml",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260207",
+      "title": "我国煤矿智能化产能占比超65%",
+      "summary": "截至2025年底，全国已建成智能化煤矿1066处，智能化产能占比超65%，采煤、掘进工作面单班平均减人比例均超20%。",
+      "source_url": "https://tv.cctv.com/2026/02/07/VIDEABbbGQkIO0OjDTUHtIbG260207.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260206"
+  "last_updated": "20260207"
 }

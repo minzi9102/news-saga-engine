@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/02/03/VIDESC0pl1RTLzDs67WfRjmc260203.shtml",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260207",
+      "title": "日本民众在首相官邸前抗议高市错误言行",
+      "summary": "日本民众在首相官邸前集会，谴责首相高市早苗错误言行损害中日关系和地区和平。",
+      "source_url": "https://tv.cctv.com/2026/02/07/VIDEbFB0QtPAm1Z7n9uPHgPG260207.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260203"
+  "last_updated": "20260207"
 }

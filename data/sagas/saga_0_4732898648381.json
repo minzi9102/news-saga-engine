@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/05/VIDEEc5zPZj3dKYUFAU9qnxC260205.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260207",
+      "title": "我国全社会物流成本稳步下降",
+      "summary": "2025年我国社会物流总费用与GDP比率降至13.9%，创历史新低，自动化分拣中心基本全覆盖，公铁联运量增长超130%。",
+      "source_url": "https://tv.cctv.com/2026/02/07/VIDEuA6nClDUGCfMELx8EAt2260207.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260205"
+  "last_updated": "20260207"
 }

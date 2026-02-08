@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/02/07/VIDE6RLzxct6as9PjiGSO993260207.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260208",
+      "title": "春运第一周 超14亿人次跨区域出行",
+      "summary": "春运第一周全社会跨区域人员流动量超14.13亿人次，日均超2亿人次，同比增长2.0%。铁路、公路、民航客流均增长，多地加开夜间高铁或开启24小时运营。",
+      "source_url": "https://tv.cctv.com/2026/02/08/VIDECBDuxpEKk9k8gLDO8VtK260208.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260207"
+  "last_updated": "20260208"
 }

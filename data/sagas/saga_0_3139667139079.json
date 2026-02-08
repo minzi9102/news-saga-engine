@@ -52,7 +52,23 @@
       "source_url": "https://tv.cctv.com/2026/02/07/VIDExQSHWpkamvldp0rwL0y6260207.shtml",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260208",
+      "title": "俄称大规模打击乌军用能源设施 乌称击退俄军进攻",
+      "summary": "俄军使用'匕首'高超音速导弹打击乌克兰能源交通设施，并控制哈尔科夫州一处居民点。乌方称击退俄军进攻，并确认参加美方提议的美乌俄三方会谈，但俄方表示暂无此计划。",
+      "source_url": "https://tv.cctv.com/2026/02/08/VIDEtWB6gXrdsaOEMj1mkxIT260208.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 3
+    },
+    {
+      "date": "20260208",
+      "title": "匈牙利总理称欧盟正面临最危险时期",
+      "summary": "匈牙利总理欧尔班警告，2026-2030年欧盟可能因向乌克兰派兵计划而卷入与俄罗斯的直接冲突，匈牙利拒绝参战。",
+      "source_url": "https://tv.cctv.com/2026/02/08/VIDEikzJXfmmZVNDDlD5f4RB260208.shtml#sub1",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260207"
+  "last_updated": "20260208"
 }

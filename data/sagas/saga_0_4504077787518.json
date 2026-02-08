@@ -84,7 +84,23 @@
       "source_url": "https://tv.cctv.com/2026/02/07/VIDEABbbGQkIO0OjDTUHtIbG260207.shtml#sub4",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260208",
+      "title": "2025年我国科技创新与产业创新加速融合",
+      "summary": "2025年高技术产业销售收入同比增长13.9%，锂离子电池、集成电路、生物药品制造业分别增长25.1%、19.2%和7.7%，消费机器人制造业销售收入同比增长超60%。",
+      "source_url": "https://tv.cctv.com/2026/02/08/VIDEdT1rTmJqNaxqLfVcspu9260208.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260208",
+      "title": "【新春走基层】奋斗在矿井深处的“青春力量”",
+      "summary": "央视记者深入山西华阳集团一矿，记录智能化改造后采煤效率提升，日产原煤超350万吨，人员减半但日产量增加1000吨。",
+      "source_url": "https://tv.cctv.com/2026/02/08/VIDE2nHo1qcwFMEHG9EUNMU1260208.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260207"
+  "last_updated": "20260208"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/03/VIDEIZniEDOwp8l7Vzc1Q0YZ260203.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260209",
+      "title": "2026年汽车以旧换新销售额突破500亿元",
+      "summary": "截至2月5日，2026年汽车以旧换新补贴申请达33.5万份，带动新车销售537.7亿元。政策调整为按新车售价比例补贴，报废更新最高补2万元。",
+      "source_url": "https://tv.cctv.com/2026/02/09/VIDEqqeDXmKcWKXvMJDnrF80260209.shtml",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260203"
+  "last_updated": "20260209"
 }

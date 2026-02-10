@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/02/09/VIDEKi5FP5x2cTEPugU1O5Wh260209.shtml#sub1",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260210",
+      "title": "巴媒称以军袭击加沙和约旦河西岸多地",
+      "summary": "以色列军队袭击加沙地带多地致3人死亡，强拆约旦河西岸建筑并扣押20多人。埃及等八国外长联合谴责以色列非法扩张政策。",
+      "source_url": "https://tv.cctv.com/2026/02/10/VIDEgaQPHA3G58gWzuQJ5X1U260210.shtml#sub2",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260209"
+  "last_updated": "20260210"
 }

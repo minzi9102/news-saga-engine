@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/04/VIDEdIEht8wVoBKjSoKXG6at260204.shtml#sub2",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260210",
+      "title": "国家标准委批准发布403项国家标准",
+      "summary": "国家标准委发布403项国家标准，涉及脑机接口、数字孪生等新兴领域，将降低企业开发成本。",
+      "source_url": "https://tv.cctv.com/2026/02/10/VIDEvY5udFx2pebRuphC7KE5260210.shtml#sub3",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260204"
+  "last_updated": "20260210"
 }

@@ -60,7 +60,23 @@
       "source_url": "https://tv.cctv.com/2026/02/09/VIDES31ckzV2aLQxfoliJcpm260209.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260210",
+      "title": "2025年我国农村网络零售额首破3万亿元",
+      "summary": "2025年我国农村网络零售额首次突破3万亿元，同比增长6.7%。全国县级物流配送中心覆盖率达100%。",
+      "source_url": "https://tv.cctv.com/2026/02/10/VIDEajVsL3hrXHIrJVJzLuQr260210.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260210",
+      "title": "我国将开展传统村落特色保护区建设",
+      "summary": "中央财政今年起支持部分县开展传统村落特色保护区建设，每县补助5000万元，分两年下达，用于修缮公共传统建筑和数字化保护。",
+      "source_url": "https://tv.cctv.com/2026/02/10/VIDEvY5udFx2pebRuphC7KE5260210.shtml#sub2",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260209"
+  "last_updated": "20260210"
 }

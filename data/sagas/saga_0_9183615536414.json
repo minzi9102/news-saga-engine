@@ -68,7 +68,15 @@
       "source_url": "https://tv.cctv.com/2026/02/09/VIDERIImmh4DYDhpg9oVwesY260209.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260210",
+      "title": "春运出行客流迎来节前小高峰",
+      "summary": "2月10日全社会跨区域人员流动量预计超2.3亿人次，其中铁路发送旅客1395万人次，公路流动量超2.2亿人次，水路发送旅客超76万人次。",
+      "source_url": "https://tv.cctv.com/2026/02/10/VIDEgP7fQKvreTDXVHsWWNsC260210.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260209"
+  "last_updated": "20260210"
 }

@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/02/10/VIDEfwnfws3tZqC3DWi0ZYe7260210.shtml",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260211",
+      "title": "伊朗总统称面对不公正和侵犯伊朗不会退让",
+      "summary": "伊朗总统佩泽希齐扬在纪念伊斯兰革命胜利47周年游行上表示，伊朗不寻求核武器但愿意接受核查，指责美欧不信任阻碍对话。同日，伊朗高官访阿曼讨论伊美谈判，以色列总理访美讨论伊朗问题，特朗普考虑向中东增派航母。",
+      "source_url": "https://tv.cctv.com/2026/02/11/VIDE4Ule7K1jhNXL4wNESYf2260211.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260210"
+  "last_updated": "20260211"
 }

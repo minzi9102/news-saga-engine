@@ -76,7 +76,15 @@
       "source_url": "https://tv.cctv.com/2026/02/10/VIDEgP7fQKvreTDXVHsWWNsC260210.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260211",
+      "title": "春运第十天 出行客流持续增长",
+      "summary": "2月11日全社会跨区域人员流动量预计超2.6亿人次，其中铁路发送旅客1385万人次，公路流动量超2.4亿人次，主要城市群出城方向车流增多。",
+      "source_url": "https://tv.cctv.com/2026/02/11/VIDEEvqTjVKNy7AkrTfrpujz260211.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260210"
+  "last_updated": "20260211"
 }

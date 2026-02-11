@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDEDsYxIbyXFNIkGEXOPuXV260131.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260211",
+      "title": "李强主持国务院第十八次专题学习",
+      "summary": "国务院举行第十八次专题学习，聚焦深化拓展'人工智能+'，李强总理强调要全面推进人工智能科技创新、产业发展和赋能应用，培育新质生产力。",
+      "source_url": "https://tv.cctv.com/2026/02/11/VIDECFVQra7oHiYts3F2sXex260211.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260211"
 }

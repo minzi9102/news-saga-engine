@@ -84,7 +84,15 @@
       "source_url": "https://tv.cctv.com/2026/02/11/VIDEEvqTjVKNy7AkrTfrpujz260211.shtml#sub2",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260212",
+      "title": "交通部门多措并举应对节前客流高峰",
+      "summary": "2月12日全社会跨区域人员流动量预计超2.7亿人次，铁路、公路、民航均迎来节前客流高峰。",
+      "source_url": "https://tv.cctv.com/2026/02/12/VIDEr6x5Rv5ELXdR2TbTolR8260212.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260211"
+  "last_updated": "20260212"
 }

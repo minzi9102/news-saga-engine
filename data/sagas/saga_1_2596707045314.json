@@ -92,7 +92,15 @@
       "source_url": "https://tv.cctv.com/2026/02/09/VIDEKi5FP5x2cTEPugU1O5Wh260209.shtml#sub2",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260213",
+      "title": "美国国土安全部或面临“停摆”",
+      "summary": "美国参议院12日未能通过对国土安全部的拨款法案，导致其下属机构面临停摆风险。",
+      "source_url": "https://tv.cctv.com/2026/02/13/VIDE9q3qbg09j65NVTagVPAf260213.shtml#sub2",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260209"
+  "last_updated": "20260213"
 }

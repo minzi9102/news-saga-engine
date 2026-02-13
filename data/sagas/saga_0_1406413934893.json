@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/04/VIDEnlHPIZLdc0qDuYNU0Kqk260204.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260213",
+      "title": "委内瑞拉民众游行抗议美袭击行动",
+      "summary": "委内瑞拉民众在首都加拉加斯游行，抗议美国袭击委内瑞拉并要求释放马杜罗夫妇，同时反对美国对古巴的石油封锁。",
+      "source_url": "https://tv.cctv.com/2026/02/13/VIDE9q3qbg09j65NVTagVPAf260213.shtml#sub1",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260204"
+  "last_updated": "20260213"
 }

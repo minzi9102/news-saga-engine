@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/11/VIDEzvuce0XXdQlpxpiFpxBt260211.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260213",
+      "title": "我国完成首次火箭一级箭体海上打捞回收任务",
+      "summary": "中国首次在海上完成长征十号运载火箭一级箭体打捞回收，对推进火箭可重复使用技术发展具有重要意义。",
+      "source_url": "https://tv.cctv.com/2026/02/13/VIDEHY8svUgVz7cFugmssn6f260213.shtml",
+      "causal_tag": "数据公布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260211"
+  "last_updated": "20260213"
 }

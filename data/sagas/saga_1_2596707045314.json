@@ -100,7 +100,15 @@
       "source_url": "https://tv.cctv.com/2026/02/13/VIDE9q3qbg09j65NVTagVPAf260213.shtml#sub2",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260214",
+      "title": "美国国土安全部因拨款到期部分“停摆”",
+      "summary": "美国国土安全部因拨款法案未通过，于当地时间14日0时部分停摆，涉及边境管制、机场安保等职责，26万雇员受影响。",
+      "source_url": "https://tv.cctv.com/2026/02/14/VIDETxP7EDGls2rhOHmtYf6c260214.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260213"
+  "last_updated": "20260214"
 }

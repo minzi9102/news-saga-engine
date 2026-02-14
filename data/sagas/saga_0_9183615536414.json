@@ -100,7 +100,23 @@
       "source_url": "https://tv.cctv.com/2026/02/13/VIDEVFAKqXWxKrEYz8595R6z260213.shtml#sub1",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260214",
+      "title": "今天全社会跨区域人员流动量预计超2.7亿人次",
+      "summary": "春运第13天全社会跨区域人员流动量预计超2.7亿人次，同比增长1.8%，其中铁路预计发送旅客1535万人次，公路人员流动量预计超2.5亿人次。",
+      "source_url": "https://tv.cctv.com/2026/02/14/VIDEBJnm8r6Q1BCFJhBzetZt260214.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260214",
+      "title": "浙江金华至建德高铁兰溪东至建德段通车运营",
+      "summary": "2月14日，浙江金建高铁兰溪东至建德段开通，线路全长64.51公里，串联杭黄、沪昆等四条高铁，连接浙中城市群、黄山旅游经济圈等区域。",
+      "source_url": "https://tv.cctv.com/2026/02/14/VIDEBJnm8r6Q1BCFJhBzetZt260214.shtml#sub4",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260213"
+  "last_updated": "20260214"
 }

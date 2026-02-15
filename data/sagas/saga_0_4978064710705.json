@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/01/VIDElRXhONe1dtgdNfRj2Wd9260201.shtml",
       "causal_tag": "Inception",
       "importance": 5
+    },
+    {
+      "date": "20260215",
+      "title": "2025年我国银行业保险业总资产稳步增长",
+      "summary": "2025年末我国银行业总资产480万亿元，同比增长8.0%；保险业总资产41.3万亿元，较年初增长15.1%。",
+      "source_url": "https://tv.cctv.com/2026/02/15/VIDEHzbCOYxgsQciJLVj77wd260215.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260201"
+  "last_updated": "20260215"
 }

@@ -60,7 +60,15 @@
       "source_url": "https://tv.cctv.com/2026/02/10/VIDEgaQPHA3G58gWzuQJ5X1U260210.shtml#sub2",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260216",
+      "title": "巴勒斯坦强烈谴责以色列土地新规",
+      "summary": "以色列政府批准重启约旦河西岸土地登记程序，拟将大片区域登记在以色列国家名下，遭巴勒斯坦总统府和哈马斯强烈谴责。",
+      "source_url": "https://tv.cctv.com/2026/02/16/VIDERVpKAbdOJeNZ0xxf1dwm260216.shtml#sub2",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260210"
+  "last_updated": "20260216"
 }

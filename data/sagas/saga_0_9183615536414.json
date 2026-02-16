@@ -124,7 +124,23 @@
       "source_url": "https://tv.cctv.com/2026/02/15/VIDERldvAugToLCQmDP7eOi8260215.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260216",
+      "title": "春运以来全社会跨区域人员流动量超35亿人次",
+      "summary": "2月16日全社会跨区域人员流动量超2.2亿人次，同比增长8.9%。春运累计流动量超35亿人次。",
+      "source_url": "https://tv.cctv.com/2026/02/16/VIDE4cAbJGg9xRmtJZ1AqfsO260216.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260216",
+      "title": "【新春走基层】格库铁路清灰人 我在高原保畅通",
+      "summary": "央视记者跟随铁路工人进入阿尔金山无人区，体验格库铁路隧道清灰作业，保障西煤东运通道畅通。",
+      "source_url": "https://tv.cctv.com/2026/02/16/VIDEuQFzHV0VPoxDdnDolcOb260216.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260215"
+  "last_updated": "20260216"
 }

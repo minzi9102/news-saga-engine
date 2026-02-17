@@ -84,7 +84,15 @@
       "source_url": "https://tv.cctv.com/2026/02/15/VIDEbPP9fm3Ez33dS05NfLjZ260215.shtml#sub1",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260217",
+      "title": "伊美新一轮间接谈判今日举行",
+      "summary": "美伊在日内瓦举行新一轮间接谈判，特朗普威胁伊朗若达不成协议将承担后果，伊朗外长阿拉格齐表示不会屈服于威胁。",
+      "source_url": "https://tv.cctv.com/2026/02/17/VIDEFg4MdauQtsDruf64caGb260217.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260215"
+  "last_updated": "20260217"
 }

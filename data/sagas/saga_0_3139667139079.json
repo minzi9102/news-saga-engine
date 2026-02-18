@@ -108,7 +108,15 @@
       "source_url": "https://tv.cctv.com/2026/02/15/VIDEbPP9fm3Ez33dS05NfLjZ260215.shtml#sub4",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260218",
+      "title": "俄美乌在日内瓦举行新一轮会谈",
+      "summary": "俄美乌三方代表在日内瓦举行新一轮闭门谈判，俄方表示领土问题被纳入议程，乌方称讨论聚焦实际议题和解决方案落实机制。",
+      "source_url": "https://tv.cctv.com/2026/02/18/VIDE5jZXl3ENU07OWQPtXV8P260218.shtml#sub1",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260215"
+  "last_updated": "20260218"
 }

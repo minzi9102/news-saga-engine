@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/03/VIDEST8yoYCyB8wiBdEKG55H260203.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260218",
+      "title": "习近平复信美国艾奥瓦州友人",
+      "summary": "习近平复信美国艾奥瓦州友人，强调中美关系基础在民间，希望鼓励更多美国青少年促进中美友好。",
+      "source_url": "https://tv.cctv.com/2026/02/18/VIDE5H1qTSEHWuOJNNVTwspS260218.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260203"
+  "last_updated": "20260218"
 }

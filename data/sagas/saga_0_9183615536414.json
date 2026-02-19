@@ -156,7 +156,23 @@
       "source_url": "https://tv.cctv.com/2026/02/18/VIDEejjjDMePWLGKzJYYo4xg260218.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260219",
+      "title": "务工客流开始返程 交通部门增加运力",
+      "summary": "2月19日全社会跨区域人员流动量预计超3.39亿人次，创春运单日新高。铁路、公路、民航客流均大幅增长。",
+      "source_url": "https://tv.cctv.com/2026/02/19/VIDEVwfYlqldyhr3tUC1JRsd260219.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260219",
+      "title": "绿色出行 折射新春新活力",
+      "summary": "春节假期前三天，高速公路新能源汽车充电次数达140.99万次，日均充电量1180.08万千瓦时，同比增长63.05%。",
+      "source_url": "https://tv.cctv.com/2026/02/19/VIDETNmFTIm5nvS7c1Xoqsmc260219.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260218"
+  "last_updated": "20260219"
 }

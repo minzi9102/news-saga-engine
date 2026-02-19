@@ -100,7 +100,15 @@
       "source_url": "https://tv.cctv.com/2026/02/17/VIDEiMA8C5VlRRwfzzAn14mw260217.shtml#sub4",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260219",
+      "title": "【第二十五届冬奥会】中国队表现亮眼 单日收获两金一铜",
+      "summary": "米兰冬奥会第12比赛日，苏翊鸣获单板滑雪男子坡面障碍技巧金牌，为中国代表团首金；徐梦桃获自由式滑雪女子空中技巧金牌并实现卫冕。",
+      "source_url": "https://tv.cctv.com/2026/02/19/VIDEO56wNQO5UJXKxYKGDehb260219.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260217"
+  "last_updated": "20260219"
 }

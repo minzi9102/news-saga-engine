@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/02/04/VIDESCYMpZJi5Sbl1MAXZRCo260204.shtml",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260219",
+      "title": "伊朗政府称伊朗已进入全面战备状态",
+      "summary": "伊朗政府称军队进入全面战备状态，并与俄罗斯计划19日在阿曼海和印度洋北部举行联合军演。美媒称美军或最早于21日对伊朗发动打击。",
+      "source_url": "https://tv.cctv.com/2026/02/19/VIDESR6em2LbC13TNfSOXBRv260219.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260204"
+  "last_updated": "20260219"
 }

@@ -124,7 +124,15 @@
       "source_url": "https://tv.cctv.com/2026/02/17/VIDEiMA8C5VlRRwfzzAn14mw260217.shtml#sub1",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260219",
+      "title": "我国公共数据资源供给规模不断扩大",
+      "summary": "国家数据局公布公共数据资源登记平台登记总量超25万项，覆盖全部国民经济行业大类，全国公共数据“一本账”加快形成。",
+      "source_url": "https://tv.cctv.com/2026/02/19/VIDEfc2omSsKZ6xuEMdwwwVd260219.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260217"
+  "last_updated": "20260219"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDESYoqcUMfo2M0qpXJrpRs260131.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260220",
+      "title": "【新春走基层】为了不失联的信号",
+      "summary": "中国电信卫星工程师在西藏阿里地区暴风雪中完成天通卫星信号测试，以推动空天地海一体化网络覆盖。",
+      "source_url": "https://tv.cctv.com/2026/02/20/VIDEvzJ4esRAhO8A4xYI86oU260220.shtml",
+      "causal_tag": "数据公布",
+      "importance": 2
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260220"
 }

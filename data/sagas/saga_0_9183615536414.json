@@ -172,7 +172,15 @@
       "source_url": "https://tv.cctv.com/2026/02/19/VIDETNmFTIm5nvS7c1Xoqsmc260219.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260220",
+      "title": "春节假期过半 出行客流持续攀升",
+      "summary": "春节假期第六天全社会跨区域人员流动量预计超3.52亿人次，铁路预计发送旅客1500万人次。",
+      "source_url": "https://tv.cctv.com/2026/02/20/VIDE3FXSfU4k8P2l6BgX82K5260220.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260219"
+  "last_updated": "20260220"
 }

@@ -28,7 +28,23 @@
       "source_url": "https://tv.cctv.com/2026/02/19/VIDEWddONmqhOndzIaulNaO1260219.shtml",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260220",
+      "title": "新春消费亮点纷呈 市场活力加速释放",
+      "summary": "春节假期消费市场火热，重点商圈客流量和营业额同比分别增长4.5%和4.8%，消费品以旧换新带动销售额1980.2亿元，海南离岛免税销售额增长15.8%。",
+      "source_url": "https://tv.cctv.com/2026/02/20/VIDESNZUBeT6a8iCLzc3HOXg260220.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260220",
+      "title": "“到中国过年” 感受中国传统文化",
+      "summary": "春节假期前五天入境游机票张数同比增312%，上海、北京等城市吸引外国游客体验非遗、年俗等传统文化。",
+      "source_url": "https://tv.cctv.com/2026/02/20/VIDESL6pTwLU8WuY7Pr41T9i260220.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260219"
+  "last_updated": "20260220"
 }

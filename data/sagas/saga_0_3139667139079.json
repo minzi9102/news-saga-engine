@@ -116,7 +116,15 @@
       "source_url": "https://tv.cctv.com/2026/02/18/VIDE5jZXl3ENU07OWQPtXV8P260218.shtml#sub1",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260220",
+      "title": "俄称欧洲在乌问题上倾向于延续冲突",
+      "summary": "俄总统普京听取俄美乌三方会谈汇报，欧洲未参与，俄方认为欧洲观点倾向延续冲突。会谈未签署文件，乌方期待本月内举行下一轮。",
+      "source_url": "https://tv.cctv.com/2026/02/20/VIDE0ABMSSTd0ZdTIxfPkShJ260220.shtml#sub2",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260218"
+  "last_updated": "20260220"
 }

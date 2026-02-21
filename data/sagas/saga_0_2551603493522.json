@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/20/VIDE0ABMSSTd0ZdTIxfPkShJ260220.shtml#sub3",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260221",
+      "title": "美国最高法院裁定特朗普政府大规模关税政策违法",
+      "summary": "美国最高法院以6比3裁决《国际紧急经济权力法》未授权总统征收大规模关税，特朗普政府相关关税措施被终止，或需退还1750亿美元。特朗普随即签署新行政令，对所有国家商品加征10%关税。",
+      "source_url": "https://tv.cctv.com/2026/02/21/VIDEgPIfUg7VQkaMziHc1a7T260221.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260220"
+  "last_updated": "20260221"
 }

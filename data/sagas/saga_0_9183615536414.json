@@ -180,7 +180,15 @@
       "source_url": "https://tv.cctv.com/2026/02/20/VIDE3FXSfU4k8P2l6BgX82K5260220.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260221",
+      "title": "春运前20天预计全社会跨区域人员流动量50.8亿人次",
+      "summary": "2026年春运前20天全社会跨区域人员流动量达50.8亿人次，创历史同期新高。2月21日单日流动量超3.6亿人次，连续三日超历史峰值。",
+      "source_url": "https://tv.cctv.com/2026/02/21/VIDEuj11WrEg4eusUMeMGxcW260221.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260220"
+  "last_updated": "20260221"
 }

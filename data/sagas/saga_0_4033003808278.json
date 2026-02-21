@@ -116,7 +116,15 @@
       "source_url": "https://tv.cctv.com/2026/02/20/VIDEC6r4v6SNeXhoBHhtCbzx260220.shtml",
       "causal_tag": "数据公布",
       "importance": 4
+    },
+    {
+      "date": "20260221",
+      "title": "【第二十五届冬奥会】王心迪摘得自由式滑雪男子空中技巧金牌",
+      "summary": "米兰冬奥会自由式滑雪男子空中技巧比赛中，中国选手王心迪以难度系数5.1的动作获132.60分摘金，李天马获铜牌。",
+      "source_url": "https://tv.cctv.com/2026/02/21/VIDEmldugMM7PyjdjqKoSGKy260221.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260220"
+  "last_updated": "20260221"
 }

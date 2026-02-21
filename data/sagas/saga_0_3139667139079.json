@@ -124,7 +124,15 @@
       "source_url": "https://tv.cctv.com/2026/02/20/VIDE0ABMSSTd0ZdTIxfPkShJ260220.shtml#sub2",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260221",
+      "title": "俄称俄轰炸机在白令海完成计划飞行",
+      "summary": "俄军两架图-95MS战略轰炸机在白令海中立水域飞行超14小时，美方在阿拉斯加防空识别区探测后出动战机拦截，称此为常态活动不构成威胁。",
+      "source_url": "https://tv.cctv.com/2026/02/21/VIDE0hOYX5ng1vY2LUdQme6e260221.shtml#sub2",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260220"
+  "last_updated": "20260221"
 }

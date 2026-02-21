@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/13/VIDE9q3qbg09j65NVTagVPAf260213.shtml#sub4",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260221",
+      "title": "欧洲多国遭遇恶劣天气 交通受阻",
+      "summary": "欧洲多国遭遇强降雪，奥地利维也纳机场因大雪覆盖跑道关闭，德国慕尼黑机场航班延误取消，斯洛文尼亚多地断电断水、铁路延误。",
+      "source_url": "https://tv.cctv.com/2026/02/21/VIDE0hOYX5ng1vY2LUdQme6e260221.shtml#sub3",
+      "causal_tag": "灾害事故",
+      "importance": 3
     }
   ],
-  "last_updated": "20260213"
+  "last_updated": "20260221"
 }

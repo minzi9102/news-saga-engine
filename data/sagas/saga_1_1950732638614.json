@@ -60,7 +60,15 @@
       "source_url": "https://tv.cctv.com/2026/02/19/VIDESR6em2LbC13TNfSOXBRv260219.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260222",
+      "title": "伊朗总统称伊朗人民拒绝向霸凌低头",
+      "summary": "伊朗总统佩泽希齐扬21日表示伊朗人民绝不屈服于霸凌和胁迫，美军“福特”号航母打击群正前往中东。",
+      "source_url": "https://tv.cctv.com/2026/02/22/VIDEemDlg8Uyr5kfmgmuiuP7260222.shtml#sub2",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260219"
+  "last_updated": "20260222"
 }

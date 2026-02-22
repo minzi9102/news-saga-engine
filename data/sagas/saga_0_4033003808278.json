@@ -124,7 +124,15 @@
       "source_url": "https://tv.cctv.com/2026/02/21/VIDEmldugMM7PyjdjqKoSGKy260221.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260222",
+      "title": "【第二十五届冬奥会】中国队创境外参加冬奥会最佳战绩",
+      "summary": "米兰冬奥会自由式滑雪女子U型场地技巧决赛，中国选手谷爱凌以94.75分夺金，李方慧获银牌。中国代表团累计5金4银6铜，创境外冬奥最佳战绩。",
+      "source_url": "https://tv.cctv.com/2026/02/22/VIDENT8fcTOv7uxWZ1jcJHGE260222.shtml",
+      "causal_tag": "数据公布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260221"
+  "last_updated": "20260222"
 }

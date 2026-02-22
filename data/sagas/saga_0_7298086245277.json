@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/05/VIDEysi2sWbzvk1CWmQSIATn260205.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260222",
+      "title": "春运以来中老铁路进出口货值同比增长近九成",
+      "summary": "春运期间中老铁路进出口货值14.8亿元，同比增长近九成，货运量超32万吨，进口东盟水果货运量同比增长17.63%。",
+      "source_url": "https://tv.cctv.com/2026/02/22/VIDE6b3r3UAXU9eAPz4WSqET260222.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260205"
+  "last_updated": "20260222"
 }

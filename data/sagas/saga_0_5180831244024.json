@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/02/21/VIDE63szGMoGr2YNCKjfCzEW260221.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260223",
+      "title": "春节前八天全国城市公园接待游客超2.7亿人次",
+      "summary": "春节假期前八天，各地城市公园举办近1.5万项特色活动，接待游客超2.7亿人次，带动消费近70亿元。",
+      "source_url": "https://tv.cctv.com/2026/02/23/VIDEggMpXQCM5D6cVtsGkPoa260223.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260221"
+  "last_updated": "20260223"
 }

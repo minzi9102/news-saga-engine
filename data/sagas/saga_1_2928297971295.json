@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/02/02/VIDE7PrhK5KYZjgR67RD9pEU260202.shtml#sub4",
       "causal_tag": "灾害事故",
       "importance": 3
+    },
+    {
+      "date": "20260223",
+      "title": "暴风雪影响美国东北 多地进入紧急状态",
+      "summary": "美国东北部遭遇冬季风暴，超5000万人受影响，纽约等多州进入紧急状态，数千航班取消。",
+      "source_url": "https://tv.cctv.com/2026/02/23/VIDECZVBHn2MImSZ7yIE1ofK260223.shtml#sub4",
+      "causal_tag": "灾害事故",
+      "importance": 4
     }
   ],
-  "last_updated": "20260202"
+  "last_updated": "20260223"
 }

@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/12/VIDEss1gm5HGCJOPklP5sZPi260212.shtml#sub7",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260223",
+      "title": "2026年中国电影票房突破80亿元 领跑全球电影市场",
+      "summary": "截至2月23日，2026年中国电影票房突破80亿元，春节档票房超56亿元，领跑全球市场。《飞驰人生3》票房破28亿夺冠。",
+      "source_url": "https://tv.cctv.com/2026/02/23/VIDEFpcDq5HXPsq2QWViVIrb260223.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260212"
+  "last_updated": "20260223"
 }

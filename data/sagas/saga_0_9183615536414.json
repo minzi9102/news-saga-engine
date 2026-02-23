@@ -196,7 +196,39 @@
       "source_url": "https://tv.cctv.com/2026/02/22/VIDENXMtkPeDDmT7DpL90ggZ260222.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260223",
+      "title": "【新思想引领新征程】跃马扬鞭开新局 实干奋斗向未来",
+      "summary": "春节假期，全国铁路加开夜间高铁超1000列，广州白云机场超1万名员工保障日均26万旅客出行，京港澳高速新增870个充电设施，保障春运超50亿人次流动。两河口电站、引江补汉工程等重大项目建设者坚守岗位。",
+      "source_url": "https://tv.cctv.com/2026/02/23/VIDEgXgFTdexN8PqbKAmSqwM260223.shtml",
+      "causal_tag": "其他",
+      "importance": 3
+    },
+    {
+      "date": "20260223",
+      "title": "春节假期最后一天 返程出行平稳有序",
+      "summary": "2月23日全社会跨区域人员流动量预计超3.6亿人次，其中铁路发送旅客1850万人次达春节峰值，高速公路车流量预计超6600万辆次，民航客运量预计265万人次。",
+      "source_url": "https://tv.cctv.com/2026/02/23/VIDEMSI4hzdy4pQ2ZvdiULWw260223.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260223",
+      "title": "全国迎来返岗复工高峰",
+      "summary": "2026年春节后全国迎来返岗高峰，人社部启动“春风行动”，各地通过“点对点”劳务协作、线上线下招聘会保障复工用工需求。",
+      "source_url": "https://tv.cctv.com/2026/02/23/VIDEkog2Ti7yekT9fKCoAhDw260223.shtml",
+      "causal_tag": "政策发布",
+      "importance": 3
+    },
+    {
+      "date": "20260223",
+      "title": "上海口岸单日出入境人员达16万人次 创历史新高",
+      "summary": "2月22日上海口岸单日查验出入境人员16万人次，创历史新高。今年以来入境外籍旅客同比增长超两成。",
+      "source_url": "https://tv.cctv.com/2026/02/23/VIDEH7BQYkuj0qvRuqWPud0Q260223.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260222"
+  "last_updated": "20260223"
 }

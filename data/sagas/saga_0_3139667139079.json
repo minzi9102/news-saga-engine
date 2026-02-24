@@ -148,7 +148,15 @@
       "source_url": "https://tv.cctv.com/2026/02/23/VIDECZVBHn2MImSZ7yIE1ofK260223.shtml#sub2",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260224",
+      "title": "俄称打击乌军能源设施 乌称打击俄防空设施",
+      "summary": "俄军打击乌基础设施，击落541架无人机；乌军击退俄军进攻。欧盟未就第20轮对俄制裁达成一致，匈牙利、斯洛伐克提出条件。",
+      "source_url": "https://tv.cctv.com/2026/02/24/VIDEuafDcKgf2D4knijnuZaK260224.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260223"
+  "last_updated": "20260224"
 }

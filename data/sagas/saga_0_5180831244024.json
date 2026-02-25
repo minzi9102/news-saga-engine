@@ -84,7 +84,23 @@
       "source_url": "https://tv.cctv.com/2026/02/24/VIDERK260iGU5bq08uodmoU6260224.shtml#sub3",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260225",
+      "title": "春节假期消费市场人气足亮点多",
+      "summary": "2026年春节假期，全国重点零售餐饮日均销售额同比增长5.7%，78个步行街客流量增6.7%。消费品以旧换新惠及3112.7万人次，带动销售额2070.3亿元。旅游服务收入增39.6%，入境游订单增18.4%。",
+      "source_url": "https://tv.cctv.com/2026/02/25/VIDEuMSEpFezxrPQOjr1mmrT260225.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260225",
+      "title": "2026年春节假期银联网联共处理交易金额13.12万亿元",
+      "summary": "2026年春节假期，银联、网联处理交易393.02亿笔，金额13.12万亿元，日均交易笔数和金额同比分别增长37.45%和19.26%。",
+      "source_url": "https://tv.cctv.com/2026/02/25/VIDEahsTn5cXY4Uanw31dgzn260225.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260224"
+  "last_updated": "20260225"
 }

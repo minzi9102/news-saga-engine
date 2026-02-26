@@ -140,7 +140,15 @@
       "source_url": "https://tv.cctv.com/2026/02/25/VIDEz4eRyDcf76WbzuF9lgP0260225.shtml",
       "causal_tag": "外交声明",
       "importance": 4
+    },
+    {
+      "date": "20260226",
+      "title": "伊朗与美国举行第三轮间接谈判",
+      "summary": "美伊第三轮间接谈判在阿曼驻日内瓦机构举行，讨论伊朗核计划提案。伊朗外长称可达成公平协议，并反驳美方导弹指控。",
+      "source_url": "https://tv.cctv.com/2026/02/26/VIDEN1rfGvphAwM8ZWMaAONm260226.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260225"
+  "last_updated": "20260226"
 }

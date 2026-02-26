@@ -164,7 +164,15 @@
       "source_url": "https://tv.cctv.com/2026/02/25/VIDE21RCjMKv6soWjMIFXjHN260225.shtml",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260226",
+      "title": "俄称控制一居民点 乌称打击俄军集结区",
+      "summary": "俄军控制哈尔科夫州格拉夫斯科耶居民点，并打击乌军能源设施。乌军称打击俄军集结区，摧毁886架无人机。",
+      "source_url": "https://tv.cctv.com/2026/02/26/VIDEXRdtpVafsp6CUmlaJoBF260226.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260225"
+  "last_updated": "20260226"
 }

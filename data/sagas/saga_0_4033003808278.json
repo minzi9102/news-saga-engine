@@ -132,7 +132,15 @@
       "source_url": "https://tv.cctv.com/2026/02/22/VIDENT8fcTOv7uxWZ1jcJHGE260222.shtml",
       "causal_tag": "数据公布",
       "importance": 4
+    },
+    {
+      "date": "20260227",
+      "title": "米兰冬残奥会中国体育代表团成立",
+      "summary": "米兰冬残奥会中国体育代表团成立，共167人，其中运动员70人，将参加全部6个大项中71个小项的比赛。",
+      "source_url": "https://tv.cctv.com/2026/02/27/VIDEjcx2iM1nyTOeRK6v9Lxg260227.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260222"
+  "last_updated": "20260227"
 }

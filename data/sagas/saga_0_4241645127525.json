@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/02/27/VIDE8ZgIjIkDZc3rDDpmUIJ0260227.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260228",
+      "title": "2025年中国经济稳中有进向新向优",
+      "summary": "国家统计局发布2025年统计公报，GDP达1401879亿元，增长5.0%；人均GDP为99665元，增长5.1%。",
+      "source_url": "https://tv.cctv.com/2026/02/28/VIDEuDVCTug0PYfmfjVJ1Uxq260228.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260227"
+  "last_updated": "20260228"
 }

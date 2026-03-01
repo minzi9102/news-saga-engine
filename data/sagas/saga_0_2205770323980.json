@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/26/VIDEQZvJoyj6rtRmP4TlPBGK260226.shtml#sub1",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260301",
+      "title": "今年我国引资结构进一步优化",
+      "summary": "商务部数据显示，1月全国新设外商投资企业5306家，同比增长25.5%；实际使用外资920.1亿元，高技术产业使用外资337.5亿元，占比36.7%。",
+      "source_url": "https://tv.cctv.com/2026/03/01/VIDESvRhgZDnYy6NwVi9GEci260301.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260226"
+  "last_updated": "20260301"
 }

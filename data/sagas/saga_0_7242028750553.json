@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDEIYezaUw6asO0BpGXRDL2260228.shtml",
       "causal_tag": "Inception",
       "importance": 5
+    },
+    {
+      "date": "20260301",
+      "title": "国际社会敦促冲突方保持克制 呼吁恢复对话",
+      "summary": "联合国安理会就中东冲突举行紧急会议，中俄等多国谴责美以袭击伊朗，要求政治解决。",
+      "source_url": "https://tv.cctv.com/2026/03/01/VIDEgL1mSYY5iqz6M0uRMcgd260301.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260301"
 }

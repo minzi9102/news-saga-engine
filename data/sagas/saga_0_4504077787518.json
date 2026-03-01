@@ -172,7 +172,39 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDE6EDgMZoF02MQmQNWmH3z260228.shtml#sub12",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260301",
+      "title": "【“十五五”开好局起好步】加快建设制造强国 壮大实体经济根基",
+      "summary": "2025年5月，习近平总书记考察洛阳轴承集团，强调保持制造业合理比重。企业高端轴承产值占比达七成，产品填补国内空白。",
+      "source_url": "https://tv.cctv.com/2026/03/01/VIDEQtkMELkDIAED4KA3JPOG260301.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260301",
+      "title": "雄安新区“雄才卡”三年来累计发卡超1.7万张",
+      "summary": "雄安新区“雄才卡”启动申领三年，累计发卡超1.7万张，覆盖高端产业、科研及青年创业人才，提供户籍、交通等便捷服务。",
+      "source_url": "https://tv.cctv.com/2026/03/01/VIDEwdAgdTAzxlchjl5O8mF7260301.shtml#sub6",
+      "causal_tag": "政策发布",
+      "importance": 3
+    },
+    {
+      "date": "20260301",
+      "title": "广西苍梧至容县高速公路正式通车",
+      "summary": "广西苍梧至容县高速公路2月28日通车，全长105.3公里，设计时速120公里，连接梧柳高速与广昆高速。",
+      "source_url": "https://tv.cctv.com/2026/03/01/VIDEwdAgdTAzxlchjl5O8mF7260301.shtml#sub8",
+      "causal_tag": "其他",
+      "importance": 3
+    },
+    {
+      "date": "20260301",
+      "title": "我国单体最大采煤沉陷区光伏基地投运",
+      "summary": "国家能源集团宁夏灵武400万千瓦光伏电站正式投运，年发电量68亿度，可满足约450万家庭用电。",
+      "source_url": "https://tv.cctv.com/2026/03/01/VIDEwdAgdTAzxlchjl5O8mF7260301.shtml#sub10",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260301"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/09/VIDEKi5FP5x2cTEPugU1O5Wh260209.shtml#sub4",
       "causal_tag": "Inception",
       "importance": 2
+    },
+    {
+      "date": "20260302",
+      "title": "美得州发生枪击事件 致3死14伤",
+      "summary": "美国得克萨斯州奥斯汀市酒吧枪击致3死14伤，俄亥俄州辛辛那提市音乐场所枪击致9人受伤，嫌疑人未落网。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEkQDY3s3S9MR32ERSyT98260302.shtml#sub2",
+      "causal_tag": "灾害事故",
+      "importance": 3
     }
   ],
-  "last_updated": "20260209"
+  "last_updated": "20260302"
 }

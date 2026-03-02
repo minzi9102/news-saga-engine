@@ -52,7 +52,23 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDEuDVCTug0PYfmfjVJ1Uxq260228.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260302",
+      "title": "【新思想引领新征程】“十四五”期间我国经济实力跃上新台阶",
+      "summary": "2025年中国GDP达140.19万亿元，首次突破140万亿元大关。\"十四五\"期间GDP连续跨越四个十万亿台阶，对世界经济增长贡献率约30%。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEURnV7SxATLEENfdgQWB1260302.shtml",
+      "causal_tag": "数据公布",
+      "importance": 4
+    },
+    {
+      "date": "20260302",
+      "title": "国际人士关注中国两会 期待中国高质量发展为世界提供更多机遇",
+      "summary": "国际人士关注中国两会，称中国经济高质量发展展现活力，期待中国为世界经济注入动力。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEIi54qISFThu2NuRaJUUZ260302.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260302"
 }

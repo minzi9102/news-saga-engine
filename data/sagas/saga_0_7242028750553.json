@@ -20,7 +20,31 @@
       "source_url": "https://tv.cctv.com/2026/03/01/VIDEgL1mSYY5iqz6M0uRMcgd260301.shtml",
       "causal_tag": "外交声明",
       "importance": 4
+    },
+    {
+      "date": "20260302",
+      "title": "美以持续空袭致伊朗550多人死亡 伊朗称击落美国军机",
+      "summary": "美以对伊朗多地发动空袭，伊朗称袭击波及131座城市，造成555人死亡。伊朗对美军和以色列目标发动多轮打击，包括用导弹攻击美军航母和以色列境内目标。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEPYDlghuDpZa95SIDOSXc260302.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260302",
+      "title": "以军打击黎巴嫩真主党武装目标",
+      "summary": "以色列国防军称在黎巴嫩全境打击真主党目标，以回应其火箭弹袭击。黎巴嫩卫生部称袭击已致31死149伤。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEofNBdHO5dqnWloVmJ9Gt260302.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260302",
+      "title": "国际油价金价上涨 主要产油国宣布增产",
+      "summary": "美以军事打击伊朗引发中东紧张，国际原油期货价格大幅上涨，纽约原油一度涨超12%至每桶75.33美元，伦敦原油涨幅达13%。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEkQDY3s3S9MR32ERSyT98260302.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260301"
+  "last_updated": "20260302"
 }

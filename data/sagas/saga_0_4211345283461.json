@@ -116,7 +116,23 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDE0L5XN13ROHJS7UgJXTci260228.shtml",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260302",
+      "title": "《习近平总书记率领打赢脱贫攻坚战》出版发行",
+      "summary": "《习近平总书记率领打赢脱贫攻坚战》一书由中共中央党校出版社出版发行，记录脱贫攻坚历程与成就。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEFh210Fvq2c8m6IQ7GDco260302.shtml",
+      "causal_tag": "其他",
+      "importance": 3
+    },
+    {
+      "date": "20260302",
+      "title": "两部门部署加强常态化防止返贫致贫就业帮扶",
+      "summary": "人社部、农业农村部部署加强常态化防止返贫致贫就业帮扶，坚持外出务工与就地就近就业双轮驱动。",
+      "source_url": "https://tv.cctv.com/2026/03/02/VIDEg2it2wdFWezBHb1mgyjM260302.shtml#sub2",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260302"
 }

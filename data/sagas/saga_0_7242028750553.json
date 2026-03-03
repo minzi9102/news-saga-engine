@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/03/02/VIDEkQDY3s3S9MR32ERSyT98260302.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260303",
+      "title": "美国和以色列空袭伊朗多地 伊朗称打击美军基地等目标",
+      "summary": "美以持续对伊朗多地发动军事打击，已致787人死亡。伊朗反击美军基地，美方称打击将持续4-5周，多地使馆关闭。美国会质疑开战理由，近六成民众反对，多地爆发抗议。",
+      "source_url": "https://tv.cctv.com/2026/03/03/VIDE8GryIDw9Ozq1fDWiVbh5260303.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260302"
+  "last_updated": "20260303"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/17/VIDEiMA8C5VlRRwfzzAn14mw260217.shtml#sub5",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260303",
+      "title": "我国陆生野生动植物保护取得积极进展",
+      "summary": "国家林草局发布数据显示，我国超80%重点保护陆生野生动植物得到有效保护，大熊猫、雪豹等物种野外种群数量持续增长。",
+      "source_url": "https://tv.cctv.com/2026/03/03/VIDEU2NNs8pqDzbG4mBQwVjf260303.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260217"
+  "last_updated": "20260303"
 }

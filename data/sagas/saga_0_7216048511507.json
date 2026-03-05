@@ -12,7 +12,47 @@
       "source_url": "https://tv.cctv.com/2026/03/04/VIDEU6RJ1oQws10yThjD70c1260304.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260305",
+      "title": "十四届全国人大四次会议在京开幕",
+      "summary": "第十四届全国人民代表大会第四次会议在北京开幕，李强作政府工作报告，审查‘十五五’规划纲要草案，听取多项法律草案说明。",
+      "source_url": "https://tv.cctv.com/2026/03/05/VIDEJkOlselV6L62op4RSJbR260305.shtml",
+      "causal_tag": "重要会议",
+      "importance": 5
+    },
+    {
+      "date": "20260305",
+      "title": "习近平在参加江苏代表团审议时强调 经济大省要在研究新情况解决新问题上下功夫出经验",
+      "summary": "习近平参加江苏代表团审议，强调发展新质生产力，要求江苏在科技创新、产业升级、改革开放、共同富裕等方面走在前列。",
+      "source_url": "https://tv.cctv.com/2026/03/05/VIDE7H33eg79DxkDYIYeiMXV260305.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260305",
+      "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局——代表委员议国是】辉煌成就鼓舞人心 团结奋斗开创未来",
+      "summary": "十四届全国人大四次会议代表分组审议政府工作报告，王毅、尹力、石泰峰、刘国中、李干杰等政治局委员分别表态支持报告和“十五五”规划草案。",
+      "source_url": "https://tv.cctv.com/2026/03/05/VIDEZvjgzxHowiZphpP4MD5r260305.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260305",
+      "title": "十四届全国人大四次会议首场“代表通道”开启",
+      "summary": "十四届全国人大四次会议首场'代表通道'开启，杨永修、董进、高德荣、王文毅等6位代表就工匠精神、区块链技术、抗病育种、战备训练等话题交流。",
+      "source_url": "https://tv.cctv.com/2026/03/05/VIDEFrQ2Dvtf8UWj4PQOp17G260305.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260305",
+      "title": "两会首场“部长通道”开启",
+      "summary": "全国两会首场部长通道开启，科技部、工信部、国资委负责人回应热点。科技部长阴和俊称2025年全社会研发投入超3.92万亿元，基础研究投入近2800亿元。工信部长李乐成称2025年人工智能核心产业规模超1.2万亿元。国资委主任张玉卓称近三年央企对战略性新兴产业投资累计达7.4万亿元。",
+      "source_url": "https://tv.cctv.com/2026/03/05/VIDEDyjGNYFk5EEIMrOLHWYF260305.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260304"
+  "last_updated": "20260305"
 }

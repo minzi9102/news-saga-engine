@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/27/VIDEYzNnQbVnoHX5RZ9Kk1P4260227.shtml#sub3",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260305",
+      "title": "黎巴嫩称以色列袭击已致72人死亡",
+      "summary": "以色列袭击黎巴嫩致72死超8.3万人流离失所，真主党袭击以军基地，双方在希亚姆等地交火。",
+      "source_url": "https://tv.cctv.com/2026/03/05/VIDEXYaDgIxArWRPfxFyqzmL260305.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260227"
+  "last_updated": "20260305"
 }

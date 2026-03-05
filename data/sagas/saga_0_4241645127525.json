@@ -84,7 +84,15 @@
       "source_url": "https://tv.cctv.com/2026/03/04/VIDEN9kKT9w4YRqGR6pl2lw9260304.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260305",
+      "title": "国务院新闻办公室举行吹风会解读《政府工作报告》",
+      "summary": "国务院新闻办解读《政府工作报告》，明确今年经济增长预期目标为4.5%—5%，并首次提出实施城乡居民增收计划以提振消费。",
+      "source_url": "https://tv.cctv.com/2026/03/05/VIDE8pynCbDAWXT7nT2Ev0Zg260305.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260304"
+  "last_updated": "20260305"
 }

@@ -52,7 +52,31 @@
       "source_url": "https://tv.cctv.com/2026/03/05/VIDEDyjGNYFk5EEIMrOLHWYF260305.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260306",
+      "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局——代表委员议国是】履职尽责谋发展 凝心聚力启新程",
+      "summary": "全国人大代表继续审议政府工作报告和'十五五'规划纲要草案，多位中央政治局委员在地方代表团审议中发言，强调拥护党中央领导。",
+      "source_url": "https://tv.cctv.com/2026/03/06/VIDEsuNuzV7iiWcCYuMFvrHq260306.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260306",
+      "title": "十四届全国人大四次会议举行经济主题记者会",
+      "summary": "十四届全国人大四次会议举行记者会，发改委、财政部、商务部、央行、证监会负责人答问。今年经济预期增长目标4.5%—5%，一般公共预算支出首超30万亿元，中央对地方转移支付达10.42万亿元。",
+      "source_url": "https://tv.cctv.com/2026/03/06/VIDENBLH37zULZzmsGWCwPji260306.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260306",
+      "title": "国际人士表示期待中国高质量发展为世界注入新动能",
+      "summary": "国际人士表示通过中国两会了解中国发展蓝图，期待中国高质量发展和高水平对外开放为世界经济注入信心与动力。",
+      "source_url": "https://tv.cctv.com/2026/03/06/VIDEiihnhnC66ByPRx6DanmS260306.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260305"
+  "last_updated": "20260306"
 }

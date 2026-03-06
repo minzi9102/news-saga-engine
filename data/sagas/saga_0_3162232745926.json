@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/23/VIDEGuDqhQGsqGIHQ1nz46Dm260223.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260306",
+      "title": "第14届冬残奥会明日开幕 相关赛事陆续展开",
+      "summary": "第14届冬季残奥会在意大利维罗纳开幕，中国代表团将参加全部6个大项71个小项比赛。",
+      "source_url": "https://tv.cctv.com/2026/03/06/VIDE3xcEUV2jJkXyXBXMbAGG260306.shtml#sub1",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260223"
+  "last_updated": "20260306"
 }

@@ -68,7 +68,15 @@
       "source_url": "https://tv.cctv.com/2026/03/05/VIDEBKz4mgYlgKaHVdpnD8DU260305.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260306",
+      "title": "伊朗称突破以色列多重防御 美以称将加大打击力度",
+      "summary": "美以空袭伊朗致1332人死亡，伊朗反击打击特拉维夫及美军航母，国际油价单日暴涨8.51%。",
+      "source_url": "https://tv.cctv.com/2026/03/06/VIDElBBXAkPKaIFTIDxiGU3y260306.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 5
     }
   ],
-  "last_updated": "20260305"
+  "last_updated": "20260306"
 }

@@ -12,7 +12,31 @@
       "source_url": "https://tv.cctv.com/2026/03/04/VIDEYabOHBLGsC8uTwYXW2A7260304.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260307",
+      "title": "全国政协十四届四次会议举行第二次全体会议 王沪宁出席",
+      "summary": "全国政协十四届四次会议举行第二次全体会议，14位政协委员围绕深化改革、科技创新、新质生产力、脱贫攻坚等议题作大会发言。",
+      "source_url": "https://tv.cctv.com/2026/03/07/VIDEgw0V1jlqQZmY73dPDw6e260307.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260307",
+      "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局——代表委员议国是】建言献策聚共识 画好发展同心圆",
+      "summary": "全国政协副主席周强、邵鸿、高云龙在分组讨论中强调，人民政协要聚焦“十五五”规划实施，深入协商议政，为实现“十五五”良好开局贡献力量。",
+      "source_url": "https://tv.cctv.com/2026/03/07/VIDENVaSZkCZ4fYoHdbF8KFb260307.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260307",
+      "title": "全国政协十四届四次会议第二场“委员通道”开启",
+      "summary": "全国政协十四届四次会议委员通道开启，9位委员接受采访，涉及工业母机国产化、中外文明交流、西藏医疗改善等议题。",
+      "source_url": "https://tv.cctv.com/2026/03/07/VIDEQ3AXi9SmkogNkIG0oCq0260307.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260304"
+  "last_updated": "20260307"
 }

@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/10/VIDEapT7dYqtb4BhczXqCeHE260210.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260307",
+      "title": "王沪宁参加台湾代表团审议",
+      "summary": "王沪宁参加台湾代表团审议，强调贯彻对台工作论述，坚持一中原则和九二共识，反对台独和外部干涉，深化两岸交流合作。",
+      "source_url": "https://tv.cctv.com/2026/03/07/VIDEVpZhJ31e1gc6Yjw9qKyw260307.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260210"
+  "last_updated": "20260307"
 }

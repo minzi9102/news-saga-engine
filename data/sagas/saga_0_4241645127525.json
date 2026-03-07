@@ -116,7 +116,15 @@
       "source_url": "https://tv.cctv.com/2026/03/06/VIDEUvSqIYjbXXtYAdu3y8hK260306.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260307",
+      "title": "国务院新闻办举行吹风会 解读“十五五”规划《纲要（草案）》",
+      "summary": "国务院新闻办举行吹风会，介绍“十五五”规划《纲要（草案）》，提出20项主要目标指标，包括GDP增长保持在合理区间、设置7项民生指标，并部署16方面重大战略任务和109项重大工程。",
+      "source_url": "https://tv.cctv.com/2026/03/07/VIDE3Ja9zRFfm9TtsJvQZlTx260307.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260306"
+  "last_updated": "20260307"
 }

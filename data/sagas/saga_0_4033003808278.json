@@ -148,7 +148,15 @@
       "source_url": "https://tv.cctv.com/2026/03/07/VIDEFT6bmV5nDRMpNdjZxRv4260307.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260308",
+      "title": "米兰冬残奥会 中国队收获两金两银两铜",
+      "summary": "米兰冬残奥会首个比赛日，蔡佳云夺得冬季两项男子7.5公里站姿组冠军，为中国队赢得首金。王跃在女子视障组再夺一金。",
+      "source_url": "https://tv.cctv.com/2026/03/08/VIDEYfQOUyJvsfWx1Pm7hICB260308.shtml#sub2",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260307"
+  "last_updated": "20260308"
 }

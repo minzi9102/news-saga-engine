@@ -100,7 +100,55 @@
       "source_url": "https://tv.cctv.com/2026/03/07/VIDETTEdrj6tHzCt9w9vF9xM260307.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260308",
+      "title": "【总书记与我们在一起】深入推进政治建军 为强军事业提供坚强政治保证",
+      "summary": "习近平出席解放军和武警部队代表团会议，强调‘十五五’时期必须坚持政治建军，毫不动摇坚持党对军队绝对领导，确保如期实现建军百年目标。",
+      "source_url": "https://tv.cctv.com/2026/03/08/VIDEtP0N6MErJJkqYe65kgcF260308.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260308",
+      "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局——代表委员议国是】实干担当 奋力推动高质量发展",
+      "summary": "十四届全国人大四次会议期间，王东明、肖捷、郑建邦、丁仲礼、蔡达峰等全国人大常委会副委员长在各自代表团审议中，一致赞同政府工作报告和“十五五”规划纲要草案，强调要确保“十五五”开好局、起好步。",
+      "source_url": "https://tv.cctv.com/2026/03/08/VIDEHOrqI4azZtA5lEpxVPhI260308.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260308",
+      "title": "本台明天将直播十四届全国人大四次会议第二次全体会议",
+      "summary": "3月9日9时，十四届全国人大四次会议第二次全体会议在北京举行，赵乐际作全国人大常委会工作报告。",
+      "source_url": "https://tv.cctv.com/2026/03/08/VIDEwT0Y4RwNE2VkjR7D1CqA260308.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260308",
+      "title": "十四届全国人大四次会议举行记者会",
+      "summary": "王毅在十四届全国人大四次会议记者会上阐述中国外交政策，强调元首外交、中俄关系、中美关系、台湾问题及伊朗局势等立场。",
+      "source_url": "https://tv.cctv.com/2026/03/08/VIDEU5gWDv7WB2pyfMT3nMWa260308.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260308",
+      "title": "【我从基层来】谢延翠：持续创新攻关 助力强国建设 赵振香：履行职责 为群众办好民生实事",
+      "summary": "全国人大代表谢延翠和赵振香在两会期间分别就科技创新和民生改善提出建议。谢延翠关注人工智能技术转化应用，赵振香建议推动物业、家政和社区服务融合发展。",
+      "source_url": "https://tv.cctv.com/2026/03/08/VIDEfWAuFES5S4NkS784R5vo260308.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260308",
+      "title": "国际人士表示在动荡不安的世界中 中国始终保持有序稳定发展",
+      "summary": "国际人士表示希望透过两会窗口把握中国发展新动向，与中国携手合作迈向共赢未来。",
+      "source_url": "https://tv.cctv.com/2026/03/08/VIDEcWmVqJqFUsAxRDyC3N4w260308.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260307"
+  "last_updated": "20260308"
 }

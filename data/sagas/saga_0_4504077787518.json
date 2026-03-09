@@ -212,7 +212,15 @@
       "source_url": "https://tv.cctv.com/2026/03/03/VIDEvEBOSMZIp5kr8xmELzcI260303.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260309",
+      "title": "2025年我国非化石能源消费增量创新高",
+      "summary": "2025年我国非化石能源消费量同比增加约1.6亿吨标准煤当量，增量创历史新高，占一次能源消费比重达21.7%。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDEFZvZdNXeDmTuj1Xosvyn260309.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260303"
+  "last_updated": "20260309"
 }

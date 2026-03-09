@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/11/VIDEEvqTjVKNy7AkrTfrpujz260211.shtml#sub1",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260309",
+      "title": "2月份CPI同比上涨1.3%",
+      "summary": "国家统计局发布2月CPI同比上涨1.3%，为近三年最高，服务价格上涨1.6%是主因。PPI环比上涨0.4%，连续5个月上涨。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDExugPCR5ijvVTd5FCWHVE260309.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260211"
+  "last_updated": "20260309"
 }

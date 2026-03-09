@@ -148,7 +148,47 @@
       "source_url": "https://tv.cctv.com/2026/03/08/VIDEcWmVqJqFUsAxRDyC3N4w260308.shtml",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260309",
+      "title": "十四届全国人大四次会议举行第二次全体会议",
+      "summary": "十四届全国人大四次会议举行第二次全体会议，赵乐际作全国人大常委会工作报告，听取审议最高人民法院和最高人民检察院工作报告。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDEY7SCSLuvS1HbjJbkJdzM260309.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260309",
+      "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局——代表委员议国是】履职尽责谋发展 坚定信心向未来",
+      "summary": "全国人大代表围绕现代化产业体系、新质生产力等议题建言献策。彭清华、张庆伟、洛桑江村、雪克来提·扎克尔、吴政隆等领导人在各自代表团审议政府工作报告和“十五五”规划纲要草案时表示赞成。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDEJKWRX2WMdX7s9VJNbIpX260309.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260309",
+      "title": "十四届全国人大四次会议“代表通道”再次开启",
+      "summary": "十四届全国人大四次会议举行第二场代表通道，6位代表就青少年心理健康、京津冀社保卡互通、台湾光复历史、航运、国企转型、电池回收等议题答问。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDE2OvhkqVYeQSnyvnUEBmD260309.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260309",
+      "title": "十四届全国人大四次会议第二场“部长通道”开启",
+      "summary": "十四届全国人大四次会议部长通道开启，交通运输部、农业农村部、国家体育总局负责人介绍成就：交通主骨架建成率超90%，快递业务量连续12年全球第一；粮食产量连续两年超1.4万亿斤；体育强国建设取得新成就。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDERmckZYJ3D5r4dsULfXdh260309.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260309",
+      "title": "外媒看两会：中国新发展 世界新机遇",
+      "summary": "近千名外国记者报道两会，关注中国经济活力与韧性，聚焦中国“十五五”规划带来的全球合作新机遇。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDEfVozjhgdQNQMYSPbsQHs260309.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260308"
+  "last_updated": "20260309"
 }

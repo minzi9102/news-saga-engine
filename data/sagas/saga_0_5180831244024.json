@@ -108,7 +108,15 @@
       "source_url": "https://tv.cctv.com/2026/03/03/VIDEU2NNs8pqDzbG4mBQwVjf260303.shtml#sub2",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260309",
+      "title": "1—2月中国快递发展指数同比增长1.5%",
+      "summary": "国家邮政局数据显示，1-2月中国快递发展指数374.1，同比增长1.5%。1月日均业务量超5.9亿件，2月节前高峰日均约6.7亿件。",
+      "source_url": "https://tv.cctv.com/2026/03/09/VIDEFZvZdNXeDmTuj1Xosvyn260309.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260303"
+  "last_updated": "20260309"
 }

@@ -60,7 +60,15 @@
       "source_url": "https://tv.cctv.com/2026/03/09/VIDEf2wYiiXDnfD4kTBL0nxv260309.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260310",
+      "title": "本台明天将直播全国政协十四届四次会议闭幕会",
+      "summary": "全国政协十四届四次会议3月11日在北京人民大会堂闭幕，王沪宁将发表讲话。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDEdCvxL2sRjKBsw8E9VC2s260310.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260309"
+  "last_updated": "20260310"
 }

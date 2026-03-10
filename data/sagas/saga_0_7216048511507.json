@@ -188,7 +188,47 @@
       "source_url": "https://tv.cctv.com/2026/03/09/VIDEfVozjhgdQNQMYSPbsQHs260309.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260310",
+      "title": "十四届全国人大四次会议主席团常务主席第一次会议举行",
+      "summary": "十四届全国人大四次会议主席团常务主席第一次会议在北京举行，审议生态环境法典等法律草案修改稿、政府工作报告决议草案及“十五五”规划纲要等审查报告。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDEeKxcE5aaTrgNTAc9ypgc260310.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260310",
+      "title": "十四届全国人大四次会议主席团举行第二次会议",
+      "summary": "十四届全国人大四次会议主席团举行第二次会议，审议通过生态环境法典等三项法律草案修改稿，决定提请各代表团审议。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDEgYNlmrbbKkpgWb2axbVu260310.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260310",
+      "title": "【凝心聚力 真抓实干 奋力实现“十五五”良好开局——代表委员议国是】汇聚合力 开创中国式现代化建设新局面",
+      "summary": "全国人大代表审议全国人大常委会、最高人民法院、最高人民检察院工作报告，表示要在党中央领导下投身'十五五'改革发展。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDEBbfV9dAqgfNWDGRBxOCs260310.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260310",
+      "title": "十四届全国人大四次会议收到议案226件",
+      "summary": "十四届全国人大四次会议秘书处收到226件议案，其中28件由代表团提出，198件由代表联名提出，绝大多数为法律案，另收到代表建议7000余件。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDEqPlOVDEcRafZ0zr8W9ij260310.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260310",
+      "title": "国际人士表示中国经济社会发展稳步推进为全球带来更多机遇",
+      "summary": "国际人士表示中国着力推动高质量发展，坚持民生为大，将继续稳步推进经济社会发展，为全球带来稳定性和机遇。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDEpHlS4fy4rRHYjP94S6u2260310.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260309"
+  "last_updated": "20260310"
 }

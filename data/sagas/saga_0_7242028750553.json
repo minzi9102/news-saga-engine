@@ -92,7 +92,15 @@
       "source_url": "https://tv.cctv.com/2026/03/08/VIDEAQbYa3YCTRaYenuiZrJY260308.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260310",
+      "title": "伊朗称使用重型导弹打击美以目标 美以称打击伊朗指挥中心等目标",
+      "summary": "伊朗多地遭美以新一轮打击，伊朗反击并称战争结束由伊朗决定，美方称战事将很快结束。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDENfy4ypfJMDnmcTCbvpDT260310.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260308"
+  "last_updated": "20260310"
 }

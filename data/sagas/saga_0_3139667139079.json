@@ -180,7 +180,15 @@
       "source_url": "https://tv.cctv.com/2026/02/27/VIDEHtiw5AQNHmPmSf8RjUTG260227.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260310",
+      "title": "普京称能源供应中断正冲击国际经济",
+      "summary": "普京表示中东冲突冲击全球能源体系，俄罗斯愿与欧洲合作但需明确信号。",
+      "source_url": "https://tv.cctv.com/2026/03/10/VIDEeQUZWce8BL9U0ZpoQ2zf260310.shtml#sub2",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260227"
+  "last_updated": "20260310"
 }

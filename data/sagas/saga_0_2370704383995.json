@@ -68,7 +68,31 @@
       "source_url": "https://tv.cctv.com/2026/03/10/VIDEdCvxL2sRjKBsw8E9VC2s260310.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260311",
+      "title": "全国政协十四届四次会议闭幕",
+      "summary": "全国政协十四届四次会议3月11日在京闭幕，会议通过多项决议，王沪宁主持并讲话。",
+      "source_url": "https://tv.cctv.com/2026/03/11/VIDE2vGHeWEH6dtqGJyLNHJd260311.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260311",
+      "title": "人民日报社论：同心绘就中国式现代化新图景——热烈祝贺全国政协十四届四次会议胜利闭幕",
+      "summary": "人民日报3月12日将发表社论《同心绘就中国式现代化新图景》，祝贺全国政协十四届四次会议闭幕。",
+      "source_url": "https://tv.cctv.com/2026/03/11/VIDEq02aqiuetWSsuW9Q4k1x260311.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260311",
+      "title": "全国政协十四届四次会议第三场“委员通道”开启",
+      "summary": "全国政协十四届四次会议举行第三场委员通道，李心草、程玉珍、陈季敏等8位委员就文化传播、乡村振兴、澳门科研发展等议题接受采访。",
+      "source_url": "https://tv.cctv.com/2026/03/11/VIDEKK4HNnBg103beKPdoCZm260311.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260310"
+  "last_updated": "20260311"
 }

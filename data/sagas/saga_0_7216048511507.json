@@ -228,7 +228,39 @@
       "source_url": "https://tv.cctv.com/2026/03/10/VIDEpHlS4fy4rRHYjP94S6u2260310.shtml",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260311",
+      "title": "十四届全国人大四次会议主席团常务主席第二次会议举行",
+      "summary": "十四届全国人大四次会议主席团常务主席第二次会议在京举行，审议生态环境法典等草案表决稿及多项报告决议草案。",
+      "source_url": "https://tv.cctv.com/2026/03/11/VIDEpzxsHMf7gmCjQmulqelk260311.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260311",
+      "title": "十四届全国人大四次会议主席团举行第三次会议",
+      "summary": "十四届全国人大四次会议主席团举行第三次会议，审议并通过生态环境法典、民族团结进步促进法、国家发展规划法草案表决稿，以及关于全国人大常委会、最高人民法院、最高人民检察院工作报告的决议草案。",
+      "source_url": "https://tv.cctv.com/2026/03/11/VIDEhW2df5iLFLurAVw6qVvK260311.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260311",
+      "title": "本台明天将直播十四届全国人大四次会议闭幕会",
+      "summary": "十四届全国人大四次会议将于3月12日下午3时在北京人民大会堂闭幕，赵乐际委员长将发表讲话。",
+      "source_url": "https://tv.cctv.com/2026/03/11/VIDEroZwpXmvkeNjpov87itT260311.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260311",
+      "title": "国际人士表示中国的稳健发展对世界具有重大意义",
+      "summary": "国际人士表示两会传递中国推动'十五五'良好开局的信号，中国高质量发展为全球注入信心并提供发展借鉴。",
+      "source_url": "https://tv.cctv.com/2026/03/11/VIDEvjS68Nt3f5KOazMOkIYq260311.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260310"
+  "last_updated": "20260311"
 }

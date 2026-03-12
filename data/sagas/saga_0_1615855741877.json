@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/02/25/VIDE312EQJWgrNjQB0J4kmbg260225.shtml",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "2025年我国林草覆盖率超56%",
+      "summary": "全国绿化委员会发布《2025年中国国土绿化状况公报》，全年完成营造林356.3万公顷，森林覆盖率达25.09%，林草产业总产值近11万亿元。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEqD5mgdMBjhQiS7gZ5SuC260312.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260225"
+  "last_updated": "20260312"
 }

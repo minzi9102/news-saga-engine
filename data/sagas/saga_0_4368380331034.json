@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDEBlWpCFBuWkAZdsCPaqaN260131.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "长三角首台“华龙一号”核电机组并网发电",
+      "summary": "长三角首台“华龙一号”核电机组——中广核浙江三澳核电1号机组成功并网发电。项目规划6台机组，全部建成后年发电能力预计超540亿千瓦时。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEX1GSDwvdYzFoIKY6q3ac260312.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260312"
 }

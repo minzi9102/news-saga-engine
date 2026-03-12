@@ -260,7 +260,79 @@
       "source_url": "https://tv.cctv.com/2026/03/11/VIDEvjS68Nt3f5KOazMOkIYq260311.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "十四届全国人大四次会议在京闭幕",
+      "summary": "十四届全国人大四次会议在京闭幕，批准政府工作报告和'十五五'规划纲要，通过生态环境法典等法律，习近平签署主席令。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEZexerut03yw5MgOiK6LH260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 5
+    },
+    {
+      "date": "20260312",
+      "title": "习近平签署国家主席令",
+      "summary": "2026年3月12日，国家主席习近平签署主席令，公布《生态环境法典》、《民族团结进步促进法》、《国家发展规划法》三部法律，并废止《全民所有制工业企业法》。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEAOq39pRnTf8eHdvqZclm260312.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
+    },
+    {
+      "date": "20260312",
+      "title": "十四届全国人大四次会议主席团常务主席第三次会议举行",
+      "summary": "十四届全国人大四次会议主席团常务主席第三次会议在北京举行，审议政府工作报告等七个决议草案和法律清理决定草案，同意提交主席团第四次会议审议。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEN8PzD0UN8SwV4NqSNZWY260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "十四届全国人大四次会议主席团举行第四次会议",
+      "summary": "十四届全国人大四次会议主席团举行第四次会议，决定将政府工作报告等七项决议草案提请大会全体会议表决。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDECULBJHCeF9GpQOOT1eoa260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "人民日报社论：以实干成就伟业 以创新赢得未来——热烈祝贺十四届全国人大四次会议胜利闭幕",
+      "summary": "人民日报3月13日将发表社论《以实干成就伟业 以创新赢得未来》，祝贺十四届全国人大四次会议闭幕。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEud1qt83Vu7PS9S3LSJKj260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "十四届全国人大四次会议第三场“代表通道”开启",
+      "summary": "十四届全国人大四次会议第三场“代表通道”开启，吕妍、王国栋、李刚等六位代表就生态保护、产业扶贫、技术攻关等话题回答提问。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEdJ5rTqQYN2YaR3oB623y260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "两会“部长通道”：传递权威声音 回应社会关切",
+      "summary": "十四届全国人大四次会议举行第三场'部长通道'，司法部、自然资源部、生态环境部负责人就立法、耕地保护、污染防治等答记者问。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEDbweNs5dtvsdOvTp9I6m260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260312",
+      "title": "【新闻特写】开放的盛会 自信的中国",
+      "summary": "全国两会期间举行'代表通道''委员通道''部长通道'，18位代表、26位委员和9位部长回应发展、科技、粮食安全等议题，并举办多场发布会回应经济、中美关系等关注。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEfFp6ZCktLk5Q3bUdBeHe260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260312",
+      "title": "国际社会表示中国高质量发展为全球注入稳定与信心 期待共享发展机遇",
+      "summary": "国际媒体关注中国两会，聚焦科技创新和高质量发展，认为中国为全球经济注入稳定与信心。",
+      "source_url": "https://tv.cctv.com/2026/03/12/VIDEh5iLfiGKds6SrSnbRt6H260312.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260311"
+  "last_updated": "20260312"
 }

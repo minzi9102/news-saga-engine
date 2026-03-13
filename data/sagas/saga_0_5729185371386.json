@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/08/VIDEYfQOUyJvsfWx1Pm7hICB260308.shtml#sub3",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "2026年度电影票房超110亿元",
+      "summary": "2026年中国电影总票房突破110亿元，领跑全球单一市场，全产业链产值超1600亿元。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEm8o8nLF7GBX5D0mo9cq7260313.shtml#sub10",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260308"
+  "last_updated": "20260313"
 }

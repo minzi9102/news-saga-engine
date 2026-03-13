@@ -28,7 +28,23 @@
       "source_url": "https://tv.cctv.com/2026/03/02/VIDEc5WBvK1JD4hfnLchO0vN260302.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "【在希望的田野上】抢抓农时 各地有序推进春耕春管",
+      "summary": "安徽寿县使用智能灌溉系统节水30%以上，河南植保无人机助小麦春管，河北磁县用无人机监测苗情，内蒙古河套灌区春小麦开播，广东推广密植插秧技术，四川蓬安使用自动化育秧工厂。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEgkPm5G8UMCWpHyyPMhEF260313.shtml",
+      "causal_tag": "其他",
+      "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "农资保供重点企业名单发布 国储肥有序投放",
+      "summary": "全国供销合作总社发布2026年257家农资保供重点企业名单，国家启动投放超1000万吨化肥储备保障春耕。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEm8o8nLF7GBX5D0mo9cq7260313.shtml#sub5",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260302"
+  "last_updated": "20260313"
 }

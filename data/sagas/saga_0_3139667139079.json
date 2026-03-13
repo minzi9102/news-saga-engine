@@ -188,7 +188,15 @@
       "source_url": "https://tv.cctv.com/2026/03/10/VIDEeQUZWce8BL9U0ZpoQ2zf260310.shtml#sub2",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "匈总理称欧盟摆脱俄能源是严重战略错误",
+      "summary": "匈牙利总理欧尔班批评欧盟摆脱俄罗斯能源的决定是重大战略错误，认为此举损害了德国等欧洲国家经济，并主张能源供应应多元化而非缩减。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDE92wd6GGiDo0yDjneB18D260313.shtml#sub3",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260310"
+  "last_updated": "20260313"
 }

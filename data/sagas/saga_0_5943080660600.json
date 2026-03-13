@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/06/VIDEgzknrFvjWmjNmqjOeB4H260206.shtml#sub4",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "北斗卫星导航系统实施在轨升级",
+      "summary": "北斗卫星导航系统近期将实施在轨升级，优化部分卫星工作状态，目前在轨运行卫星数量已达50颗。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEm8o8nLF7GBX5D0mo9cq7260313.shtml#sub1",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260206"
+  "last_updated": "20260313"
 }

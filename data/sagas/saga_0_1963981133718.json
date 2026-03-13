@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDEWzPPNpE4O3cRgFd6Z30Z260228.shtml",
       "causal_tag": "Inception",
       "importance": 2
+    },
+    {
+      "date": "20260313",
+      "title": "我国055型导弹驱逐舰列装数量达10艘",
+      "summary": "055型导弹驱逐舰东莞舰、安庆舰列装东部战区海军，我国055型驱逐舰列装数量达到10艘。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEY2hCHpeuZRozbdivJhg0260313.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260313"
 }

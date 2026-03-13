@@ -220,7 +220,23 @@
       "source_url": "https://tv.cctv.com/2026/03/09/VIDEFZvZdNXeDmTuj1Xosvyn260309.shtml#sub2",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "《中国物流技术发展报告（2025）》发布",
+      "summary": "中国物流与采购联合会发布《中国物流技术发展报告（2025）》，显示2025年我国物流需求规模稳步扩张，移动协作机器人、无人配送等新型装备规模化应用提升效率。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEm8o8nLF7GBX5D0mo9cq7260313.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "“十四五”期间 央企在疆完成投资约1.1万亿元",
+      "summary": "新疆与18家央企集中签署92个项目合作意向书，涵盖算力、装备制造等领域。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEm8o8nLF7GBX5D0mo9cq7260313.shtml#sub6",
+      "causal_tag": "合作签署",
+      "importance": 3
     }
   ],
-  "last_updated": "20260309"
+  "last_updated": "20260313"
 }

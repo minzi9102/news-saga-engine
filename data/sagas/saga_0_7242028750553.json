@@ -116,7 +116,23 @@
       "source_url": "https://tv.cctv.com/2026/03/12/VIDEm9U4luwGJFIxfacvbH1p260312.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260313",
+      "title": "美以称打击伊朗情报机构和核研究设施等目标 伊朗称打击美海军第五舰队总部及以军目标",
+      "summary": "美以持续空袭伊朗多地，伊朗反击称摧毁中东70%美军基地并致美航母失去战力。美加油机在伊拉克坠毁，伊朗民兵组织宣称击落。伊朗新领袖誓言复仇，以总理称正‘粉碎’伊朗政权。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEDjoCDFCEje3rtum6GTPy260313.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260313",
+      "title": "国际能源署称石油市场遇最严重供应梗阻",
+      "summary": "国际能源署报告称，中东紧张局势致霍尔木兹海峡石油运输量从日均2000万桶骤降至极低水平，引发全球供应梗阻担忧，国际油价大涨，美股三大股指跌幅超1.5%。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDE92wd6GGiDo0yDjneB18D260313.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260312"
+  "last_updated": "20260313"
 }

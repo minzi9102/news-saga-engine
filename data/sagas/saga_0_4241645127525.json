@@ -156,7 +156,15 @@
       "source_url": "https://tv.cctv.com/2026/03/11/VIDEbq2WpRG5gUQqdJtvd0vK260311.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260313",
+      "title": "国际人士表示中国为全球稳定与发展注入正能量",
+      "summary": "国际人士评价中国'十五五'规划纲要指明清晰务实目标，高质量发展与高水平开放为全球注入确定性。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDEfdWmAd2ZoFL09BtzT7QM260313.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260311"
+  "last_updated": "20260313"
 }

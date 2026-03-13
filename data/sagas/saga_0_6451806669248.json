@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/13/VIDEVFAKqXWxKrEYz8595R6z260213.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "2月社会融资规模增速保持较高水平",
+      "summary": "中国人民银行发布2月金融数据：M2余额349万亿元，同比增长9%；社会融资规模存量451万亿元，同比增长8.2%。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDERSUZRpa73nbRtcYbr3pp260313.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260213"
+  "last_updated": "20260313"
 }

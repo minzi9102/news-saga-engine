@@ -188,7 +188,15 @@
       "source_url": "https://tv.cctv.com/2026/03/12/VIDEX1GSDwvdYzFoIKY6q3ac260312.shtml#sub1",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260313",
+      "title": "米兰冬残奥会 中国队继续位居金牌榜奖牌榜首位",
+      "summary": "3月12日米兰冬残奥会，中国选手刘思彤获高山滑雪女子大回转坐姿组铜牌，轮椅冰壶队晋级半决赛，中国代表团以10金7银10铜居榜首。",
+      "source_url": "https://tv.cctv.com/2026/03/13/VIDELYlLVTkLnjpsxXWNziga260313.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260312"
+  "last_updated": "20260313"
 }

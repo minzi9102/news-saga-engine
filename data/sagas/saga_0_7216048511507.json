@@ -340,7 +340,23 @@
       "source_url": "https://tv.cctv.com/2026/03/13/VIDEnXwsSRjxLwQUsyR7QLEc260313.shtml",
       "causal_tag": "重要会议",
       "importance": 5
+    },
+    {
+      "date": "20260314",
+      "title": "《政府工作报告》单行本和视频图文版等融媒体读物及学习材料出版",
+      "summary": "2026年3月5日，国务院总理李强在第十四届全国人大四次会议上所作的《政府工作报告》单行本、视频图文版及融媒体出版物由人民出版社出版发行。",
+      "source_url": "https://tv.cctv.com/2026/03/14/VIDE6bl32TQ7BiXxV3Xh6aFL260314.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
+    },
+    {
+      "date": "20260314",
+      "title": "《中华人民共和国国民经济和社会发展第十五个五年规划纲要》单行本出版",
+      "summary": "《中华人民共和国国民经济和社会发展第十五个五年规划纲要》单行本由人民出版社出版，即日起全国发行。",
+      "source_url": "https://tv.cctv.com/2026/03/14/VIDECFsRlXJbvhEJSQlpjPAI260314.shtml",
+      "causal_tag": "政策发布",
+      "importance": 5
     }
   ],
-  "last_updated": "20260313"
+  "last_updated": "20260314"
 }

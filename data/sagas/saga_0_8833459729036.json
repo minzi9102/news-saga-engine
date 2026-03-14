@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/03/02/VIDEg2it2wdFWezBHb1mgyjM260302.shtml#sub7",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260314",
+      "title": "我国食品安全总体水平持续向好",
+      "summary": "2025年我国食品安全监管效能显著增强，出台13部规章，配备食品安全员949.2万名，大宗食品抽检合格率达99.37%。",
+      "source_url": "https://tv.cctv.com/2026/03/14/VIDESZOcoKcD0aozqzcDelXM260314.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260302"
+  "last_updated": "20260314"
 }

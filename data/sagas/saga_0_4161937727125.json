@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/07/VIDE5sZLjOdw2GiFjod3m3De260207.shtml#sub5",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260314",
+      "title": "欧元区1月工业产出环比下降1.5%",
+      "summary": "2024年1月欧元区工业产出环比下降1.5%，为2023年12月以来最低水平，德国、意大利、西班牙产出均下降。",
+      "source_url": "https://tv.cctv.com/2026/03/14/VIDEEbexLouOiXgXzzEOEZxt260314.shtml#sub5",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260207"
+  "last_updated": "20260314"
 }

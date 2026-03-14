@@ -236,7 +236,31 @@
       "source_url": "https://tv.cctv.com/2026/03/13/VIDEm8o8nLF7GBX5D0mo9cq7260313.shtml#sub6",
       "causal_tag": "合作签署",
       "importance": 3
+    },
+    {
+      "date": "20260314",
+      "title": "我国将加快场景培育开放和大规模应用",
+      "summary": "国家发改委宣布今年将推动政府、央企等开放场景资源，在全国确定100个左右标志性场景项目，包括现代农业、清洁能源走廊等。",
+      "source_url": "https://tv.cctv.com/2026/03/14/VIDEd7ozrFVgl1KwRu9X9Vkv260314.shtml",
+      "causal_tag": "政策发布",
+      "importance": 3
+    },
+    {
+      "date": "20260314",
+      "title": "工业和信息化部启动工业数据筑基行动",
+      "summary": "工信部启动工业数据筑基行动，计划到2026年底培育行业数据合作联合体，赋能行业大模型等应用落地。",
+      "source_url": "https://tv.cctv.com/2026/03/14/VIDEMDWZlzvmbZWw7m7QAZl3260314.shtml#sub1",
+      "causal_tag": "政策发布",
+      "importance": 4
+    },
+    {
+      "date": "20260314",
+      "title": "我国将加快县域充换电设施建设",
+      "summary": "我国3月起开展新一批县域充换电设施补短板试点，支持59个联合试点县，示范期3年，达标县最高可获4500万元资金支持。",
+      "source_url": "https://tv.cctv.com/2026/03/14/VIDEMDWZlzvmbZWw7m7QAZl3260314.shtml#sub2",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260313"
+  "last_updated": "20260314"
 }

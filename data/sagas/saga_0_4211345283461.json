@@ -132,7 +132,15 @@
       "source_url": "https://tv.cctv.com/2026/03/02/VIDEg2it2wdFWezBHb1mgyjM260302.shtml#sub2",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260315",
+      "title": "【新闻特写】“00后”的种菜班",
+      "summary": "四川遂宁'00后'种菜班运用数字化技术建设智慧菜园，使每亩地产值提升三倍，并带动百余名村民就业。",
+      "source_url": "https://tv.cctv.com/2026/03/15/VIDEsK5tVTmJ9hjgFyY3WezN260315.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260302"
+  "last_updated": "20260315"
 }

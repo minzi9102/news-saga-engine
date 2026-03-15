@@ -140,7 +140,23 @@
       "source_url": "https://tv.cctv.com/2026/03/14/VIDEKSytsgCGWiaHYtxk0w3p260314.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260315",
+      "title": "美以称打击伊朗防空系统生产基地 伊朗称使用导弹和无人机打击美军基地",
+      "summary": "美以对伊朗空袭15天致伊朗4.3万处民用设施受损，以军打击德黑兰打死两名伊朗高官，伊朗称打击以色列特拉维夫工业区及情报网络。",
+      "source_url": "https://tv.cctv.com/2026/03/15/VIDEaWNXFAGuIqdPtK2mzRIB260315.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260315",
+      "title": "伊拉克什叶派武装一领导人遭袭击死亡",
+      "summary": "伊拉克什叶派民兵武装“真主旅”称其巴格达建筑遭美以无人机袭击，致3人死亡，包括高级领导人阿提耶。美国驻伊使馆要求公民立即离境。",
+      "source_url": "https://tv.cctv.com/2026/03/15/VIDEmLyf9FlNsYjWJyIrHDn6260315.shtml#sub2",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260314"
+  "last_updated": "20260315"
 }

@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/03/14/VIDEEbexLouOiXgXzzEOEZxt260314.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260315",
+      "title": "黎医疗机构和人员连续遭到以色列空袭",
+      "summary": "以色列袭击黎巴嫩医疗目标致31名医务人员死亡，真主党否认以方指控并宣布在黎以边境与以军交火。",
+      "source_url": "https://tv.cctv.com/2026/03/15/VIDEmLyf9FlNsYjWJyIrHDn6260315.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260314"
+  "last_updated": "20260315"
 }

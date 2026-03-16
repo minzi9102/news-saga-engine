@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/01/31/VIDE3ee0OO9uws2kQ1QrKcP6260131.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260316",
+      "title": "李强主持召开国务院第十一次全体会议",
+      "summary": "国务院总理李强主持召开国务院全体会议，部署落实2026年重点工作，强调纵深推进全国统一大市场建设等六项任务。",
+      "source_url": "https://tv.cctv.com/2026/03/16/VIDESrrXhwmwdDHO2BXXHbdC260316.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260131"
+  "last_updated": "20260316"
 }

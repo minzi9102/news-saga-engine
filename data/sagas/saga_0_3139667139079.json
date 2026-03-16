@@ -212,7 +212,15 @@
       "source_url": "https://tv.cctv.com/2026/03/15/VIDEmLyf9FlNsYjWJyIrHDn6260315.shtml#sub3",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260316",
+      "title": "俄称乌克兰问题三方会谈暂停",
+      "summary": "俄罗斯称因美国需优先处理中东局势，俄美乌三方会谈暂停，俄军在前线推进。",
+      "source_url": "https://tv.cctv.com/2026/03/16/VIDEmO7hlIVaN9tjkmN3z0Y0260316.shtml#sub3",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260315"
+  "last_updated": "20260316"
 }

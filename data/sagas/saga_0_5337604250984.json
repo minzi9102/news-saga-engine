@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/16/VIDEmO7hlIVaN9tjkmN3z0Y0260316.shtml#sub1",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260317",
+      "title": "美国驻伊拉克大使馆接连遭袭",
+      "summary": "美国驻伊拉克巴格达大使馆遭袭起火，系上月底以来规模最大袭击，什叶派民兵组织发布袭击视频。",
+      "source_url": "https://tv.cctv.com/2026/03/17/VIDEeQFv0GpVzNwJOoMExV08260317.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260316"
+  "last_updated": "20260317"
 }

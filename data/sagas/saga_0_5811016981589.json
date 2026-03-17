@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/03/05/VIDEXYaDgIxArWRPfxFyqzmL260305.shtml#sub2",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260317",
+      "title": "中美在法国巴黎举行经贸磋商",
+      "summary": "中美经贸中方牵头人何立峰与美方牵头人贝森特、格里尔在巴黎举行磋商，围绕关税、双边贸易投资等议题交流，形成新共识并同意继续磋商。",
+      "source_url": "https://tv.cctv.com/2026/03/17/VIDE8f13akF1HfYlOuFH2w7t260317.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260305"
+  "last_updated": "20260317"
 }

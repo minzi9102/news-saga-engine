@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/01/VIDE8Yu79IQSPu66YSlOYUeX260201.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260317",
+      "title": "神舟二十一号航天员乘组圆满完成第二次出舱活动",
+      "summary": "神舟二十一号航天员张陆、武飞完成第二次出舱活动，历时7小时安装空间碎片防护装置。张陆累计舱外活动6次。",
+      "source_url": "https://tv.cctv.com/2026/03/17/VIDEZDYIoMydS0hyIfpZ5Npb260317.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260201"
+  "last_updated": "20260317"
 }

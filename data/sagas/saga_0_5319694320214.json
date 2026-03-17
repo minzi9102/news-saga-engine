@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDE6EDgMZoF02MQmQNWmH3z260228.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260317",
+      "title": "国家发展改革委推出新一批重大外资项目",
+      "summary": "国家发改委推出新一批13个标志性重大外资项目，计划投资额134亿美元，主要集中在制造业和物流等领域。",
+      "source_url": "https://tv.cctv.com/2026/03/17/VIDEpesNa4zipzQzhaBCuaaz260317.shtml",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260317"
 }

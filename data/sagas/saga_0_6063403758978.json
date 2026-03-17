@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/03/09/VIDEcEeKQeGu7IUVYbF1euvb260309.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260317",
+      "title": "粮农组织称冲突冲击全球能源农业供应链",
+      "summary": "联合国粮农组织报告称，中东冲突冲击全球能源、化肥和农业供应链，或致上半年全球化肥价格同比上涨15%至20%。",
+      "source_url": "https://tv.cctv.com/2026/03/17/VIDED9DFfKJX2WbtemDroHGN260317.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260309"
+  "last_updated": "20260317"
 }

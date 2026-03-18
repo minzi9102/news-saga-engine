@@ -36,7 +36,15 @@
       "source_url": "https://tv.cctv.com/2026/02/07/VIDEbFB0QtPAm1Z7n9uPHgPG260207.shtml",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260318",
+      "title": "日本民众集会抗议高市政权危险军事扩张政策",
+      "summary": "部分日本民众在首相官邸前举行抗议集会，反对日本政府大幅增加防卫预算。",
+      "source_url": "https://tv.cctv.com/2026/03/18/VIDEcsPMkheOu5xk6fW0lTB2260318.shtml",
+      "causal_tag": "其他",
+      "importance": 2
     }
   ],
-  "last_updated": "20260207"
+  "last_updated": "20260318"
 }

@@ -60,7 +60,15 @@
       "source_url": "https://tv.cctv.com/2026/03/17/VIDED9DFfKJX2WbtemDroHGN260317.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260318",
+      "title": "以军空袭黎巴嫩南部等地",
+      "summary": "以色列军方3月18日空袭黎巴嫩南部真主党设施，此前真主党向以色列发射火箭弹，黎方称空袭致3名政府军人员死亡、4人受伤。",
+      "source_url": "https://tv.cctv.com/2026/03/18/VIDEOwuu3AHy1ah9JbpAeNRw260318.shtml#sub2",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260317"
+  "last_updated": "20260318"
 }

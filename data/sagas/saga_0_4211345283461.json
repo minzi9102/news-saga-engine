@@ -148,7 +148,15 @@
       "source_url": "https://tv.cctv.com/2026/03/16/VIDEZl0VlAYZK7HSpiFV3Ivc260316.shtml#sub4",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260318",
+      "title": "我国乡村建设行动进展显著",
+      "summary": "截至2025年底，我国农村自来水普及率达96%，行政村通5G占比达95%，农村卫生厕所普及率约77%。",
+      "source_url": "https://tv.cctv.com/2026/03/18/VIDEf6Y1hUNvt4sso5Bganai260318.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260316"
+  "last_updated": "20260318"
 }

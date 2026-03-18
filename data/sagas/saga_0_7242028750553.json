@@ -172,7 +172,23 @@
       "source_url": "https://tv.cctv.com/2026/03/17/VIDEIOShsw5ZP2JfOVTSCzBA260317.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260318",
+      "title": "伊朗发动攻势报复拉里贾尼遇害 美军称打击霍尔木兹海峡沿岸伊朗导弹阵地",
+      "summary": "伊朗最高国家安全委员会秘书阿里·拉里贾尼在以色列空袭中遇害，伊朗革命卫队发射导弹袭击以色列特拉维夫作为报复，造成2人死亡。美军同时打击了伊朗导弹阵地。",
+      "source_url": "https://tv.cctv.com/2026/03/18/VIDEz8k8sukqXZYExGTCHDD4260318.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260318",
+      "title": "美“福特”号航母因火灾影响将进港维修",
+      "summary": "美军'福特'号航母因洗衣房火灾致3人受伤、200多人吸入浓烟，将离开红海赴希腊维修。",
+      "source_url": "https://tv.cctv.com/2026/03/18/VIDEb1M41YhDXtYoJvuFu9Ik260318.shtml",
+      "causal_tag": "灾害事故",
+      "importance": 2
     }
   ],
-  "last_updated": "20260317"
+  "last_updated": "20260318"
 }

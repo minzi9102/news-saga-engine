@@ -228,7 +228,15 @@
       "source_url": "https://tv.cctv.com/2026/03/17/VIDED9DFfKJX2WbtemDroHGN260317.shtml#sub2",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260319",
+      "title": "俄方说俄美乌安全问题工作组已暂停工作",
+      "summary": "俄罗斯总统新闻秘书佩斯科夫表示，俄美乌三方安全问题工作组已暂停工作，但俄美双边经济问题工作组仍在继续。",
+      "source_url": "https://tv.cctv.com/2026/03/19/VIDEH6yD8vNMSnWJrSjmqlyz260319.shtml#sub2",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260317"
+  "last_updated": "20260319"
 }

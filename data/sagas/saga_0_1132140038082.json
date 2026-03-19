@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/21/VIDEnkG1SbEc7lyg5fstyBR0260221.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260319",
+      "title": "【新闻特写】不一样的城市更新",
+      "summary": "深圳罗湖区对玉龙垃圾填埋场进行开挖修复，计划清理后释放几十公顷土地，引入人工智能、生命健康等新兴产业。",
+      "source_url": "https://tv.cctv.com/2026/03/19/VIDEFngewIqZLRyPoUOoKLKD260319.shtml",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260221"
+  "last_updated": "20260319"
 }

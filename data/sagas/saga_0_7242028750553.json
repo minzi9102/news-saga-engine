@@ -188,7 +188,15 @@
       "source_url": "https://tv.cctv.com/2026/03/18/VIDEb1M41YhDXtYoJvuFu9Ik260318.shtml",
       "causal_tag": "灾害事故",
       "importance": 2
+    },
+    {
+      "date": "20260319",
+      "title": "以色列称以美协调行动袭击伊朗能源设施 伊朗称对与美相关能源设施展开报复",
+      "summary": "伊朗布什尔省能源设施遭美以袭击，伊朗总统谴责并宣布报复，国际油价上涨，欧洲多国表示不参与军事行动。",
+      "source_url": "https://tv.cctv.com/2026/03/19/VIDE5VxlySuCUHwK1HQ3G4gp260319.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260318"
+  "last_updated": "20260319"
 }

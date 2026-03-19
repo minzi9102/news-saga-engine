@@ -68,7 +68,15 @@
       "source_url": "https://tv.cctv.com/2026/03/18/VIDEOwuu3AHy1ah9JbpAeNRw260318.shtml#sub2",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260319",
+      "title": "黎巴嫩称以军空袭已致968人死亡",
+      "summary": "以色列空袭贝鲁特市中心致12死数十伤，以军称打击真主党用于运送武器的桥梁，真主党武装反击以军坦克和士兵。",
+      "source_url": "https://tv.cctv.com/2026/03/19/VIDEH6yD8vNMSnWJrSjmqlyz260319.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260318"
+  "last_updated": "20260319"
 }

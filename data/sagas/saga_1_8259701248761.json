@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/03/18/VIDEcsPMkheOu5xk6fW0lTB2260318.shtml",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260320",
+      "title": "日本民众集会抗议高市政权危险政策动向",
+      "summary": "日本民众在东京国会议员会馆前集会，抗议高市政权推动修宪、扩军及部署导弹等政策，认为其正侵蚀战后和平秩序。",
+      "source_url": "https://tv.cctv.com/2026/03/20/VIDEFokuwD2WJKpaDvAgigFF260320.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260318"
+  "last_updated": "20260320"
 }

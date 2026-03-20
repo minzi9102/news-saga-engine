@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/19/VIDESR6em2LbC13TNfSOXBRv260219.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260320",
+      "title": "世贸组织下调今年全球货物贸易增速",
+      "summary": "世贸组织预计2026年全球货物贸易增速为1.9%，相比2025年下滑较大，中东冲突可能进一步拖累增长。",
+      "source_url": "https://tv.cctv.com/2026/03/20/VIDExYKxxjERJIPt1GP0N9Re260320.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260219"
+  "last_updated": "20260320"
 }

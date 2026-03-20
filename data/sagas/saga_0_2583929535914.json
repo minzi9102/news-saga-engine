@@ -100,7 +100,15 @@
       "source_url": "https://tv.cctv.com/2026/03/15/VIDEQIDHRZsCTFo3Wwp2wv33260315.shtml",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260320",
+      "title": "我国人均体育场地面积达3.11平方米",
+      "summary": "截至2025年底，全国体育场地达500.37万个，总面积43.72亿平方米，人均3.11平方米。",
+      "source_url": "https://tv.cctv.com/2026/03/20/VIDEgS3SNlW67P3Dd9Dk0GTC260320.shtml#sub7",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260315"
+  "last_updated": "20260320"
 }

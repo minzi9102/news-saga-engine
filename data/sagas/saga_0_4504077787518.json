@@ -276,7 +276,15 @@
       "source_url": "https://tv.cctv.com/2026/03/18/VIDEEIj2ReBc0oc8XYRkMHwN260318.shtml",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260320",
+      "title": "前2个月深圳货物贸易进出口超8000亿元 规模创新高",
+      "summary": "深圳前2个月进出口总值8242.3亿元，同比增长37.3%，创历史同期新高。人工智能相关电子元件、电脑零部件进出口贡献率达38.3%。",
+      "source_url": "https://tv.cctv.com/2026/03/20/VIDEgS3SNlW67P3Dd9Dk0GTC260320.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260318"
+  "last_updated": "20260320"
 }

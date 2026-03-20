@@ -108,7 +108,15 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDEFYwTAtfWMgVynZW93ZzK260228.shtml#sub2",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260320",
+      "title": "欧盟谴责以单方面扩大在约旦河西岸行动",
+      "summary": "欧洲理事会谴责以色列扩大约旦河西岸行动，敦促其撤销决定并保护巴勒斯坦民众。",
+      "source_url": "https://tv.cctv.com/2026/03/20/VIDExYKxxjERJIPt1GP0N9Re260320.shtml#sub3",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260320"
 }

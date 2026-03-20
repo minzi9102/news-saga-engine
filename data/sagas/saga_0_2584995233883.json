@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/03/07/VIDEVpZhJ31e1gc6Yjw9qKyw260307.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260320",
+      "title": "王沪宁会见美国哈佛大学教授",
+      "summary": "全国政协主席王沪宁在京会见美国哈佛大学教授艾利森，双方就中美关系、台湾问题及国际形势交换意见。",
+      "source_url": "https://tv.cctv.com/2026/03/20/VIDEGsWhLV3FWJwcow2zrNvR260320.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260307"
+  "last_updated": "20260320"
 }

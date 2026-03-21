@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/20/VIDEg8pTAJc3hRnOFtxdbt1B260320.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260321",
+      "title": "我国森林资源持续增长 成全球增绿主力",
+      "summary": "国家林草局数据显示，我国森林面积达36.14亿亩，覆盖率25.09%，蓄积量209.88亿立方米，成为全球增绿主力。林草产业总产值近11万亿元，带动超6000万人就业。",
+      "source_url": "https://tv.cctv.com/2026/03/21/VIDEmkrwhtFxU9AkQ6BMAYuO260321.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260320"
+  "last_updated": "20260321"
 }

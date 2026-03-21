@@ -84,7 +84,15 @@
       "source_url": "https://tv.cctv.com/2026/03/20/VIDExYKxxjERJIPt1GP0N9Re260320.shtml#sub2",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260321",
+      "title": "黎巴嫩称以色列袭击已致黎超千人死亡",
+      "summary": "以色列军方继续打击黎巴嫩真主党在贝鲁特南郊的军事设施，真主党则向以色列北部以军基地发射火箭弹。黎方数据显示，自3月2日以来以军袭击已致1021人死亡、2641人受伤。",
+      "source_url": "https://tv.cctv.com/2026/03/21/VIDEOHfbUJkssakwjsK423Xk260321.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260320"
+  "last_updated": "20260321"
 }

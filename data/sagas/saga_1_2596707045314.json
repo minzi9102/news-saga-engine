@@ -108,7 +108,15 @@
       "source_url": "https://tv.cctv.com/2026/02/14/VIDETxP7EDGls2rhOHmtYf6c260214.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260321",
+      "title": "拨款法案受阻 美国土安全部“停摆”持续",
+      "summary": "美国参议院20日未能推进国土安全部拨款法案，部门停摆持续，多地机场30%-40%安检人员请假。",
+      "source_url": "https://tv.cctv.com/2026/03/21/VIDEOHfbUJkssakwjsK423Xk260321.shtml#sub2",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260214"
+  "last_updated": "20260321"
 }

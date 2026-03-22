@@ -212,7 +212,23 @@
       "source_url": "https://tv.cctv.com/2026/03/21/VIDE6XeFsllzcxEwoJ47hP7H260321.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260322",
+      "title": "美以打击伊朗核设施等目标 伊朗打击以色列南部多个城市",
+      "summary": "美以袭击伊朗超8万民用设施，伊朗反击以色列南部城市及美军基地，特朗普威胁48小时内开放霍尔木兹海峡，英国核潜艇抵达阿拉伯海，多国民众反战抗议。",
+      "source_url": "https://tv.cctv.com/2026/03/22/VIDE7fjiVHMuDurCrvRoJYUI260322.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260322",
+      "title": "以军称批准对黎真主党新作战计划 黎真主党称打击以防空系统",
+      "summary": "以色列国防军在黎巴嫩南部展开地面行动，打死10多名真主党武装人员并缴获装备。以军计划部署第162师，届时在黎南部的部队将达5个师。",
+      "source_url": "https://tv.cctv.com/2026/03/22/VIDEdrrAqzyka6KrYPa25QcW260322.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260321"
+  "last_updated": "20260322"
 }

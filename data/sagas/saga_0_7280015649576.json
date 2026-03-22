@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/02/16/VIDERVpKAbdOJeNZ0xxf1dwm260216.shtml#sub1",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260322",
+      "title": "习近平向拉美和加勒比国家共同体第十届峰会致贺电",
+      "summary": "习近平向拉共体第十届峰会致贺电，重申支持拉美国家主权安全发展利益，愿共同书写中拉命运共同体新篇章。",
+      "source_url": "https://tv.cctv.com/2026/03/22/VIDExFQwjEnr3D97G6ep1vcX260322.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260216"
+  "last_updated": "20260322"
 }

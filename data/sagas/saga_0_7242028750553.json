@@ -228,7 +228,23 @@
       "source_url": "https://tv.cctv.com/2026/03/22/VIDEdrrAqzyka6KrYPa25QcW260322.shtml",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260323",
+      "title": "美以袭击伊朗武器生产设施等目标 伊朗打击以军事部署点",
+      "summary": "美以对伊朗军事打击进入第24天，以军称大规模打击德黑兰基础设施，伊朗称发动第74、75波攻势反击。伊朗外长谴责美以袭击核设施，总统回应霍尔木兹海峡威胁。",
+      "source_url": "https://tv.cctv.com/2026/03/23/VIDEy1tAHZnOwnamFBwMOrQI260323.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260323",
+      "title": "以军称空袭黎巴嫩南部一座桥梁 黎总统谴责以方侵犯主权",
+      "summary": "以色列空袭黎巴嫩南部卡西米耶大桥等目标，称旨在阻止真主党运输，并宣布打死其高级指挥官。黎总统谴责此举为战事升级和主权侵犯。",
+      "source_url": "https://tv.cctv.com/2026/03/23/VIDEPsGtb1AafASnSCl03g7B260323.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260322"
+  "last_updated": "20260323"
 }

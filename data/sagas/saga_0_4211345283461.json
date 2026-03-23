@@ -164,7 +164,23 @@
       "source_url": "https://tv.cctv.com/2026/03/20/VIDE7ul3yauKfsZcSWz0p6UY260320.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260323",
+      "title": "2026年中央财政强农惠农富农政策清单发布",
+      "summary": "农业农村部发布2026年中央财政强农惠农富农政策清单，包含耕地地力保护补贴、农机购置与应用补贴等16项重点内容，重点支持粮食等重要农产品供给保障。",
+      "source_url": "https://tv.cctv.com/2026/03/23/VIDECpIHHYJaH1EU3b5Q2vtf260323.shtml#sub1",
+      "causal_tag": "政策发布",
+      "importance": 3
+    },
+    {
+      "date": "20260323",
+      "title": "今年我国将培育1万名乡村工匠",
+      "summary": "农业农村部等7部门计划今年培育100名全国乡村工匠名师，引导地方培育万名工匠，推动乡村手工产业发展。目前全国已支持超13万名乡村传统艺人和手工业者。",
+      "source_url": "https://tv.cctv.com/2026/03/23/VIDECpIHHYJaH1EU3b5Q2vtf260323.shtml#sub3",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260320"
+  "last_updated": "20260323"
 }

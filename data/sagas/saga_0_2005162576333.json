@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/26/VIDEQfvLmYGa9BP5leEGU3Iu260226.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260325",
+      "title": "李强同荷兰首相通电话",
+      "summary": "国务院总理李强同荷兰首相耶滕通电话，双方表示愿巩固政治互信，促进经贸、创新等领域合作，并共同推动中欧关系发展。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDEn7T5gKg1vtqOWTEDSzJ7260325.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260226"
+  "last_updated": "20260325"
 }

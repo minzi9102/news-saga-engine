@@ -252,7 +252,15 @@
       "source_url": "https://tv.cctv.com/2026/03/21/VIDEOHfbUJkssakwjsK423Xk260321.shtml#sub4",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260325",
+      "title": "俄称发动大规模打击 乌称打击俄哨所",
+      "summary": "俄军24日对乌导弹工厂、军用机场等目标发动大规模打击，作为对乌袭击俄民用设施的回应。乌方称俄出动近千架无人机，拦截500多架。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDEOfRMDcFH7J0oeAJ1s722260325.shtml#sub2",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260321"
+  "last_updated": "20260325"
 }

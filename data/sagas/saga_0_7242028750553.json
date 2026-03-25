@@ -244,7 +244,15 @@
       "source_url": "https://tv.cctv.com/2026/03/23/VIDEPsGtb1AafASnSCl03g7B260323.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260325",
+      "title": "伊朗称布什尔核电站再次遭袭 以媒称以色列内盖夫地区传出爆炸声",
+      "summary": "美以持续空袭伊朗多地，伊朗布什尔核电站再遭袭击，民用设施受损严重。伊朗反击以色列及美军基地，并任命新国家安全委员会秘书。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDE6gNL7F5ItlLucWMzMIbD260325.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260323"
+  "last_updated": "20260325"
 }

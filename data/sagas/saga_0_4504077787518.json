@@ -292,7 +292,23 @@
       "source_url": "https://tv.cctv.com/2026/03/22/VIDEXg9QH0FbV1x2Lfik7tcE260322.shtml#sub6",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260325",
+      "title": "2025年我国新培育绿色工厂2038家",
+      "summary": "2025年我国新培育绿色工厂2038家、绿色工业园区128家，累计绿色工厂达8336家，产值占规模以上制造业总产值22%。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDEDF1hrYvMfHB8g26jR4t1260325.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260325",
+      "title": "我国人工智能产业日均词元调用量超140万亿",
+      "summary": "今年3月我国日均词元调用量超140万亿，较年初增长超千倍，相关数据领域国家标准正加快研制。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDEDF1hrYvMfHB8g26jR4t1260325.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260322"
+  "last_updated": "20260325"
 }

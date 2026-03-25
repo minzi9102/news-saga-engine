@@ -12,7 +12,23 @@
       "source_url": "https://tv.cctv.com/2026/03/23/VIDEasS5Xtawh4hMqPcWVN6u260323.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260325",
+      "title": "赵乐际分别会见阿塞拜疆国民会议主席、哈萨克斯坦第一副总理",
+      "summary": "赵乐际在博鳌会见阿塞拜疆国民会议主席加法罗娃和哈萨克斯坦第一副总理斯克利亚尔，就深化双边关系与务实合作交换意见。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDEII2ZZwKvfxZZhnE5dEXc260325.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260325",
+      "title": "博鳌亚洲论坛：中国发展为世界带来新机遇",
+      "summary": "博鳌亚洲论坛2026年年会举行，外国嘉宾认为中国'十五五'规划将为世界提供合作新机遇，注入确定性。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDEY0BJ8usN5gMB6AURZaKW260325.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260323"
+  "last_updated": "20260325"
 }

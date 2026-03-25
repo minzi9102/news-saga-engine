@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/12/VIDECZRHCJJP2Lln9g1A0I80260212.shtml",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260325",
+      "title": "2025年度“中国科学十大进展”发布",
+      "summary": "国家自然科学基金委员会发布2025年度“中国科学十大进展”，嫦娥六号样品首次揭示月背演化历史等十项基础研究入选。",
+      "source_url": "https://tv.cctv.com/2026/03/25/VIDEDF1hrYvMfHB8g26jR4t1260325.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260212"
+  "last_updated": "20260325"
 }

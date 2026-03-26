@@ -36,7 +36,15 @@
       "source_url": "https://tv.cctv.com/2026/03/21/VIDE90QtKpR1vzXtNVWndqz4260321.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260326",
+      "title": "伊拉克国防部下属基地遭袭 7人死亡",
+      "summary": "伊拉克哈巴尼亚基地遭空袭致7名士兵死亡、13人受伤，伊拉克民兵武装指责美国和以色列发动袭击。",
+      "source_url": "https://tv.cctv.com/2026/03/26/VIDE9aQdfWCA7hAvR1jFQIrl260326.shtml#sub2",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260321"
+  "last_updated": "20260326"
 }

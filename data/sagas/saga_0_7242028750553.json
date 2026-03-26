@@ -252,7 +252,23 @@
       "source_url": "https://tv.cctv.com/2026/03/25/VIDE6gNL7F5ItlLucWMzMIbD260325.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260326",
+      "title": "美以称打击伊朗军事工业等目标 伊朗称打击以空军基地和美航母",
+      "summary": "美以对伊朗军事行动进入第27天，双方互相打击军事设施。美伊就结束战争进行接触，伊朗提出停战条件。美媒称美正制定包含地面进攻的选项，伊朗警告代价高昂。",
+      "source_url": "https://tv.cctv.com/2026/03/26/VIDEryBEUp50LwVn1T6k6T1l260326.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260326",
+      "title": "欧洲央行警告中东战事影响欧元区经济",
+      "summary": "欧洲央行行长拉加德表示，美以对伊朗军事打击导致能源供应受阻，可能推高通胀率，使欧元区经济前景面临新不确定性。",
+      "source_url": "https://tv.cctv.com/2026/03/26/VIDE9aQdfWCA7hAvR1jFQIrl260326.shtml#sub4",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260325"
+  "last_updated": "20260326"
 }

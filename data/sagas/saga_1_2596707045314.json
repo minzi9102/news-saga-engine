@@ -140,7 +140,15 @@
       "source_url": "https://tv.cctv.com/2026/03/25/VIDEOfRMDcFH7J0oeAJ1s722260325.shtml#sub3",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260326",
+      "title": "美总统称或在美机场部署国民警卫队",
+      "summary": "美国多地机场因安检人员短缺出现严重排队和航班延误，特朗普称可能调遣国民警卫队协助。运输安全管理局警告可能被迫关闭部分机场。",
+      "source_url": "https://tv.cctv.com/2026/03/26/VIDEFqlDac9QrH2IaIUYIjhw260326.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260325"
+  "last_updated": "20260326"
 }

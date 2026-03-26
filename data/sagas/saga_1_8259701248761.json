@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/03/20/VIDEFokuwD2WJKpaDvAgigFF260320.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260326",
+      "title": "日本民众举行集会 反对高市政权军事扩张政策",
+      "summary": "数千日本民众在国会前集会，反对高市政权推动军事扩张和修改和平宪法。",
+      "source_url": "https://tv.cctv.com/2026/03/26/VIDEQdp6KQY2XBskC2bMhwdX260326.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260320"
+  "last_updated": "20260326"
 }

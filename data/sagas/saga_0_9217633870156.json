@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/20/VIDEvzJ4esRAhO8A4xYI86oU260220.shtml",
       "causal_tag": "数据公布",
       "importance": 2
+    },
+    {
+      "date": "20260326",
+      "title": "今年前两个月5G和千兆用户规模持续扩大",
+      "summary": "截至2月末，我国5G移动电话用户达12.35亿户，占移动电话用户超三分之二；5G基站总数达490.9万个；固定宽带用户6.94亿户，千兆用户占比35.3%。",
+      "source_url": "https://tv.cctv.com/2026/03/26/VIDE9n2m2WNQr04To3vbe0vJ260326.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260220"
+  "last_updated": "20260326"
 }

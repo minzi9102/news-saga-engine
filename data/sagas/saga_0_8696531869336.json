@@ -36,7 +36,23 @@
       "source_url": "https://tv.cctv.com/2026/03/26/VIDEwc9IvS7Zc9uYV6kykX1o260326.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260327",
+      "title": "赵乐际同中外企业家代表座谈",
+      "summary": "赵乐际在博鳌与中外企业家座谈，强调中国维护多边贸易体制，欢迎各国企业投资中国。",
+      "source_url": "https://tv.cctv.com/2026/03/27/VIDEKrkB1y8Y1J4yHf2FO2V2260327.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260327",
+      "title": "博鳌亚洲论坛2026年年会今天闭幕",
+      "summary": "博鳌亚洲论坛2026年年会闭幕，发布《促进亚洲区域合作的倡议》，呼吁坚持开放发展、强化数智赋能、推动绿色转型和深化互联互通。",
+      "source_url": "https://tv.cctv.com/2026/03/27/VIDE3YtkgWz9vlzb5ATjUkPI260327.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260326"
+  "last_updated": "20260327"
 }

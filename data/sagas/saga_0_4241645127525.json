@@ -180,7 +180,15 @@
       "source_url": "https://tv.cctv.com/2026/03/22/VIDEBCFQiTTjHAzdWejx1hPU260322.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260327",
+      "title": "李强主持召开国务院常务会议",
+      "summary": "国务院常务会议学习贯彻习近平总书记雄安新区建设重要讲话精神，研究服务业发展和分级诊疗体系建设政策措施。",
+      "source_url": "https://tv.cctv.com/2026/03/27/VIDEJafgrgDcpmHSftEaJ9Vh260327.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260322"
+  "last_updated": "20260327"
 }

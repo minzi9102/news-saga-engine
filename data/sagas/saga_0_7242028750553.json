@@ -276,7 +276,23 @@
       "source_url": "https://tv.cctv.com/2026/03/27/VIDEH5oK7SEymnKpPXXVTvoC260327.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260328",
+      "title": "美以空袭伊朗核设施等目标 伊朗称打击美军基地摧毁美加油机",
+      "summary": "美以持续对伊朗军事行动超4周，空袭伊朗核设施及民用目标，伊朗反击驻有美军的沙特基地。胡塞武装首次向以色列发射导弹，国际油价突破每桶100美元。",
+      "source_url": "https://tv.cctv.com/2026/03/28/VIDEqqvJlcw98WAZhmZfXIyS260328.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260328",
+      "title": "联合国特别报告员称美军蓄意袭击伊朗米纳卜小学",
+      "summary": "联合国人权理事会就伊朗米纳卜小学遭袭举行紧急辩论，伊朗外长称美以军事行动已致600多所学校被毁或受损，超1000名师生死伤。",
+      "source_url": "https://tv.cctv.com/2026/03/28/VIDErpTuhFAJg0uGZJ8pseAr260328.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260327"
+  "last_updated": "20260328"
 }

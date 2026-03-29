@@ -156,7 +156,15 @@
       "source_url": "https://tv.cctv.com/2026/03/28/VIDEjFGUWVjZwgEOz4WgyRlv260328.shtml#sub1",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260329",
+      "title": "美国土安全部部分“停摆”进入第44天",
+      "summary": "美国国土安全部因两党拨款法案僵局部分停摆第44天，纽约、巴尔的摩等多地机场安检排长队。",
+      "source_url": "https://tv.cctv.com/2026/03/29/VIDE4yoPAvaMJZIggtX97Vgi260329.shtml#sub2",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260328"
+  "last_updated": "20260329"
 }

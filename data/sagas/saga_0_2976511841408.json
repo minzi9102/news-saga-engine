@@ -60,7 +60,31 @@
       "source_url": "https://tv.cctv.com/2026/03/29/VIDE3ADUzFsFI7ykQOqhmYcm260329.shtml",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260330",
+      "title": "新华社通讯：为2035年基本实现社会主义现代化奠定更加坚实的基础——“十五五”规划纲要编制记",
+      "summary": "新华社3月30日播发通讯《为2035年基本实现社会主义现代化奠定更加坚实的基础——“十五五”规划纲要编制记》。",
+      "source_url": "https://tv.cctv.com/2026/03/30/VIDEN2BDr8Wv2sIS59lLbBj6260330.shtml",
+      "causal_tag": "政策发布",
+      "importance": 3
+    },
+    {
+      "date": "20260330",
+      "title": "【“十五五”新图景】增绿降碳 加减之间再造万亿级新机遇",
+      "summary": "“十五五”规划纲要提出加快绿色转型，明确深远海风电开发目标，预计海上风电装机规模翻番，绿色低碳产业规模将突破20万亿元。",
+      "source_url": "https://tv.cctv.com/2026/03/30/VIDEjIs0P0ZotjFNA1GmajBq260330.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
+    },
+    {
+      "date": "20260330",
+      "title": "杭州 三亚和苏州入选联合国“迈向无废城市”名单",
+      "summary": "联合国公布全球'20个迈向无废城市'案例，中国杭州、三亚、苏州三市因在垃圾分类、海洋生态保护及城乡废物处理方面的范例入选。",
+      "source_url": "https://tv.cctv.com/2026/03/30/VIDE0rahJEp1MDJ6jcIHMwgz260330.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260329"
+  "last_updated": "20260330"
 }

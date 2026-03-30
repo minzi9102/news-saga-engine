@@ -1,0 +1,18 @@
+{
+  "id": "saga_0_7422983730093",
+  "title": "央视快评强调中国式现代化发展",
+  "category": "政治外交",
+  "status": "active",
+  "context_summary": "央视快评《让中国式现代化的底色更加亮丽》通过新闻联播播发，强调了中国式现代化的发展方向。该评论体现了官方对现代化建设的重视，旨在提升国家发展质量，涉及政府、媒体及公众等关键方，对理解当前政策导向和意识形态宣传具有重要意义。",
+  "events": [
+    {
+      "date": "20260330",
+      "title": "央视快评强调中国式现代化发展",
+      "summary": "央视播发快评《让中国式现代化的底色更加亮丽》。",
+      "source_url": "https://tv.cctv.com/2026/03/30/VIDEtrocowjwglSMCYWXxgVr260330.shtml",
+      "causal_tag": "Inception",
+      "importance": 2
+    }
+  ],
+  "last_updated": "20260330"
+}

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/18/VIDE9rcpDlMxZeOycSx7P4tj260318.shtml#sub4",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260330",
+      "title": "第六届消博会将于4月13日至18日在海南举办",
+      "summary": "第六届中国国际消费品博览会将于4月13日至18日在海南举办，来自60多国超3400个品牌参展，国际展品占比65%。",
+      "source_url": "https://tv.cctv.com/2026/03/30/VIDEUbsHX1GzDFL8EKyyrAA3260330.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260318"
+  "last_updated": "20260330"
 }

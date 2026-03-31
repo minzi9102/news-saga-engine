@@ -84,7 +84,23 @@
       "source_url": "https://tv.cctv.com/2026/03/30/VIDE0rahJEp1MDJ6jcIHMwgz260330.shtml#sub4",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260331",
+      "title": "让中国式现代化的底色更加亮丽——习近平总书记参加首都义务植树活动时的重要讲话在广大干部群众中引发热烈反响",
+      "summary": "习近平在首都义务植树活动中强调全社会参与植树造林，助力美丽中国建设，并指出我国森林面积和蓄积量持续双增长。",
+      "source_url": "https://tv.cctv.com/2026/03/31/VIDEQjZA3zb8zPaQvL1yzfjt260331.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
+    },
+    {
+      "date": "20260331",
+      "title": "秦岭地区关键生态系统面积稳步提升",
+      "summary": "生态环境部调查显示，2018年以来秦岭超50%重要生态空间呈恢复趋势，超60%区域生态质量好转。",
+      "source_url": "https://tv.cctv.com/2026/03/31/VIDEcZjz35VeRiIDf31AYYr8260331.shtml#sub10",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260330"
+  "last_updated": "20260331"
 }

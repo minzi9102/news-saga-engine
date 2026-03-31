@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/03/27/VIDEd7N6zGmKPAvLem90mcC0260327.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260331",
+      "title": "3月份中国制造业采购经理指数重回扩张区间",
+      "summary": "3月中国制造业PMI为50.4%，重回扩张区间；非制造业商务活动指数为50.1%，连续两月回升。",
+      "source_url": "https://tv.cctv.com/2026/03/31/VIDEzsJCinRSXUzGhFxyZyJV260331.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260327"
+  "last_updated": "20260331"
 }

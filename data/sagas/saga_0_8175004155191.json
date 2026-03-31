@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/02/09/VIDEqqeDXmKcWKXvMJDnrF80260209.shtml",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260331",
+      "title": "今年前两个月轻工业经济运行起步稳健",
+      "summary": "中国轻工业联合会数据显示，今年前2个月规模以上轻工业增加值同比增长7.0%，消费品以旧换新政策带动销售额3232.6亿元，电池及电池零件出口同比增长42.6%。",
+      "source_url": "https://tv.cctv.com/2026/03/31/VIDEc3QoV0YvElbP13x7e4LW260331.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260209"
+  "last_updated": "20260331"
 }

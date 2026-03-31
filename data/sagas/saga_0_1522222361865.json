@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/03/25/VIDEDF1hrYvMfHB8g26jR4t1260325.shtml#sub2",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260331",
+      "title": "攀西特高压交流输变电工程开工",
+      "summary": "攀西1000千伏特高压交流输变电工程在四川开工，预计2028年建成，服务于西电东送战略。",
+      "source_url": "https://tv.cctv.com/2026/03/31/VIDEcZjz35VeRiIDf31AYYr8260331.shtml#sub8",
+      "causal_tag": "合作签署",
+      "importance": 4
     }
   ],
-  "last_updated": "20260325"
+  "last_updated": "20260331"
 }

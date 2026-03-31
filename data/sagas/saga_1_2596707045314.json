@@ -172,7 +172,15 @@
       "source_url": "https://tv.cctv.com/2026/03/30/VIDEdnUsqsyPFYI69RRdRJsM260330.shtml#sub1",
       "causal_tag": "灾害事故",
       "importance": 3
+    },
+    {
+      "date": "20260331",
+      "title": "美国会休会 美政府部分“停摆”持续",
+      "summary": "美国国土安全部部分停摆持续45天创纪录，超500名运输安全管理局员工辞职，国会休会期间停摆预计持续。",
+      "source_url": "https://tv.cctv.com/2026/03/31/VIDEaMs1kUiDuSGegyJmhv4L260331.shtml#sub1",
+      "causal_tag": "其他",
+      "importance": 4
     }
   ],
-  "last_updated": "20260330"
+  "last_updated": "20260331"
 }

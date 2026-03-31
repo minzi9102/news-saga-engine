@@ -60,7 +60,15 @@
       "source_url": "https://tv.cctv.com/2026/03/27/VIDEOSRI1OQe3GKsoFiqJDoK260327.shtml#sub7",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260331",
+      "title": "我国预计将于4月1日入汛",
+      "summary": "我国预计4月1日入汛，与多年平均日期一致。今年以来降水偏少，主要江河径流量较常年同期偏少近一成。",
+      "source_url": "https://tv.cctv.com/2026/03/31/VIDEcZjz35VeRiIDf31AYYr8260331.shtml#sub11",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260327"
+  "last_updated": "20260331"
 }

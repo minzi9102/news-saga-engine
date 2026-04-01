@@ -44,7 +44,15 @@
       "source_url": "https://tv.cctv.com/2026/03/14/VIDEVvIwtCE8j2YIxc5iRFTj260314.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260401",
+      "title": "我国珍稀鸟类种群数量稳步增长",
+      "summary": "国家林草局数据显示，国家重点保护鸟类达394种，受保护鸟类种数比五年前增加近50%。",
+      "source_url": "https://tv.cctv.com/2026/04/01/VIDE57OzY6aUus0oWNSrnFSw260401.shtml#sub7",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260314"
+  "last_updated": "20260401"
 }

@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/03/17/VIDED9DFfKJX2WbtemDroHGN260317.shtml#sub3",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260401",
+      "title": "西班牙称美以无权决定世界规则",
+      "summary": "西班牙、意大利、法国、英国等多国反对美国对伊朗军事行动，特朗普考虑退出北约。",
+      "source_url": "https://tv.cctv.com/2026/04/01/VIDEgU9vbStllaY40XOSS5Mi260401.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260317"
+  "last_updated": "20260401"
 }

@@ -108,7 +108,15 @@
       "source_url": "https://tv.cctv.com/2026/03/23/VIDEohLx0MQF9KFvolzEjAnE260323.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260401",
+      "title": "《求是》杂志发表习近平总书记重要文章《树立和践行正确政绩观》",
+      "summary": "《求是》杂志发表习近平重要文章《树立和践行正确政绩观》，强调为民造福是最大政绩，要求领导干部以正确政绩观推进中国式现代化。",
+      "source_url": "https://tv.cctv.com/2026/04/01/VIDEvxPGNEM9f2EwtskGmwWv260401.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260323"
+  "last_updated": "20260401"
 }

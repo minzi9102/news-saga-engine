@@ -68,7 +68,23 @@
       "source_url": "https://tv.cctv.com/2026/03/31/VIDEcZjz35VeRiIDf31AYYr8260331.shtml#sub11",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260402",
+      "title": "全国春灌面积超一亿亩",
+      "summary": "水利部数据显示，全国重点水库蓄水丰沛，春灌用水有保障。截至3月底，24个省份及新疆生产建设兵团已启动春灌，累计供水110亿立方米，灌溉1.2亿亩。",
+      "source_url": "https://tv.cctv.com/2026/04/02/VIDEX7rNw917tHH84wHpcgaW260402.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260402",
+      "title": "黑龙江干流开展防凌汛破冰作业",
+      "summary": "4月1日，黑龙江呼玛县、塔河县等重点江段开展人工破冰作业，以防凌汛灾害，确保干流安全开江。",
+      "source_url": "https://tv.cctv.com/2026/04/02/VIDEX7rNw917tHH84wHpcgaW260402.shtml#sub9",
+      "causal_tag": "灾害事故",
+      "importance": 2
     }
   ],
-  "last_updated": "20260331"
+  "last_updated": "20260402"
 }

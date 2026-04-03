@@ -332,7 +332,15 @@
       "source_url": "https://tv.cctv.com/2026/04/02/VIDEjjCNX3V3sLfWhMUtpyau260402.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260403",
+      "title": "美以空袭伊朗桥梁等目标 伊朗称打击美以工业设施等",
+      "summary": "美以对伊朗军事行动持续5周，伊朗B1大桥遭袭致8死95伤，伊朗称将重建并反击，以色列称摧毁伊朗导弹设施。",
+      "source_url": "https://tv.cctv.com/2026/04/03/VIDEEaKepVQuuxLRUOKUvS0L260403.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260402"
+  "last_updated": "20260403"
 }

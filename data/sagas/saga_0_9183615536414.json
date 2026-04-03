@@ -276,7 +276,15 @@
       "source_url": "https://tv.cctv.com/2026/03/15/VIDE1aFVMHRoS2XVFe1xZeCY260315.shtml#sub1",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260403",
+      "title": "清明假期明天开始 交通部门多措施保出行",
+      "summary": "清明假期全国高速公路日均车流量预计6100万辆，铁路预计发送旅客2120万人次，民航预计运输旅客575万人次。",
+      "source_url": "https://tv.cctv.com/2026/04/03/VIDE7ZqYu56Z4PSMH8DEEFGm260403.shtml",
+      "causal_tag": "数据公布",
+      "importance": 2
     }
   ],
-  "last_updated": "20260315"
+  "last_updated": "20260403"
 }

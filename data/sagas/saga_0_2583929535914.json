@@ -132,7 +132,23 @@
       "source_url": "https://tv.cctv.com/2026/04/02/VIDEX7rNw917tHH84wHpcgaW260402.shtml#sub3",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260403",
+      "title": "【新思想引领新征程】多业态融合发展 激活文旅产业新动能",
+      "summary": "习近平强调推动文旅产业高质量发展，2025年国内出游人次超65亿，旅游消费达6.3万亿元，入境旅游人次超1.5亿。",
+      "source_url": "https://tv.cctv.com/2026/04/03/VIDEtWgqZGhqI0Bw7aHMvpPt260403.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
+    },
+    {
+      "date": "20260403",
+      "title": "我国发布6项殡葬领域标准",
+      "summary": "民政部发布《殡葬服务公众满意度测评》等六项殡葬领域新标准，推进行业规范化、标准化、数字化。",
+      "source_url": "https://tv.cctv.com/2026/04/03/VIDEKyWyCo1Ir3xmfOBmHjQ6260403.shtml#sub11",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260402"
+  "last_updated": "20260403"
 }

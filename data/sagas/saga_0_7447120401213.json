@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/03/29/VIDENYOjto75Tg4Q8G05cKC4260329.shtml#sub4",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260403",
+      "title": "2026年个人信息保护系列专项行动开展",
+      "summary": "中央网信办、工信部、公安部联合发布公告，宣布2026年将开展个人信息保护专项行动，重点治理App、SDK、互联网广告、教育等领域违规收集使用个人信息问题。",
+      "source_url": "https://tv.cctv.com/2026/04/03/VIDEKyWyCo1Ir3xmfOBmHjQ6260403.shtml#sub9",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260329"
+  "last_updated": "20260403"
 }

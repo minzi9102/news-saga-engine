@@ -276,7 +276,15 @@
       "source_url": "https://tv.cctv.com/2026/04/02/VIDEX2ZpDcD7Uq3QqQ2D7PEj260402.shtml#sub2",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260403",
+      "title": "俄媒称3月俄对欧液化天然气出口创新高",
+      "summary": "俄罗斯3月向欧盟供应液化天然气24.6亿立方米创历史新高，一季度进口总量约68亿立方米。",
+      "source_url": "https://tv.cctv.com/2026/04/03/VIDEOZAkJDVflIhb6EXUCcvN260403.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260402"
+  "last_updated": "20260403"
 }

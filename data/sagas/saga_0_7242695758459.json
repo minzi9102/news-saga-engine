@@ -12,7 +12,23 @@
       "source_url": "https://tv.cctv.com/2026/02/01/VIDEAEMyrRtbWtRVhodLQUGH260201.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260404",
+      "title": "粮农组织称中东冲突致全球食品价格上涨",
+      "summary": "联合国粮农组织报告显示，2026年3月全球食品价格指数环比上涨2.4%，连续第二个月上涨，主因中东冲突推高能源及农业生产运输成本。",
+      "source_url": "https://tv.cctv.com/2026/04/04/VIDEDePo6oHeQYoATLLBDTEj260404.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260404",
+      "title": "叙媒称以军在叙利亚南部袭击民用车辆",
+      "summary": "以色列国防军坦克在叙利亚库奈特拉省向民用汽车开火，导致一名叙利亚人死亡，并封锁了多条道路。",
+      "source_url": "https://tv.cctv.com/2026/04/04/VIDE9pfhU8qCShqCJpxAE9LA260404.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260201"
+  "last_updated": "20260404"
 }

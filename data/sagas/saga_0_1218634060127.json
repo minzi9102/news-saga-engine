@@ -84,7 +84,15 @@
       "source_url": "https://tv.cctv.com/2026/04/02/VIDEX7rNw917tHH84wHpcgaW260402.shtml#sub9",
       "causal_tag": "灾害事故",
       "importance": 2
+    },
+    {
+      "date": "20260404",
+      "title": "三峡船闸累计货运量突破23亿吨",
+      "summary": "截至2024年3月底，三峡船闸累计运行22.3万闸次，通过船舶110.4万艘次，过闸货运量达23.7亿吨。",
+      "source_url": "https://tv.cctv.com/2026/04/04/VIDEWSix3qrsm45s65lZEbK1260404.shtml#sub6",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260402"
+  "last_updated": "20260404"
 }

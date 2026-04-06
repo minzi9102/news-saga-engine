@@ -132,7 +132,23 @@
       "source_url": "https://tv.cctv.com/2026/03/17/VIDESRrZ1WXjLmDMCqYS3veA260317.shtml",
       "causal_tag": "其他",
       "importance": 2
+    },
+    {
+      "date": "20260406",
+      "title": "新场景激发新动能 释放假期消费市场潜力",
+      "summary": "清明假期全国重点零售餐饮日均销售额同比增2.4%，汽车以旧换新带动新车销售2468亿元，智能电子产品热销。",
+      "source_url": "https://tv.cctv.com/2026/04/06/VIDEPwJijN8OZstHLkEhBlOr260406.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
+    },
+    {
+      "date": "20260406",
+      "title": "清明假期全社会跨区域人员流动量预计8.4亿人次",
+      "summary": "清明假期最后一天全国迎返程高峰，三天跨区域人员流动量预计8.4亿人次，铁路公路客运量创新高。",
+      "source_url": "https://tv.cctv.com/2026/04/06/VIDERWGraODMxMsQTotD2Xqp260406.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260317"
+  "last_updated": "20260406"
 }

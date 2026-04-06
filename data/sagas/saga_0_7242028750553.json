@@ -356,7 +356,23 @@
       "source_url": "https://tv.cctv.com/2026/04/05/VIDEuPSGWycwZTxIFkAAWsdo260405.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260406",
+      "title": "美以称打击伊朗政权目标 伊朗称打击以色列石化设施和美军基地",
+      "summary": "美以继续袭击伊朗多地目标，伊朗反击以色列及美军基地。特朗普威胁轰炸伊朗发电厂和大桥，伊朗重申封锁霍尔木兹海峡。美伊就停火展开磋商，核心议题包括海峡通航和浓缩铀处理。",
+      "source_url": "https://tv.cctv.com/2026/04/06/VIDE7UxjOAwmhcWSWvqAJ5g0260406.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260406",
+      "title": "多机构称中东紧张局势严重威胁非洲经济",
+      "summary": "非盟等机构联合发布简报称，中东紧张局势冲击国际运输线与供应链，将导致非洲经济增速大幅放缓，若持续超半年，非洲今年GDP增速将下滑0.2个百分点。",
+      "source_url": "https://tv.cctv.com/2026/04/06/VIDEqnkTllPpxv9o7pgXzLKB260406.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260405"
+  "last_updated": "20260406"
 }

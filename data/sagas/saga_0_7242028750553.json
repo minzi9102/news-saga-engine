@@ -396,7 +396,15 @@
       "source_url": "https://tv.cctv.com/2026/04/07/VIDEMuQuz2SohNSt5pXcEgnW260407.shtml#sub2",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260408",
+      "title": "联合国安理会未通过涉霍尔木兹海峡的决议草案",
+      "summary": "联合国安理会表决巴林提出的涉霍尔木兹海峡决议草案，11票赞成，巴基斯坦和哥伦比亚弃权，中国和俄罗斯投反对票，草案未通过。",
+      "source_url": "https://tv.cctv.com/2026/04/08/VIDEzA2uEPi3wh6Evkv0OdOB260408.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260407"
+  "last_updated": "20260408"
 }

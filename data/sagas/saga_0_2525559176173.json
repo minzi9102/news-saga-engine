@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/17/VIDEEgzyCAyr4J50wwqnyJTJ260317.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260408",
+      "title": "3月多家自主汽车品牌出口量创新高",
+      "summary": "3月中国自主汽车品牌海外销量平均同比增长约70%，多家企业出口量创新高，单月最高出口近15万辆。",
+      "source_url": "https://tv.cctv.com/2026/04/08/VIDEc7xsPVANTRWMAvj8uaxE260408.shtml#sub1",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260317"
+  "last_updated": "20260408"
 }

@@ -36,7 +36,15 @@
       "source_url": "https://tv.cctv.com/2026/03/30/VIDEpB2lLdGbozhByCsLi2cR260330.shtml",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260408",
+      "title": "赵乐际同葡萄牙议长会谈",
+      "summary": "全国人大常委会委员长赵乐际在北京同葡萄牙议长阿吉亚尔-布兰科会谈，双方同意深化中葡全面战略伙伴关系，加强新能源、数字经济等领域合作。",
+      "source_url": "https://tv.cctv.com/2026/04/08/VIDECzHHEVdA3G3n61rem9eG260408.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260330"
+  "last_updated": "20260408"
 }

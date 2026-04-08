@@ -36,7 +36,23 @@
       "source_url": "https://tv.cctv.com/2026/04/01/VIDEgU9vbStllaY40XOSS5Mi260401.shtml",
       "causal_tag": "外交声明",
       "importance": 4
+    },
+    {
+      "date": "20260408",
+      "title": "美称对伊朗停火两周 伊朗公布停战条款主要内容",
+      "summary": "特朗普同意暂停对伊朗轰炸两周，前提是伊朗开放霍尔木兹海峡。伊朗同意在伊斯兰堡与美谈判，并公布10项停战条款。多方欢迎停火安排，国际油价回落，金银价格上涨。",
+      "source_url": "https://tv.cctv.com/2026/04/08/VIDErJZjo9zjvxM6cVvjaUYG260408.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
+    },
+    {
+      "date": "20260408",
+      "title": "伊拉克民兵组织称将暂停行动两周",
+      "summary": "伊拉克民兵武装“伊斯兰抵抗组织”宣布，将在伊拉克及本地区暂停行动两周。",
+      "source_url": "https://tv.cctv.com/2026/04/08/VIDExXELMRvWEL6SJ2XYarvx260408.shtml#sub2",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260401"
+  "last_updated": "20260408"
 }

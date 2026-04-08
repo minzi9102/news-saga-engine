@@ -172,7 +172,15 @@
       "source_url": "https://tv.cctv.com/2026/04/07/VIDErZUCeSBHFPYzjhT5h0bl260407.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260408",
+      "title": "以军空袭黎南部 黎称打击以北部",
+      "summary": "黎巴嫩南部城镇巴拉希特遭以军炮击，提尔附近建筑遭空袭致4人死亡。此前真主党称对以色列北部发动火箭弹袭击。",
+      "source_url": "https://tv.cctv.com/2026/04/08/VIDExXELMRvWEL6SJ2XYarvx260408.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260407"
+  "last_updated": "20260408"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/07/VIDE5ykPeO2LFIaZXGOBBuNj260307.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260408",
+      "title": "我国成功发射千帆星座第七批组网卫星",
+      "summary": "长征八号火箭在海南商业航天发射场成功发射千帆星座第七批18颗组网卫星，星座卫星总数增至126颗。",
+      "source_url": "https://tv.cctv.com/2026/04/08/VIDEc7xsPVANTRWMAvj8uaxE260408.shtml#sub4",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260307"
+  "last_updated": "20260408"
 }

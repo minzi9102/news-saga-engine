@@ -404,7 +404,15 @@
       "source_url": "https://tv.cctv.com/2026/04/08/VIDEzA2uEPi3wh6Evkv0OdOB260408.shtml",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260409",
+      "title": "美称美伊将于11日在伊斯兰堡举行谈判 伊朗称3项停战条款遭违反",
+      "summary": "美伊将于11日在伊斯兰堡举行首轮谈判，美方认为伊朗修改后的方案可作为谈判基础。特朗普称美军将继续留在中东直至协议被遵守。伊朗指责美方违反停火条款，并因以色列袭击黎巴嫩而叫停霍尔木兹海峡油轮通行。",
+      "source_url": "https://tv.cctv.com/2026/04/09/VIDE6WnmQUoPMXLom0wWWZAw260409.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260408"
+  "last_updated": "20260409"
 }

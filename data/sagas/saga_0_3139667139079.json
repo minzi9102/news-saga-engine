@@ -308,7 +308,23 @@
       "source_url": "https://tv.cctv.com/2026/04/09/VIDEp56W1qarV1Z8X2Ug6qeG260409.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 3
+    },
+    {
+      "date": "20260410",
+      "title": "俄称将停火32小时 乌称对等停火",
+      "summary": "俄罗斯宣布11-12日单方面停火，乌克兰总统泽连斯基10日回应将采取对等停火。",
+      "source_url": "https://tv.cctv.com/2026/04/10/VIDEqDs0KsPN8vm7evdbz5fJ260410.shtml#sub1",
+      "causal_tag": "外交声明",
+      "importance": 3
+    },
+    {
+      "date": "20260410",
+      "title": "俄驻英使馆反驳英方涉俄潜艇指控",
+      "summary": "英国防大臣希利称英挪等盟友阻止俄潜艇在北大西洋活动，俄驻英使馆驳斥称其言论不可信且意在制造舆论，并警告英方威胁俄商船将产生后果。",
+      "source_url": "https://tv.cctv.com/2026/04/10/VIDEqDs0KsPN8vm7evdbz5fJ260410.shtml#sub2",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260409"
+  "last_updated": "20260410"
 }

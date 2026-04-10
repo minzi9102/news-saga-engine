@@ -36,7 +36,15 @@
       "source_url": "https://tv.cctv.com/2026/02/28/VIDE6EDgMZoF02MQmQNWmH3z260228.shtml#sub1",
       "causal_tag": "政策发布",
       "importance": 3
+    },
+    {
+      "date": "20260410",
+      "title": "市场监管总局批准发布323项重要国家标准",
+      "summary": "市场监管总局批准发布323项国家标准，涉及智能网联汽车、半导体器件、脑机接口、北斗芯片等新兴领域及传统产业、环保、安全等领域。",
+      "source_url": "https://tv.cctv.com/2026/04/10/VIDE8KpMxT3TjnJkS9RNRumJ260410.shtml#sub5",
+      "causal_tag": "政策发布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260228"
+  "last_updated": "20260410"
 }

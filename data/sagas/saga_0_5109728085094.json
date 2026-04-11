@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/28/VIDEjFGUWVjZwgEOz4WgyRlv260328.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260411",
+      "title": "美国消费者信心指数达新低",
+      "summary": "美国3月CPI环比上涨0.9%，为近4年最大涨幅；4月消费者信心指数初值47.6，环比大跌10.7%，创历史新低。",
+      "source_url": "https://tv.cctv.com/2026/04/11/VIDE57svP5UrH8GEs3IZaJxe260411.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260328"
+  "last_updated": "20260411"
 }

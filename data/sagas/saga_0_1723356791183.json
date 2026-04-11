@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/03/06/VIDE3xcEUV2jJkXyXBXMbAGG260306.shtml#sub2",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260411",
+      "title": "一季度全国期货市场服务实体经济能力持续增强",
+      "summary": "中国期货业协会数据显示，1-3月全国期货市场累计成交额256.71万亿元，同比增长58.43%。其中，燃料油、碳酸锂、黄金期货成交额大幅增长。",
+      "source_url": "https://tv.cctv.com/2026/04/11/VIDEqRbzVtmWot8G1WLJwZpp260411.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260306"
+  "last_updated": "20260411"
 }

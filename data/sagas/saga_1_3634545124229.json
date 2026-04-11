@@ -132,7 +132,15 @@
       "source_url": "https://tv.cctv.com/2026/03/31/VIDEaMs1kUiDuSGegyJmhv4L260331.shtml#sub2",
       "causal_tag": "政策发布",
       "importance": 4
+    },
+    {
+      "date": "20260411",
+      "title": "巴称以空袭加沙难民营致多人死亡",
+      "summary": "以色列袭击加沙地带中部布赖杰难民营一警察检查站，造成6人死亡、多人受伤。",
+      "source_url": "https://tv.cctv.com/2026/04/11/VIDE57svP5UrH8GEs3IZaJxe260411.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 3
     }
   ],
-  "last_updated": "20260331"
+  "last_updated": "20260411"
 }

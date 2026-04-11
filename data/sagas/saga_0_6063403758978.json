@@ -52,7 +52,15 @@
       "source_url": "https://tv.cctv.com/2026/04/08/VIDExXELMRvWEL6SJ2XYarvx260408.shtml#sub2",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260411",
+      "title": "美国和伊朗谈判定于今日在巴基斯坦首都举行",
+      "summary": "美伊谈判在伊斯兰堡举行，伊朗议长卡利巴夫与美国副总统万斯分别率团。伊朗要求以黎巴嫩停火和解冻资产为先决条件，美方威胁若协议不成将加大军事行动。",
+      "source_url": "https://tv.cctv.com/2026/04/11/VIDE5tkkhRiSFCQru7wu6Qdn260411.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260408"
+  "last_updated": "20260411"
 }

@@ -420,7 +420,15 @@
       "source_url": "https://tv.cctv.com/2026/04/10/VIDElqA2IHZ5TYfib1sFRsTS260410.shtml",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260413",
+      "title": "巴基斯坦及三国外长强调以对话缓和局势",
+      "summary": "巴基斯坦外长达尔向沙特、土耳其、埃及三国外长通报美伊谈判情况，强调各方应遵守停火承诺以缓和局势。",
+      "source_url": "https://tv.cctv.com/2026/04/13/VIDEyY4KF2S34H15ks5eyX5l260413.shtml#sub1",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260410"
+  "last_updated": "20260413"
 }

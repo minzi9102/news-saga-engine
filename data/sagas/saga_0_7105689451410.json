@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/25/VIDEsjuv8NWaa0zgW4hma4j6260225.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260413",
+      "title": "李强同阿联酋阿布扎比王储会谈",
+      "summary": "国务院总理李强在北京同阿联酋阿布扎比王储哈立德会谈，双方同意深化能源、贸易、人工智能等领域合作，并签署多项合作文件。",
+      "source_url": "https://tv.cctv.com/2026/04/13/VIDEdSOVxkD5akbbfeIF9pzV260413.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260225"
+  "last_updated": "20260413"
 }

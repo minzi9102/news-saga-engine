@@ -436,7 +436,15 @@
       "source_url": "https://tv.cctv.com/2026/04/14/VIDEvTMcUfH8H6jyHVyhhcVX260414.shtml#sub2",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "美称或与伊重启谈判 伊称美应停止战争",
+      "summary": "特朗普称美伊可能在巴基斯坦恢复谈判，以色列要求移除伊朗浓缩铀。伊朗要求美国停战、以色列停止挑衅，否认寻求核武器。美军称切断伊朗海上贸易，伊朗称封锁无效。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDE20nW0wtznomyoK6XeInB260415.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260414"
+  "last_updated": "20260415"
 }

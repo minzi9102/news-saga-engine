@@ -20,7 +20,55 @@
       "source_url": "https://tv.cctv.com/2026/04/14/VIDEcDAzNLRfjrcUa7LAuPLm260414.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "习近平举行仪式欢迎越共中央总书记、国家主席苏林访华",
+      "summary": "习近平在人民大会堂举行仪式，欢迎越共中央总书记、国家主席苏林对中国进行国事访问。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEbuUpUrJXqW3zIrys72dZ260415.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "习近平同越共中央总书记、国家主席苏林举行会谈",
+      "summary": "习近平在人民大会堂同越南国家主席苏林举行会谈，强调中越将高质量推进全面战略合作，构建更高水平命运共同体，并宣布启动2026-2027年'中越旅游合作年'。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEL9biwo5NjYnCxiqBYH5P260415.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
+    },
+    {
+      "date": "20260415",
+      "title": "习近平同苏林共同会见中越青年代表",
+      "summary": "习近平与越南领导人苏林在人民大会堂会见参加'红色研学之旅'的中越青年代表，双方强调青年是两国关系桥梁，并鼓励青年传承友谊、担当创新。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEyZt06Z0GismlytyGu8bL260415.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "习近平夫妇同苏林夫妇亲切话别",
+      "summary": "习近平与越共中央总书记苏林举行会谈，就中越关系达成新共识，强调构建命运共同体。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEdHrFacOqutH1QOVGmGW8260415.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
+    },
+    {
+      "date": "20260415",
+      "title": "李强会见越共中央总书记、国家主席苏林",
+      "summary": "国务院总理李强在北京会见越共中央总书记、国家主席苏林，双方表示将遵循最高领导人战略引领，深化各领域务实合作，推进中越命运共同体建设。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEZcmbT3J9H5ylHeyitGZF260415.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "赵乐际会见越共中央总书记、国家主席苏林",
+      "summary": "赵乐际在北京会见越共中央总书记、国家主席苏林，双方表示将落实领导人共识，深化战略互信、务实合作及立法交流。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEEqvONbRpiYBc3cFyPbiM260415.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260414"
+  "last_updated": "20260415"
 }

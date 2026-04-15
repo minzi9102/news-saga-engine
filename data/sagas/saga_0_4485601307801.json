@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/04/14/VIDEvTMcUfH8H6jyHVyhhcVX260414.shtml#sub3",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "国际货币基金组织下调世界经济增长预期",
+      "summary": "国际货币基金组织将2024年世界经济增长预期下调0.2个百分点至3.1%，主要受中东战事冲击。若能源价格持续上涨，增速或降至2.5%。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEGhLLZ8yhLLI7A9nZ5zbc260415.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260414"
+  "last_updated": "20260415"
 }

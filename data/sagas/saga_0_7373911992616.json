@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/07/VIDEEpC6CQ3BU37huyrpVZzF260207.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "我国新增两个世界地质公园",
+      "summary": "浙江常山和四川四姑娘山在联合国教科文组织执行局会议上通过审议，正式成为世界地质公园。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDEQMwTF3qI95YPgxgb2DuN260415.shtml#sub6",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260207"
+  "last_updated": "20260415"
 }

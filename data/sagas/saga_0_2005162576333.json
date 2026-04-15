@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/03/25/VIDEn7T5gKg1vtqOWTEDSzJ7260325.shtml",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260415",
+      "title": "习近平会见俄罗斯外长",
+      "summary": "习近平在北京会见俄罗斯外长拉夫罗夫，强调中俄全面战略协作伙伴关系高水平发展，要加强战略沟通与多边协作。",
+      "source_url": "https://tv.cctv.com/2026/04/15/VIDE9DoGtjZd3aLAu4HJ749M260415.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260325"
+  "last_updated": "20260415"
 }

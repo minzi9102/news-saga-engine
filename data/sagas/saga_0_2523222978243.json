@@ -76,7 +76,15 @@
       "source_url": "https://tv.cctv.com/2026/04/09/VIDEmnPNTmzkuPg0XQB8jmKJ260409.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260416",
+      "title": "我国一季度国内生产总值同比增长5.0% 国民经济实现良好开局",
+      "summary": "国家统计局公布2026年一季度GDP为334193亿元，同比增长5.0%。规模以上工业增加值增长6.1%，高技术制造业增长12.5%。",
+      "source_url": "https://tv.cctv.com/2026/04/16/VIDESz9dq62NHQuVjbIqyVz4260416.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260409"
+  "last_updated": "20260416"
 }

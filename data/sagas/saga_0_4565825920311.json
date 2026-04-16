@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/07/VIDEABbbGQkIO0OjDTUHtIbG260207.shtml#sub1",
       "causal_tag": "Inception",
       "importance": 4
+    },
+    {
+      "date": "20260416",
+      "title": "【一线调研】算力之城：打造算电协同新生态",
+      "summary": "贵州贵安数据中心集群算力需求激增，企业词元日调用量从1月30亿飙升至4月120亿。当地投运500千伏变电站提前供电，并利用方圆200公里内50多座清洁能源电厂提供绿电，成立实验室探索算力与电力协同调度。",
+      "source_url": "https://tv.cctv.com/2026/04/16/VIDEghPmSOKliWtLIdFR8cYX260416.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260207"
+  "last_updated": "20260416"
 }

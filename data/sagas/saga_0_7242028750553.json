@@ -444,7 +444,23 @@
       "source_url": "https://tv.cctv.com/2026/04/15/VIDE20nW0wtznomyoK6XeInB260415.shtml",
       "causal_tag": "外交声明",
       "importance": 4
+    },
+    {
+      "date": "20260416",
+      "title": "美媒称美军将继续增兵中东 伊朗军方称将回应美海上封锁",
+      "summary": "美军将向中东增派数千兵力，美国财政部对伊朗石油运输领域实施新制裁，伊朗表示已做好持久战准备。",
+      "source_url": "https://tv.cctv.com/2026/04/16/VIDEwvKq1HNbP32rWIHggK7f260416.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
+    },
+    {
+      "date": "20260416",
+      "title": "以军称批准对伊朗和黎巴嫩的新作战计划",
+      "summary": "以色列国防军总参谋长扎米尔批准针对伊朗和黎巴嫩的新作战计划，总理内塔尼亚胡称以军做好应对准备，并即将占领真主党据点宾特朱拜勒。",
+      "source_url": "https://tv.cctv.com/2026/04/16/VIDEAxg8wzvIuqxHSVVWsxDL260416.shtml#sub1",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260415"
+  "last_updated": "20260416"
 }

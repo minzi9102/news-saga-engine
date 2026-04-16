@@ -36,7 +36,15 @@
       "source_url": "https://tv.cctv.com/2026/04/14/VIDEW4CTJiJrVyMcvYzhN9pc260414.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260416",
+      "title": "第六届消博会公众开放日今天开启",
+      "summary": "第六届消博会首个公众日入场人数超5万人次，已举办44场新品首发首秀，发布277件新品，活动场次和发布数量较去年翻番。",
+      "source_url": "https://tv.cctv.com/2026/04/16/VIDEukKloVfs2eHXRULPrhDC260416.shtml",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260414"
+  "last_updated": "20260416"
 }

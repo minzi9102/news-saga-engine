@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/04/09/VIDEGegn6EF8pT0cdqlvqw9L260409.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260417",
+      "title": "日本民众抗议高市政府拟放宽武器出口限制",
+      "summary": "日本民众在东京首相官邸前抗议政府计划放宽武器出口限制，俄外交部批评日本否认二战结果并加速再军事化。",
+      "source_url": "https://tv.cctv.com/2026/04/17/VIDEZKVIhuOUzl1RBDFMbUgH260417.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260409"
+  "last_updated": "20260417"
 }

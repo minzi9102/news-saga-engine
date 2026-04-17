@@ -1,0 +1,18 @@
+{
+  "id": "saga_0_7222048793359",
+  "title": "美国艾森豪威尔号航母维护期间起火",
+  "category": "军事国防",
+  "status": "active",
+  "context_summary": "美国海军艾森豪威尔号航空母舰在弗吉尼亚州诺福克海军造船厂进行维护时发生火灾，造成3名军人受伤。此事件发生在福特号航母红海火灾后不久，凸显了美军航母近期连续出现安全事故，可能影响其战备状态和部署能力，涉及美国海军、造船厂及受伤人员等关键方。",
+  "events": [
+    {
+      "date": "20260417",
+      "title": "美国艾森豪威尔号航母维护期间起火",
+      "summary": "美国海军“艾森豪威尔”号航母在诺福克海军造船厂维护时发生火灾，导致3名军人受伤。",
+      "source_url": "https://tv.cctv.com/2026/04/17/VIDEzwosWqOlqZuYiu4MtNo1260417.shtml#sub2",
+      "causal_tag": "Inception",
+      "importance": 2
+    }
+  ],
+  "last_updated": "20260417"
+}

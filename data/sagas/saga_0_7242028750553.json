@@ -460,7 +460,15 @@
       "source_url": "https://tv.cctv.com/2026/04/16/VIDEAxg8wzvIuqxHSVVWsxDL260416.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260417",
+      "title": "美称继续对伊朗海上封锁 伊朗称将回击侵略",
+      "summary": "美国威胁封锁伊朗港口并可能动武，伊朗警告将致命回击。黎以达成10天临时停火，但黎方称以军仍有袭击。",
+      "source_url": "https://tv.cctv.com/2026/04/17/VIDEo4Dnc8Uue1w5tgABfe4a260417.shtml",
+      "causal_tag": "外交声明",
+      "importance": 4
     }
   ],
-  "last_updated": "20260416"
+  "last_updated": "20260417"
 }

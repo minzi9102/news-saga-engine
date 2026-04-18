@@ -220,7 +220,15 @@
       "source_url": "https://tv.cctv.com/2026/04/14/VIDEvTMcUfH8H6jyHVyhhcVX260414.shtml#sub1",
       "causal_tag": "冲突爆发",
       "importance": 4
+    },
+    {
+      "date": "20260418",
+      "title": "以称仍在制定针对黎真主党后续行动计划 黎称对停火持谨慎态度",
+      "summary": "以色列国防军宣布解除全国战时限制措施，总理内塔尼亚胡称军事任务未结束，黎巴嫩真主党表示对停火持谨慎态度并准备应对以军行动。",
+      "source_url": "https://tv.cctv.com/2026/04/18/VIDEcH8hM5r0o5FqKJuQqnXd260418.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260414"
+  "last_updated": "20260418"
 }

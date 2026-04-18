@@ -348,7 +348,15 @@
       "source_url": "https://tv.cctv.com/2026/04/07/VIDEqKN4juBGVq7DiMNlbtc9260407.shtml",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260418",
+      "title": "【新思想引领新征程】推进数字中国建设 打造高质量发展新引擎",
+      "summary": "我国数字经济核心产业增加值占GDP比重超10.5%，一季度数字产品制造业增加值增长11.2%，超6000个垂直领域大模型和30万架农用无人机推动产业数字化转型。",
+      "source_url": "https://tv.cctv.com/2026/04/18/VIDEHTiDhwrZ2VAm8VmYaLIN260418.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260407"
+  "last_updated": "20260418"
 }

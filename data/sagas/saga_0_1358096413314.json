@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/04/17/VIDEZKVIhuOUzl1RBDFMbUgH260417.shtml",
       "causal_tag": "外交声明",
       "importance": 3
+    },
+    {
+      "date": "20260419",
+      "title": "日本民众举行大规模集会 反对高市政权危险动向",
+      "summary": "4月19日，大批日本民众在东京举行大规模集会，抗议高市政权一系列危险动向。",
+      "source_url": "https://tv.cctv.com/2026/04/19/VIDELjS3wZyqqfHn3bk1x2nb260419.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260417"
+  "last_updated": "20260419"
 }

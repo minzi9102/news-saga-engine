@@ -84,7 +84,15 @@
       "source_url": "https://tv.cctv.com/2026/04/18/VIDE6QMPfZGs9BDCLXq7vX4i260418.shtml",
       "causal_tag": "重要会议",
       "importance": 3
+    },
+    {
+      "date": "20260419",
+      "title": "第139届广交会第一期线下展今天闭展",
+      "summary": "第139届广交会第一期线下展4月19日结束，吸引16.7万名境外采购商，新品首发324场。",
+      "source_url": "https://tv.cctv.com/2026/04/19/VIDE7LI6jHRCFx2OoWlLA7NY260419.shtml",
+      "causal_tag": "其他",
+      "importance": 3
     }
   ],
-  "last_updated": "20260418"
+  "last_updated": "20260419"
 }

@@ -60,7 +60,15 @@
       "source_url": "https://tv.cctv.com/2026/04/11/VIDE5tkkhRiSFCQru7wu6Qdn260411.shtml",
       "causal_tag": "外交声明",
       "importance": 4
+    },
+    {
+      "date": "20260420",
+      "title": "美军称拦截并扣押一艘伊朗货船 伊朗军方称将报复美海盗行径",
+      "summary": "美军在阿拉伯海攻击伊朗货船，伊朗发射无人机反击并威胁报复。伊朗拟立法限制霍尔木兹海峡通行，并称其导弹和无人机库存充足。美伊谈判无果，美国实施海上封锁。",
+      "source_url": "https://tv.cctv.com/2026/04/20/VIDEHcRAelULOnPDyMe7A8zb260420.shtml",
+      "causal_tag": "冲突爆发",
+      "importance": 4
     }
   ],
-  "last_updated": "20260411"
+  "last_updated": "20260420"
 }

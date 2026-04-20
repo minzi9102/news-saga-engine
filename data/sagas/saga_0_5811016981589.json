@@ -68,7 +68,23 @@
       "source_url": "https://tv.cctv.com/2026/03/27/VIDEbEfiUorGc9UsQDWysBm1260327.shtml#sub1",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260420",
+      "title": "美定于今天启动违法关税退款程序",
+      "summary": "美国政府启动关税退款程序，受理企业在最高法院裁定加征关税违法前所缴税款的申请，应退总额约1660亿美元，仅面向企业。",
+      "source_url": "https://tv.cctv.com/2026/04/20/VIDEWl5YVD5aL34tW8csuVAk260420.shtml#sub2",
+      "causal_tag": "政策发布",
+      "importance": 4
+    },
+    {
+      "date": "20260420",
+      "title": "加总理称加美关系“优势”变“劣势”",
+      "summary": "加拿大总理卡尼称美国关税政策使加方优势变劣势，呼吁对外贸易多样化应对挑战。",
+      "source_url": "https://tv.cctv.com/2026/04/20/VIDEWl5YVD5aL34tW8csuVAk260420.shtml#sub3",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260327"
+  "last_updated": "20260420"
 }

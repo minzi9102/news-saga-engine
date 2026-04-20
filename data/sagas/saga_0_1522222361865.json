@@ -68,7 +68,15 @@
       "source_url": "https://tv.cctv.com/2026/04/01/VIDE57OzY6aUus0oWNSrnFSw260401.shtml#sub5",
       "causal_tag": "合作签署",
       "importance": 3
+    },
+    {
+      "date": "20260420",
+      "title": "李强主持国务院第十九次专题学习",
+      "summary": "国务院总理李强主持专题学习，强调提高能源安全水平，优化能源结构，加快建设新型能源体系，深化能源体制机制改革。",
+      "source_url": "https://tv.cctv.com/2026/04/20/VIDElhF1f43Gifc25ARD1OEG260420.shtml",
+      "causal_tag": "重要会议",
+      "importance": 4
     }
   ],
-  "last_updated": "20260401"
+  "last_updated": "20260420"
 }

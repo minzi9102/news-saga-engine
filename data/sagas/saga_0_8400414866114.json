@@ -12,7 +12,31 @@
       "source_url": "https://tv.cctv.com/2026/04/14/VIDEmqrQnMZpHqrmrjY2KbCG260414.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260421",
+      "title": "习近平举行仪式欢迎莫桑比克总统访华",
+      "summary": "习近平在人民大会堂举行仪式欢迎莫桑比克总统查波进行国事访问，鸣礼炮21响并检阅仪仗队。",
+      "source_url": "https://tv.cctv.com/2026/04/21/VIDEgRyqlfzZzg1UIVTwIhRt260421.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
+    },
+    {
+      "date": "20260421",
+      "title": "习近平同莫桑比克总统会谈",
+      "summary": "习近平与莫桑比克总统查波会谈，一致同意将双边关系提升至新时代中莫命运共同体，并加强各领域合作。",
+      "source_url": "https://tv.cctv.com/2026/04/21/VIDEqhd2JDVfcjmxEPdbCHk6260421.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
+    },
+    {
+      "date": "20260421",
+      "title": "李强会见莫桑比克总统",
+      "summary": "国务院总理李强在北京会见莫桑比克总统查波，双方表示将深化贸易、农渔业、能源矿产等领域合作，并共同支持四大全球倡议。",
+      "source_url": "https://tv.cctv.com/2026/04/21/VIDERTyAVPidiXjKGmJOzfRD260421.shtml",
+      "causal_tag": "外交声明",
+      "importance": 3
     }
   ],
-  "last_updated": "20260414"
+  "last_updated": "20260421"
 }

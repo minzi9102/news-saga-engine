@@ -20,7 +20,15 @@
       "source_url": "https://tv.cctv.com/2026/04/09/VIDEb7Qfh5XgI4LUiNIkxoGC260409.shtml#sub1",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260421",
+      "title": "一季度我国数字产业持续壮大",
+      "summary": "工信部公布一季度数据：全国5G基站达495.8万个，5G-A覆盖330个城市，5G工厂平均产品质量提升20.5%，运营成本降低18.4%。",
+      "source_url": "https://tv.cctv.com/2026/04/21/VIDEB54jx9iu0k6MZLLqCKXf260421.shtml",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260409"
+  "last_updated": "20260421"
 }

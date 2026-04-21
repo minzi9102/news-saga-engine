@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/04/19/VIDELjS3wZyqqfHn3bk1x2nb260419.shtml",
       "causal_tag": "其他",
       "importance": 3
+    },
+    {
+      "date": "20260421",
+      "title": "日本民众集会抗议政府解禁武器出口 日本人士批评高市政权做法违反宪法",
+      "summary": "日本政府通过内阁决议修改防卫装备转移三原则，原则上允许杀伤性武器出口，引发民众集会抗议。",
+      "source_url": "https://tv.cctv.com/2026/04/21/VIDEgA51I2WVLm9pJ7SQiBoj260421.shtml",
+      "causal_tag": "政策发布",
+      "importance": 4
     }
   ],
-  "last_updated": "20260419"
+  "last_updated": "20260421"
 }

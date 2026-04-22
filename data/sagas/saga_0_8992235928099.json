@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/02/11/VIDEEvqTjVKNy7AkrTfrpujz260211.shtml#sub3",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260422",
+      "title": "财政部在香港发行155亿元人民币国债",
+      "summary": "财政部在香港发行2026年第二期155亿元人民币国债，认购倍数4.6倍，各期限发行利率1.32%至2.08%。",
+      "source_url": "https://tv.cctv.com/2026/04/22/VIDE5SqTKkEbwYyT7STygCSU260422.shtml#sub2",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260211"
+  "last_updated": "20260422"
 }

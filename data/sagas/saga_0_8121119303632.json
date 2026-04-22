@@ -28,7 +28,15 @@
       "source_url": "https://tv.cctv.com/2026/02/27/VIDEeQQ4IJTqI5UuWdElXwcc260227.shtml",
       "causal_tag": "重要会议",
       "importance": 4
+    },
+    {
+      "date": "20260422",
+      "title": "中国载人航天工程首批外籍航天员选拔工作顺利完成",
+      "summary": "中国载人航天工程首批外籍航天员选拔结束，巴基斯坦籍候选人穆罕默德·齐尚·阿里和胡拉姆·达乌德入选，其中1人将作为载荷专家进入中国空间站。",
+      "source_url": "https://tv.cctv.com/2026/04/22/VIDEfPiS7RFRamG9STdzObBp260422.shtml",
+      "causal_tag": "合作签署",
+      "importance": 4
     }
   ],
-  "last_updated": "20260227"
+  "last_updated": "20260422"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/04/19/VIDEDc4qmwi2xvoOu2DviT4o260419.shtml",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260422",
+      "title": "欧盟官员称因能源问题欧洲夏季将迎挑战",
+      "summary": "欧盟交通部长会议讨论中东局势对运输燃料影响，燃料成本上涨给运营商带来压力，破坏供应链稳定。欧盟能源专员警告夏季将面临航空燃油和柴油供应挑战。",
+      "source_url": "https://tv.cctv.com/2026/04/22/VIDERdG0Bw09bh29uFsqfmRw260422.shtml#sub2",
+      "causal_tag": "重要会议",
+      "importance": 3
     }
   ],
-  "last_updated": "20260419"
+  "last_updated": "20260422"
 }

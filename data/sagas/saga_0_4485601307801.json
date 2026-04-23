@@ -36,7 +36,15 @@
       "source_url": "https://tv.cctv.com/2026/04/16/VIDEAxg8wzvIuqxHSVVWsxDL260416.shtml#sub3",
       "causal_tag": "数据公布",
       "importance": 3
+    },
+    {
+      "date": "20260423",
+      "title": "德国政府下调2026年经济增长预期",
+      "summary": "德国政府报告称中东战事冲击经济，预计2026年经济增长率从1%下调至0.5%。",
+      "source_url": "https://tv.cctv.com/2026/04/23/VIDE4keOmUyccgjTyvFRia9x260423.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260416"
+  "last_updated": "20260423"
 }

@@ -12,7 +12,15 @@
       "source_url": "https://tv.cctv.com/2026/04/06/VIDEqnkTllPpxv9o7pgXzLKB260406.shtml#sub5",
       "causal_tag": "Inception",
       "importance": 3
+    },
+    {
+      "date": "20260424",
+      "title": "日本福岛核事故反应堆内测得极高核辐射",
+      "summary": "日本东电公布福岛核电站2号机组内部调查结果，测得每小时4.7希沃特的极高水平核辐射，确认堆内仍残留核残渣。",
+      "source_url": "https://tv.cctv.com/2026/04/24/VIDET1jD93jSiCxkskcL2Xzf260424.shtml#sub3",
+      "causal_tag": "数据公布",
+      "importance": 3
     }
   ],
-  "last_updated": "20260406"
+  "last_updated": "20260424"
 }
